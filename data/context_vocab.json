@@ -1,0 +1,132 @@
+[
+  {
+    "sentence_with_blank": "Mañana voy a ____ con mis amigos.",
+    "correct": "salir",
+    "options": [
+      "salir",
+      "comer",
+      "estudiar",
+      "dormir"
+    ],
+    "translation_en": "Tomorrow I'm going to go out with my friends.",
+    "translation_ru": "Завтра я собираюсь гулять с друзьями.",
+    "explanation": "'Salir' es la acción natural para ir con amigos."
+  },
+  {
+    "sentence_with_blank": "Yo me ____ a las seis todos los días.",
+    "correct": "despierto",
+    "options": [
+      "despierto",
+      "duermo",
+      "levanto",
+      "ducho"
+    ],
+    "translation_en": "I wake up at six every day.",
+    "translation_ru": "Я просыпаюсь в шесть каждый день.",
+    "explanation": "'Despierto' es el verbo correcto para despertarse."
+  },
+  {
+    "sentence_with_blank": "Ella ____ la mesa para la cena.",
+    "correct": "pone",
+    "options": [
+      "pone",
+      "hace",
+      "trae",
+      "sale"
+    ],
+    "translation_en": "She sets the table for dinner.",
+    "translation_ru": "Она накрывает на стол к ужину.",
+    "explanation": "'Poner' es el verbo correcto para colocar la mesa."
+  },
+  {
+    "sentence_with_blank": "Nosotros ____ español en la escuela.",
+    "correct": "estudiamos",
+    "options": [
+      "estudiamos",
+      "hablamos",
+      "comemos",
+      "vivimos"
+    ],
+    "translation_en": "We study Spanish at school.",
+    "translation_ru": "Мы учим испанский в школе.",
+    "explanation": "'Estudiar' es el verbo correcto para aprender."
+  },
+  {
+    "sentence_with_blank": "Ellos ____ pizza los viernes.",
+    "correct": "comen",
+    "options": [
+      "comen",
+      "hablan",
+      "viven",
+      "juegan"
+    ],
+    "translation_en": "They eat pizza on Fridays.",
+    "translation_ru": "Они едят пиццу по пятницам.",
+    "explanation": "'Comer' es el verbo correcto para comer comida."
+  },
+  {
+    "sentence_with_blank": "Yo ____ música todos los días.",
+    "correct": "escucho",
+    "options": [
+      "escucho",
+      "hablo",
+      "leo",
+      "escribo"
+    ],
+    "translation_en": "I listen to music every day.",
+    "translation_ru": "Я слушаю музыку каждый день.",
+    "explanation": "'Escuchar' es el verbo correcto para oír música."
+  },
+  {
+    "sentence_with_blank": "Mañana ____ al cine con mis amigos.",
+    "correct": "voy",
+    "options": [
+      "voy",
+      "vengo",
+      "salgo",
+      "llego"
+    ],
+    "translation_en": "Tomorrow I go to the cinema with my friends.",
+    "translation_ru": "Завтра я иду в кино с друзьями.",
+    "explanation": "'Ir' es el verbo correcto para ir a un lugar."
+  },
+  {
+    "sentence_with_blank": "Ella ____ temprano para el trabajo.",
+    "correct": "se levanta",
+    "options": [
+      "se levanta",
+      "se acuesta",
+      "se ducha",
+      "se duerme"
+    ],
+    "translation_en": "She gets up early for work.",
+    "translation_ru": "Она встает рано на работу.",
+    "explanation": "'Levantarse' es el verbo correcto para levantarse."
+  },
+  {
+    "sentence_with_blank": "Nosotros ____ pasta la próxima semana.",
+    "correct": "vamos a comer",
+    "options": [
+      "vamos a comer",
+      "pensamos comer",
+      "tenemos planes de comer",
+      "comemos"
+    ],
+    "translation_en": "We are going to eat pasta next week.",
+    "translation_ru": "Мы собираемся есть пасту на следующей неделе.",
+    "explanation": "'Ir a + infinitivo' expresa plan futuro."
+  },
+  {
+    "sentence_with_blank": "Tú ____ estudiar con tu amigo mañana.",
+    "correct": "piensas",
+    "options": [
+      "piensas",
+      "vas a",
+      "tienes planes de",
+      "pienso"
+    ],
+    "translation_en": "You plan to study with your friend tomorrow.",
+    "translation_ru": "Ты планируешь учиться с другом завтра.",
+    "explanation": "'Pensar' + infinitivo expresa intención futura."
+  }
+]

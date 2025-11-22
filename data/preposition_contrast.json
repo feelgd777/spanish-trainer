@@ -1,0 +1,222 @@
+[
+  {
+    "sentence_with_blank": "Trabajo ____ la escuela por dos horas.",
+    "correct": [
+      "para",
+      "por"
+    ],
+    "options": [
+      [
+        "para",
+        "por",
+        "con",
+        "sin"
+      ],
+      [
+        "por",
+        "para",
+        "en",
+        "sin"
+      ]
+    ],
+    "explanation": "'Para' indica finalidad, 'por' indica duración."
+  },
+  {
+    "sentence_with_blank": "Voy ____ Madrid por la mañana.",
+    "correct": [
+      "a",
+      "por"
+    ],
+    "options": [
+      [
+        "a",
+        "en",
+        "por",
+        "de"
+      ],
+      [
+        "por",
+        "para",
+        "en",
+        "a"
+      ]
+    ],
+    "explanation": "'A' indica dirección, 'por' indica parte del día."
+  },
+  {
+    "sentence_with_blank": "Estudio ____ aprobar el examen por dos horas.",
+    "correct": [
+      "para",
+      "por"
+    ],
+    "options": [
+      [
+        "para",
+        "por",
+        "con",
+        "sin"
+      ],
+      [
+        "por",
+        "para",
+        "en",
+        "sin"
+      ]
+    ],
+    "explanation": "'Para' indica finalidad, 'por' indica duración."
+  },
+  {
+    "sentence_with_blank": "Salgo ____ mis amigos sin paraguas.",
+    "correct": [
+      "con",
+      "sin"
+    ],
+    "options": [
+      [
+        "con",
+        "sin",
+        "por",
+        "para"
+      ],
+      [
+        "sin",
+        "con",
+        "por",
+        "para"
+      ]
+    ],
+    "explanation": "'Con' indica compañía, 'sin' indica ausencia."
+  },
+  {
+    "sentence_with_blank": "El libro es ____ María y sobre historia.",
+    "correct": [
+      "de",
+      "sobre"
+    ],
+    "options": [
+      [
+        "de",
+        "sobre",
+        "para",
+        "por"
+      ],
+      [
+        "sobre",
+        "de",
+        "para",
+        "por"
+      ]
+    ],
+    "explanation": "'De' indica posesión, 'sobre' indica tema."
+  },
+  {
+    "sentence_with_blank": "Vamos ____ la playa en autobús.",
+    "correct": [
+      "a",
+      "en"
+    ],
+    "options": [
+      [
+        "a",
+        "en",
+        "por",
+        "con"
+      ],
+      [
+        "en",
+        "a",
+        "por",
+        "con"
+      ]
+    ],
+    "explanation": "'A' indica destino, 'en' indica medio de transporte."
+  },
+  {
+    "sentence_with_blank": "Trabajo ____ la mañana con mi computadora.",
+    "correct": [
+      "por",
+      "con"
+    ],
+    "options": [
+      [
+        "por",
+        "para",
+        "en",
+        "a"
+      ],
+      [
+        "con",
+        "sin",
+        "por",
+        "para"
+      ]
+    ],
+    "explanation": "'Por' indica periodo del día, 'con' indica instrumento."
+  },
+  {
+    "sentence_with_blank": "Salgo ____ casa con amigos.",
+    "correct": [
+      "de",
+      "con"
+    ],
+    "options": [
+      [
+        "de",
+        "a",
+        "en",
+        "por"
+      ],
+      [
+        "con",
+        "sin",
+        "por",
+        "para"
+      ]
+    ],
+    "explanation": "'De' indica origen, 'con' indica compañía."
+  },
+  {
+    "sentence_with_blank": "Estudio ____ aprender sobre español.",
+    "correct": [
+      "para",
+      "sobre"
+    ],
+    "options": [
+      [
+        "para",
+        "por",
+        "con",
+        "sin"
+      ],
+      [
+        "sobre",
+        "de",
+        "para",
+        "por"
+      ]
+    ],
+    "explanation": "'Para' indica finalidad, 'sobre' indica tema."
+  },
+  {
+    "sentence_with_blank": "Caminamos ____ el parque por la tarde.",
+    "correct": [
+      "por",
+      "por"
+    ],
+    "options": [
+      [
+        "por",
+        "para",
+        "en",
+        "a"
+      ],
+      [
+        "por",
+        "para",
+        "en",
+        "a"
+      ]
+    ],
+    "explanation": "'Por' indica movimiento a través y duración."
+  }
+]

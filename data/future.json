@@ -1,0 +1,277 @@
+[
+  {
+    "sentence_with_blank": "Mañana yo ____ visitar a mis abuelos.",
+    "correct": "voy a",
+    "options": [
+      "voy a",
+      "pienso",
+      "tengo planes de",
+      "fui a"
+    ],
+    "explanation": "'Voy a' + infinitivo es la forma común para planes futuros."
+  },
+  {
+    "sentence_with_blank": "Ellos ____ mudarse a una casa nueva el próximo mes.",
+    "correct": "tienen planes de",
+    "options": [
+      "tienen planes de",
+      "van a",
+      "piensan",
+      "tienen"
+    ],
+    "explanation": "'Tienen planes de' expresa planes concretos."
+  },
+  {
+    "sentence_with_blank": "¿Tú ____ trabajar este fin de semana?",
+    "correct": "piensas",
+    "options": [
+      "piensas",
+      "vas a",
+      "tienes planes de",
+      "pensar"
+    ],
+    "explanation": "'Piensas' + infinitivo expresa intención futura."
+  },
+  {
+    "sentence_with_blank": "Nosotros ____ celebrar mi cumpleaños pasado mañana.",
+    "correct": "vamos a",
+    "options": [
+      "vamos a",
+      "pensamos",
+      "tenemos planes de",
+      "fuimos a"
+    ],
+    "explanation": "'Vamos a' + infinitivo indica plan futuro."
+  },
+  {
+    "sentence_with_blank": "María ____ aprender francés el próximo año.",
+    "correct": "va a",
+    "options": [
+      "va a",
+      "piensa",
+      "tiene planes de",
+      "fue a"
+    ],
+    "explanation": "'Va a' + infinitivo para planes futuros."
+  },
+  {
+    "sentence_with_blank": "Pasado mañana nosotros ____ ir al cine con amigos.",
+    "correct": "vamos a",
+    "options": [
+      "vamos a",
+      "pensamos",
+      "tenemos planes de",
+      "fuimos a"
+    ],
+    "explanation": "'Vamos a' + infinitivo indica plan futuro."
+  },
+  {
+    "sentence_with_blank": "¿Ustedes ____ estudiar para el examen la próxima semana?",
+    "correct": "van a",
+    "options": [
+      "van a",
+      "piensan",
+      "tienen planes de",
+      "fueron a"
+    ],
+    "explanation": "'Van a' + infinitivo indica plan futuro."
+  },
+  {
+    "sentence_with_blank": "Dentro de dos días yo ____ comprar un regalo para mi hermana.",
+    "correct": "pienso",
+    "options": [
+      "pienso",
+      "voy a",
+      "tengo planes de",
+      "pensar"
+    ],
+    "explanation": "'Pienso' + infinitivo expresa intención futura."
+  },
+  {
+    "sentence_with_blank": "El próximo mes ellos ____ comenzar clases de guitarra.",
+    "correct": "tienen planes de",
+    "options": [
+      "tienen planes de",
+      "van a",
+      "piensan",
+      "tienen"
+    ],
+    "explanation": "'Tienen planes de' expresa planes concretos."
+  },
+  {
+    "sentence_with_blank": "¿Ustedes ____ viajar a Barcelona este verano?",
+    "correct": "van a",
+    "options": [
+      "van a",
+      "piensan",
+      "tienen planes de",
+      "fueron a"
+    ],
+    "explanation": "'Van a' + infinitivo indica plan futuro."
+  },
+  {
+    "sentence_with_blank": "Mañana por la tarde tú ____ cocinar la cena para tu familia.",
+    "correct": "vas a",
+    "options": [
+      "vas a",
+      "piensas",
+      "tienes planes de",
+      "fuiste a"
+    ],
+    "explanation": "'Vas a' + infinitivo indica plan futuro."
+  },
+  {
+    "sentence_with_blank": "La próxima semana mi padre ____ arreglar el carro.",
+    "correct": "piensa",
+    "options": [
+      "piensa",
+      "va a",
+      "tiene planes de",
+      "pensar"
+    ],
+    "explanation": "'Piensa' + infinitivo expresa intención futura."
+  },
+  {
+    "sentence_with_blank": "Dentro de una semana nosotros ____ terminar el proyecto.",
+    "correct": "vamos a",
+    "options": [
+      "vamos a",
+      "pensamos",
+      "tenemos planes de",
+      "fuimos a"
+    ],
+    "explanation": "'Vamos a' + infinitivo indica plan futuro."
+  },
+  {
+    "sentence_with_blank": "El próximo año mis hermanos ____ mudarse a otra ciudad.",
+    "correct": "tienen planes de",
+    "options": [
+      "tienen planes de",
+      "van a",
+      "piensan",
+      "tienen"
+    ],
+    "explanation": "'Tienen planes de' expresa planes concretos."
+  },
+  {
+    "sentence_with_blank": "¿Ella ____ practicar español todos los días?",
+    "correct": "piensa",
+    "options": [
+      "piensa",
+      "va a",
+      "tiene planes de",
+      "pensar"
+    ],
+    "explanation": "'Piensa' + infinitivo expresa intención futura."
+  },
+  {
+    "sentence_with_blank": "Yo ____ llamar a mi amigo luego.",
+    "correct": "voy a",
+    "options": [
+      "voy a",
+      "pienso",
+      "tengo planes de",
+      "fui a"
+    ],
+    "explanation": "'Voy a' + infinitivo es la forma común para planes futuros."
+  },
+  {
+    "sentence_with_blank": "Ellos ____ comprar un carro nuevo la próxima semana.",
+    "correct": "piensan",
+    "options": [
+      "piensan",
+      "van a",
+      "tienen planes de",
+      "pensar"
+    ],
+    "explanation": "'Piensan' + infinitivo expresa intención futura."
+  },
+  {
+    "sentence_with_blank": "Nosotros ____ ir a la playa mañana.",
+    "correct": "tenemos planes de",
+    "options": [
+      "tenemos planes de",
+      "vamos a",
+      "pensamos",
+      "tenemos"
+    ],
+    "explanation": "'Tenemos planes de' expresa planes concretos."
+  },
+  {
+    "sentence_with_blank": "Ella ____ estudiar medicina en dos años.",
+    "correct": "va a",
+    "options": [
+      "va a",
+      "piensa",
+      "tiene planes de",
+      "fue a"
+    ],
+    "explanation": "'Va a' + infinitivo para planes futuros."
+  },
+  {
+    "sentence_with_blank": "Tú ____ viajar a España el próximo mes.",
+    "correct": "piensas",
+    "options": [
+      "piensas",
+      "vas a",
+      "tienes planes de",
+      "pensar"
+    ],
+    "explanation": "'Piensas' + infinitivo expresa intención futura."
+  },
+  {
+    "sentence_with_blank": "Él ____ visitar a sus abuelos este fin de semana.",
+    "correct": "va a",
+    "options": [
+      "va a",
+      "piensa",
+      "tiene planes de",
+      "fue a"
+    ],
+    "explanation": "'Va a' + infinitivo para planes futuros."
+  },
+  {
+    "sentence_with_blank": "Yo ____ aprender guitarra el próximo año.",
+    "correct": "pienso",
+    "options": [
+      "pienso",
+      "voy a",
+      "tengo planes de",
+      "pensar"
+    ],
+    "explanation": "'Pienso' + infinitivo expresa intención futura."
+  },
+  {
+    "sentence_with_blank": "Ellos ____ abrir un restaurante dentro de tres meses.",
+    "correct": "tienen planes de",
+    "options": [
+      "tienen planes de",
+      "van a",
+      "piensan",
+      "tienen"
+    ],
+    "explanation": "'Tienen planes de' expresa planes concretos."
+  },
+  {
+    "sentence_with_blank": "Nosotros ____ ver una película esta noche.",
+    "correct": "vamos a",
+    "options": [
+      "vamos a",
+      "pensamos",
+      "tenemos planes de",
+      "fuimos a"
+    ],
+    "explanation": "'Vamos a' + infinitivo indica plan futuro."
+  },
+  {
+    "sentence_with_blank": "Tú ____ mudarte a un apartamento nuevo la próxima semana.",
+    "correct": "piensas",
+    "options": [
+      "piensas",
+      "vas a",
+      "tienes planes de",
+      "pensar"
+    ],
+    "explanation": "'Piensas' + infinitivo expresa intención futura."
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "sentence_with_blank": "Yo me ____ a las seis todos los días.",
+    "correct": "despierto",
+    "options": [
+      "despierto",
+      "despiertas",
+      "despierta",
+      "despertar"
+    ],
+    "explanation": "'Yo' con pronombre 'me' y verbo en primera persona singular."
+  },
+  {
+    "sentence_with_blank": "Tú te ____ tarde los fines de semana.",
+    "correct": "despiertas",
+    "options": [
+      "despiertas",
+      "despierto",
+      "despierta",
+      "despertar"
+    ],
+    "explanation": "'Tú' con pronombre 'te' y verbo en segunda persona singular."
+  },
+  {
+    "sentence_with_blank": "Ella se ____ temprano para ir al trabajo.",
+    "correct": "despierta",
+    "options": [
+      "despierta",
+      "despierto",
+      "despiertas",
+      "despertar"
+    ],
+    "explanation": "'Ella' con pronombre 'se' y verbo en tercera persona singular."
+  },
+  {
+    "sentence_with_blank": "Nosotros nos ____ a las siete cada mañana.",
+    "correct": "despertamos",
+    "options": [
+      "despertamos",
+      "despiertan",
+      "despiertan",
+      "despertar"
+    ],
+    "explanation": "'Nosotros' con pronombre 'nos' y verbo en primera persona plural."
+  },
+  {
+    "sentence_with_blank": "Ellos se ____ después de la fiesta.",
+    "correct": "duchan",
+    "options": [
+      "duchan",
+      "duchas",
+      "ducha",
+      "duchar"
+    ],
+    "explanation": "'Ellos' con pronombre 'se' y verbo en tercera persona plural."
+  },
+  {
+    "sentence_with_blank": "Yo me ____ con agua fría.",
+    "correct": "ducho",
+    "options": [
+      "ducho",
+      "duchas",
+      "ducha",
+      "duchar"
+    ],
+    "explanation": "'Yo' con pronombre 'me' y verbo en primera persona singular."
+  },
+  {
+    "sentence_with_blank": "Tú te ____ fácilmente cuando estás cansado.",
+    "correct": "enojas",
+    "options": [
+      "enojas",
+      "enojo",
+      "enoja",
+      "enojar"
+    ],
+    "explanation": "'Tú' con pronombre 'te' y verbo en segunda persona singular."
+  },
+  {
+    "sentence_with_blank": "Ella se ____ con su mamá a veces.",
+    "correct": "enoja",
+    "options": [
+      "enoja",
+      "enojo",
+      "enojas",
+      "enojar"
+    ],
+    "explanation": "'Ella' con pronombre 'se' y verbo en tercera persona singular."
+  },
+  {
+    "sentence_with_blank": "Nosotros nos ____ después del trabajo.",
+    "correct": "relajamos",
+    "options": [
+      "relajamos",
+      "relajan",
+      "relaja",
+      "relajar"
+    ],
+    "explanation": "'Nosotros' con pronombre 'nos' y verbo en primera persona plural."
+  },
+  {
+    "sentence_with_blank": "Yo me ____ la cara antes de dormir.",
+    "correct": "lavo",
+    "options": [
+      "lavo",
+      "lavas",
+      "lava",
+      "lavar"
+    ],
+    "explanation": "'Yo' con pronombre 'me' y verbo en primera persona singular."
+  },
+  {
+    "sentence_with_blank": "Ella se ____ la mesa para la cena.",
+    "correct": "pone",
+    "options": [
+      "pone",
+      "pongo",
+      "pones",
+      "poner"
+    ],
+    "explanation": "'Ella' con pronombre 'se' y verbo en tercera persona singular."
+  },
+  {
+    "sentence_with_blank": "Nosotros nos ____ para salir temprano.",
+    "correct": "arreglamos",
+    "options": [
+      "arreglamos",
+      "arreglan",
+      "arregla",
+      "arreglar"
+    ],
+    "explanation": "'Nosotros' con pronombre 'nos' y verbo en primera persona plural."
+  },
+  {
+    "sentence_with_blank": "Yo me ____ los dientes después de comer.",
+    "correct": "cepillo",
+    "options": [
+      "cepillo",
+      "cepillas",
+      "cepilla",
+      "cepillar"
+    ],
+    "explanation": "'Yo' con pronombre 'me' y verbo en primera persona singular."
+  },
+  {
+    "sentence_with_blank": "Ellos se ____ temprano para ir a la escuela.",
+    "correct": "levantan",
+    "options": [
+      "levantan",
+      "levanto",
+      "levantas",
+      "levantar"
+    ],
+    "explanation": "'Ellos' con pronombre 'se' y verbo en tercera persona plural."
+  },
+  {
+    "sentence_with_blank": "Tú te ____ antes de salir de casa.",
+    "correct": "pones",
+    "options": [
+      "pones",
+      "pongo",
+      "pone",
+      "poner"
+    ],
+    "explanation": "'Tú' con pronombre 'te' y verbo en segunda persona singular."
+  },
+  {
+    "sentence_with_blank": "Ella se ____ en la cama a las diez.",
+    "correct": "acuesta",
+    "options": [
+      "acuesta",
+      "acuesta",
+      "acuestas",
+      "acostar"
+    ],
+    "explanation": "'Ella' con pronombre 'se' y verbo en tercera persona singular."
+  },
+  {
+    "sentence_with_blank": "Nosotros nos ____ después de un día largo.",
+    "correct": "relajamos",
+    "options": [
+      "relajamos",
+      "relajan",
+      "relaja",
+      "relajar"
+    ],
+    "explanation": "'Nosotros' con pronombre 'nos' y verbo en primera persona plural."
+  },
+  {
+    "sentence_with_blank": "Yo me ____ temprano para ir a trabajar.",
+    "correct": "levanto",
+    "options": [
+      "levanto",
+      "levantas",
+      "levanta",
+      "levantar"
+    ],
+    "explanation": "'Yo' con pronombre 'me' y verbo en primera persona singular."
+  },
+  {
+    "sentence_with_blank": "Ella se ____ tarde los fines de semana.",
+    "correct": "duerme",
+    "options": [
+      "duerme",
+      "duermo",
+      "duermes",
+      "dormir"
+    ],
+    "explanation": "'Ella' con pronombre 'se' y verbo en tercera persona singular."
+  },
+  {
+    "sentence_with_blank": "Tú te ____ con agua caliente o fría?",
+    "correct": "duchas",
+    "options": [
+      "duchas",
+      "ducho",
+      "ducha",
+      "duchar"
+    ],
+    "explanation": "'Tú' con pronombre 'te' y verbo en segunda persona singular."
+  }
+]

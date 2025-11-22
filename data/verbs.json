@@ -1,0 +1,422 @@
+[
+  {
+    "infinitive": "ser",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'ser' para 'yo' en presente.",
+    "correct": "soy",
+    "options": [
+      "soy",
+      "eres",
+      "es",
+      "estoy"
+    ],
+    "explanation": "'Ser' es irregular, 'yo' forma es 'soy'."
+  },
+  {
+    "infinitive": "estar",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'estar' para 'yo' en presente.",
+    "correct": "estoy",
+    "options": [
+      "estoy",
+      "estás",
+      "está",
+      "soy"
+    ],
+    "explanation": "'Estar' es irregular, 'yo' forma es 'estoy'."
+  },
+  {
+    "infinitive": "tener",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'tener' para 'yo' en presente.",
+    "correct": "tengo",
+    "options": [
+      "tengo",
+      "tienes",
+      "tiene",
+      "tenemos"
+    ],
+    "explanation": "Irregular en 'yo' con terminación -go."
+  },
+  {
+    "infinitive": "hacer",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'hacer' para 'yo' en presente.",
+    "correct": "hago",
+    "options": [
+      "hago",
+      "haces",
+      "hace",
+      "hacemos"
+    ],
+    "explanation": "Irregular en 'yo' con terminación -go."
+  },
+  {
+    "infinitive": "salir",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'salir' para 'yo' en presente.",
+    "correct": "salgo",
+    "options": [
+      "salgo",
+      "sales",
+      "sale",
+      "salimos"
+    ],
+    "explanation": "Irregular en 'yo' con terminación -go."
+  },
+  {
+    "infinitive": "poner",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'poner' para 'yo' en presente.",
+    "correct": "pongo",
+    "options": [
+      "pongo",
+      "pones",
+      "pone",
+      "ponemos"
+    ],
+    "explanation": "Irregular en 'yo' con terminación -go."
+  },
+  {
+    "infinitive": "venir",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'venir' para 'yo' en presente.",
+    "correct": "vengo",
+    "options": [
+      "vengo",
+      "vienes",
+      "viene",
+      "venimos"
+    ],
+    "explanation": "Irregular en 'yo' con terminación -go."
+  },
+  {
+    "infinitive": "decir",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'decir' para 'yo' en presente.",
+    "correct": "digo",
+    "options": [
+      "digo",
+      "dices",
+      "dice",
+      "decimos"
+    ],
+    "explanation": "Irregular en 'yo' con terminación -go."
+  },
+  {
+    "infinitive": "oír",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'oír' para 'yo' en presente.",
+    "correct": "oigo",
+    "options": [
+      "oigo",
+      "oyes",
+      "oye",
+      "oímos"
+    ],
+    "explanation": "Irregular en 'yo' con terminación -go."
+  },
+  {
+    "infinitive": "conocer",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'conocer' para 'yo' en presente.",
+    "correct": "conozco",
+    "options": [
+      "conozco",
+      "conoces",
+      "conoce",
+      "conocemos"
+    ],
+    "explanation": "Terminación -zco en 'yo'."
+  },
+  {
+    "infinitive": "traducir",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'traducir' para 'yo' en presente.",
+    "correct": "traduzco",
+    "options": [
+      "traduzco",
+      "traduces",
+      "traduce",
+      "traducimos"
+    ],
+    "explanation": "Terminación -zco en 'yo'."
+  },
+  {
+    "infinitive": "parecer",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'parecer' para 'yo' en presente.",
+    "correct": "parezco",
+    "options": [
+      "parezco",
+      "pareces",
+      "parece",
+      "parecemos"
+    ],
+    "explanation": "Terminación -zco en 'yo'."
+  },
+  {
+    "infinitive": "producir",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'producir' para 'yo' en presente.",
+    "correct": "produzco",
+    "options": [
+      "produzco",
+      "produces",
+      "produce",
+      "producimos"
+    ],
+    "explanation": "Terminación -zco en 'yo'."
+  },
+  {
+    "infinitive": "escoger",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'escoger' para 'yo' en presente.",
+    "correct": "escojo",
+    "options": [
+      "escojo",
+      "escoges",
+      "escoge",
+      "escogemos"
+    ],
+    "explanation": "Terminación -jo en 'yo'."
+  },
+  {
+    "infinitive": "dirigir",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'dirigir' para 'yo' en presente.",
+    "correct": "dirijo",
+    "options": [
+      "dirijo",
+      "diriges",
+      "dirige",
+      "dirigimos"
+    ],
+    "explanation": "Terminación -jo en 'yo'."
+  },
+  {
+    "infinitive": "recoger",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'recoger' para 'yo' en presente.",
+    "correct": "recojo",
+    "options": [
+      "recojo",
+      "recoges",
+      "recoge",
+      "recogemos"
+    ],
+    "explanation": "Terminación -jo en 'yo'."
+  },
+  {
+    "infinitive": "proteger",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'proteger' para 'yo' en presente.",
+    "correct": "protejo",
+    "options": [
+      "protejo",
+      "proteges",
+      "protege",
+      "protegemos"
+    ],
+    "explanation": "Terminación -jo en 'yo'."
+  },
+  {
+    "infinitive": "saber",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'saber' para 'yo' en presente.",
+    "correct": "sé",
+    "options": [
+      "sé",
+      "sabes",
+      "sabe",
+      "sabemos"
+    ],
+    "explanation": "Irregular en 'yo' con tilde."
+  },
+  {
+    "infinitive": "caber",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'caber' para 'yo' en presente.",
+    "correct": "quepo",
+    "options": [
+      "quepo",
+      "cabes",
+      "cabe",
+      "cabemos"
+    ],
+    "explanation": "Irregular en 'yo'."
+  },
+  {
+    "infinitive": "ver",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'ver' para 'yo' en presente.",
+    "correct": "veo",
+    "options": [
+      "veo",
+      "ves",
+      "ve",
+      "vemos"
+    ],
+    "explanation": "Irregular en 'yo'."
+  },
+  {
+    "infinitive": "dar",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'dar' para 'yo' en presente.",
+    "correct": "doy",
+    "options": [
+      "doy",
+      "das",
+      "da",
+      "damos"
+    ],
+    "explanation": "Irregular en 'yo'."
+  },
+  {
+    "infinitive": "pensar",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'pensar' para 'yo' en presente.",
+    "correct": "pienso",
+    "options": [
+      "pienso",
+      "piensas",
+      "piensa",
+      "pensamos"
+    ],
+    "explanation": "Cambio de raíz e→ie."
+  },
+  {
+    "infinitive": "dormir",
+    "tense": "presente",
+    "person": "él",
+    "question": "Conjuga 'dormir' para 'él' en presente.",
+    "correct": "duerme",
+    "options": [
+      "duerme",
+      "duermo",
+      "duermes",
+      "dormimos"
+    ],
+    "explanation": "Cambio de raíz o→ue."
+  },
+  {
+    "infinitive": "pedir",
+    "tense": "presente",
+    "person": "nosotros",
+    "question": "Conjuga 'pedir' para 'nosotros' en presente.",
+    "correct": "pedimos",
+    "options": [
+      "pedimos",
+      "pido",
+      "pides",
+      "piden"
+    ],
+    "explanation": "Verbo e→i, pero nosotros no cambia."
+  },
+  {
+    "infinitive": "servir",
+    "tense": "presente",
+    "person": "ustedes",
+    "question": "Conjuga 'servir' para 'ustedes' en presente.",
+    "correct": "sirven",
+    "options": [
+      "sirven",
+      "sirve",
+      "servimos",
+      "sirvo"
+    ],
+    "explanation": "Cambio de raíz e→i."
+  },
+  {
+    "infinitive": "querer",
+    "tense": "presente",
+    "person": "tú",
+    "question": "Conjuga 'querer' para 'tú' en presente.",
+    "correct": "quieres",
+    "options": [
+      "quieres",
+      "quiero",
+      "quiere",
+      "queremos"
+    ],
+    "explanation": "Cambio de raíz e→ie."
+  },
+  {
+    "infinitive": "reír",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'reír' para 'yo' en presente.",
+    "correct": "río",
+    "options": [
+      "río",
+      "ríes",
+      "ríe",
+      "reímos"
+    ],
+    "explanation": "Verbo irregular con tilde en 'yo'."
+  },
+  {
+    "infinitive": "seguir",
+    "tense": "presente",
+    "person": "tú",
+    "question": "Conjuga 'seguir' para 'tú' en presente.",
+    "correct": "sigues",
+    "options": [
+      "sigues",
+      "sigue",
+      "seguimos",
+      "sigo"
+    ],
+    "explanation": "Cambio de raíz e→i."
+  },
+  {
+    "infinitive": "cerrar",
+    "tense": "presente",
+    "person": "él",
+    "question": "Conjuga 'cerrar' para 'él' en presente.",
+    "correct": "cierra",
+    "options": [
+      "cierra",
+      "cierro",
+      "cierras",
+      "cerramos"
+    ],
+    "explanation": "Cambio de raíz e→ie."
+  },
+  {
+    "infinitive": "mentir",
+    "tense": "presente",
+    "person": "yo",
+    "question": "Conjuga 'mentir' para 'yo' en presente.",
+    "correct": "miento",
+    "options": [
+      "miento",
+      "mientes",
+      "miente",
+      "mentimos"
+    ],
+    "explanation": "Cambio de raíz e→ie."
+  }
+]
