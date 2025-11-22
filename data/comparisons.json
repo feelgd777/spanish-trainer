@@ -1,0 +1,152 @@
+[
+  {
+    "sentence_with_blank": "Mi casa es ____ grande que la tuya.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Ambas frases son gramaticales: 'más grande que' (mi casa es mayor) o 'menos grande que' (mi casa es más pequeña). 'Tan' y 'muy' no forman aquí una comparación con 'que'."
+  },
+  {
+    "sentence_with_blank": "Este coche es ____ caro que aquel.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Se puede decir 'más caro que' (precio superior) o 'menos caro que' (precio inferior). 'Tan caro que' y 'muy caro que' no son estructuras comparativas estándar aquí."
+  },
+  {
+    "sentence_with_blank": "Hoy hace ____ frío que ayer.",
+    "correct": ["más", "menos"],
+    "options": ["menos", "más", "tan", "muy"],
+    "explanation": "Según el contexto, 'más frío que ayer' o 'menos frío que ayer' son posibles. 'Tan frío que' y 'muy frío que' no expresan comparación directa con 'que' aquí."
+  },
+  {
+    "sentence_with_blank": "Tengo ____ tres hermanos.",
+    "correct": ["más de"],
+    "options": ["más de", "más que", "tan como", "menos que"],
+    "explanation": "Con números se usan 'más de' y 'menos de' (más de tres hermanos). 'Más que', 'tan como' y 'menos que' no son correctos delante del número aquí."
+  },
+  {
+    "sentence_with_blank": "En mi clase hay ____ veinte estudiantes.",
+    "correct": ["más de", "menos de"],
+    "options": ["más de", "menos de", "tan como", "más que"],
+    "explanation": "Según el contexto, puede haber más de veinte o menos de veinte. 'Tan como' y 'más que' no se usan delante del número en este tipo de frase."
+  },
+  {
+    "sentence_with_blank": "Mi piso es ____ grande como el tuyo.",
+    "correct": ["tan"],
+    "options": ["tan", "más", "menos", "muy"],
+    "explanation": "'Tan grande como' expresa igualdad. 'Más grande como', 'menos grande como' y 'muy grande como' no son estructuras correctas."
+  },
+  {
+    "sentence_with_blank": "Este ejercicio es ____ difícil que el anterior.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Dependiendo del contexto: 'más difícil que' (más complejo) o 'menos difícil que' (más fácil). 'Tan difícil que' y 'muy difícil que' no son comparativos estándar aquí."
+  },
+  {
+    "sentence_with_blank": "Ella es la ____ responsable del equipo.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Se puede decir 'la más responsable' (grado máximo) o 'la menos responsable' (grado mínimo). 'Tan responsable' y 'muy responsable' no forman superlativo con 'del equipo'."
+  },
+  {
+    "sentence_with_blank": "Este es el día ____ importante del año.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Según el contexto, 'el día más importante del año' o incluso 'el día menos importante del año' son frases correctas. 'Tan importante del año' o 'muy importante del año' no forman superlativo relativo."
+  },
+  {
+    "sentence_with_blank": "Mi hermano es ____ alto que yo.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Ambas comparaciones son posibles: 'más alto que yo' (mayor altura) o 'menos alto que yo' (más bajo). 'Tan alto que yo' y 'muy alto que yo' no son comparativos directos."
+  },
+  {
+    "sentence_with_blank": "Esta ciudad es ____ pequeña que aquella.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Puedes decir 'más pequeña que aquella' (ciudad de menor tamaño) o 'menos pequeña que aquella' (ciudad relativamente más grande). 'Tan pequeña que aquella' y 'muy pequeña que aquella' no son correctos aquí."
+  },
+  {
+    "sentence_with_blank": "En la sala hay ____ diez sillas.",
+    "correct": ["menos de", "más de"],
+    "options": ["menos de", "más de", "menos que", "tan como"],
+    "explanation": "Según la situación, puede haber menos de diez o más de diez sillas. 'Menos que' y 'tan como' no se usan delante del número en este tipo de estructura."
+  },
+  {
+    "sentence_with_blank": "Mi padre trabaja ____ horas que mi madre.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Puede trabajar más horas o menos horas que ella; ambas frases son naturales. 'Tan horas que' y 'muy horas que' no son estructuras válidas."
+  },
+  {
+    "sentence_with_blank": "Su coche es ____ rápido que el mío.",
+    "correct": ["más", "menos"],
+    "options": ["menos", "más", "tan", "muy"],
+    "explanation": "Ambas opciones son posibles: 'más rápido que el mío' o 'menos rápido que el mío'. 'Tan rápido que' y 'muy rápido que' no son comparaciones estándar aquí."
+  },
+  {
+    "sentence_with_blank": "Es el estudiante ____ alto de la clase.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Según el contexto: 'el más alto de la clase' o 'el menos alto de la clase'. 'Tan alto de la clase' y 'muy alto de la clase' no forman superlativo relativo."
+  },
+  {
+    "sentence_with_blank": "Esta tarea es ____ fácil que la anterior.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Puedes decir 'más fácil que' (requiere menos esfuerzo) o 'menos fácil que' (requiere más esfuerzo). 'Tan fácil que' y 'muy fácil que' no son comparativos directos aquí."
+  },
+  {
+    "sentence_with_blank": "Este restaurante es ____ caro que aquel.",
+    "correct": ["más", "menos"],
+    "options": ["menos", "más", "tan", "muy"],
+    "explanation": "'Más caro que aquel' o 'menos caro que aquel' son posibles según cuál tenga el precio más alto. 'Tan caro que' y 'muy caro que' no son comparativos correctos con 'que' en esta frase."
+  },
+  {
+    "sentence_with_blank": "Mi mochila es ____ pesada que la tuya.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Según el contexto, puede ser 'más pesada que la tuya' o 'menos pesada que la tuya'. 'Tan pesada que la tuya' y 'muy pesada que la tuya' no funcionan como comparativos directos."
+  },
+  {
+    "sentence_with_blank": "La película de ayer fue ____ interesante que la de hoy.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "'Más interesante que la de hoy' o 'menos interesante que la de hoy' son posibles según cuál guste más. 'Tan interesante que' y 'muy interesante que' no son comparaciones directas."
+  },
+  {
+    "sentence_with_blank": "El café de esta cafetería es ____ bueno que el de la otra.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Puedes decir 'más bueno que el de la otra' (de mejor calidad) o 'menos bueno que el de la otra' (de peor calidad). 'Tan bueno que' y 'muy bueno que' no encajan como comparativos directos."
+  },
+  {
+    "sentence_with_blank": "Necesito ____ tiempo que tú para terminar el trabajo.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Puedes necesitar más tiempo o menos tiempo que la otra persona; ambas son frases naturales. 'Tan tiempo que' y 'muy tiempo que' no se usan."
+  },
+  {
+    "sentence_with_blank": "Esta canción es ____ larga que la anterior.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Según el contexto, puede ser 'más larga que la anterior' o 'menos larga que la anterior'. 'Tan larga que' y 'muy larga que' no forman comparación estándar aquí."
+  },
+  {
+    "sentence_with_blank": "La nueva película es ____ corta que la primera.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Se puede decir 'más corta que la primera' (dura menos) o 'menos corta que la primera' (dura más). 'Tan corta que' y 'muy corta que' no son comparativos directos con 'que' en esta frase."
+  },
+  {
+    "sentence_with_blank": "Es el lugar ____ tranquilo de la ciudad.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "Según la intención: 'el lugar más tranquilo de la ciudad' o 'el lugar menos tranquilo de la ciudad'. 'Tan tranquilo de la ciudad' y 'muy tranquilo de la ciudad' no son superlativos relativos."
+  },
+  {
+    "sentence_with_blank": "Hoy estoy ____ cansado que ayer.",
+    "correct": ["más", "menos"],
+    "options": ["más", "menos", "tan", "muy"],
+    "explanation": "'Más cansado que ayer' o 'menos cansado que ayer' son frases naturales según cómo se compare el nivel de cansancio. 'Tan cansado que ayer' y 'muy cansado que ayer' no son comparaciones directas con 'que'."
+  }
+]

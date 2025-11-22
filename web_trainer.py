@@ -37,6 +37,8 @@ future_items = load_json("future.json")
 reflexive_items = load_json("reflexive.json")
 prep_contrast_items = load_json("preposition_contrast.json")
 context_vocab_items = load_json("context_vocab.json")
+comparisons_items = load_json("comparisons.json")
+
 
 
 # ---------- GENERIC MC-QUESTION HELPERS ----------
@@ -350,6 +352,11 @@ def make_context_vocab_question():
         "correct_index": correct_index,
         "explanation": explanation,
     }
+# ---------- MODE: COMPARISONS (más que / menos que / más de / tan ... como / superlativos) ----------
+
+def make_comparisons_question():
+    # Standard MC: one blank, one correct form
+    return make_simple_mc_question(comparisons_items, field_sentence="sentence_with_blank")
 
 
 # ---------- ROUTES ----------
@@ -382,6 +389,9 @@ def api_question():
             q = make_context_vocab_question()
         elif mode == "pronouns":
             q = make_pronouns_question()
+        elif mode == "comparisons":
+            q = make_comparisons_question()
+ 
         else:
             return jsonify({"error": f"Unknown mode {mode}"}), 400
 

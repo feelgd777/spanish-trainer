@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 from openai import OpenAI
+import sys
 
 # ---------- CONFIG ----------
 MODEL = "gpt-4.1-mini"  # or "gpt-4o-mini", etc.
@@ -16,6 +17,8 @@ REFLEXIVE_PATH = DATA_DIR / "reflexive.json"
 PREP_CONTRAST_PATH = DATA_DIR / "preposition_contrast.json"
 CONTEXT_PATH = DATA_DIR / "context_vocab.json"
 PRONOUNS_PATH = DATA_DIR / "pronouns.json"
+COMPARISONS_PATH = DATA_DIR / "comparisons.json"
+
 # ----------------------------
 
 client = OpenAI()  # uses OPENAI_API_KEY (+ optionally OPENAI_PROJECT)
@@ -277,6 +280,50 @@ def call_openai(corpus: str) -> str:
         "   - translation_en and translation_ru should be brief, literal-enough translations using\n"
         "     simple English and Russian.\n"
         "\n"
+        "9) comparisons  (comparativos y superlativos: más que, menos que, más de, tan ... como)\n"
+        "   - JSON array under key 'comparisons'\n"
+        "   - You MUST produce AT LEAST 20 items if the corpus is long enough.\n"
+        "   - Each item is a multiple-choice cloze:\n"
+        "       {\n"
+        "         \"sentence_with_blank\": \"Mi casa es ____ grande que la tuya.\",\n"
+        "         \"correct\": [\"más\"],\n"
+        "         \"options\": [\"más\", \"menos\", \"tan\", \"muy\"],\n"
+        "         \"explanation\": \"Breve explicación en español sobre por qué esta opción es correcta.\"\n"
+        "       }\n"
+        "\n"
+        "   - SCHEMA RULES:\n"
+        "       * \"sentence_with_blank\" MUST contain \"____\" EXACTLY ONCE.\n"
+        "       * \"options\" must be a list of 3–5 strings.\n"
+        "       * \"correct\" is ALWAYS a JSON array (list) of one or more strings.\n"
+        "       * EVERY string in \"correct\" MUST appear in \"options\".\n"
+        "\n"
+        "   - SEMANTIC RULES:\n"
+        "       * Usually there will be ONE clearly correct option (por ejemplo, 'más' en 'más ... que'),\n"
+        "         so \"correct\" tendrá a menudo un solo elemento, por ejemplo [\"más\"].\n"
+        "       * Si en alguna oración MÁS DE UNA opción sería español natural en ese hueco,\n"
+        "         ENTONCES TODAS esas opciones deben incluirse en \"correct\".\n"
+        "         No marques como incorrecta una forma que sea natural sólo para crear contraste.\n"
+        "       * Debe haber por lo menos un distractor claramente incorrecto por forma o uso,\n"
+        "         por ejemplo:\n"
+        "           - Usar 'tan' donde la estructura pide 'más' o 'menos',\n"
+        "           - Usar 'más que' en vez de 'más de' antes de un número,\n"
+        "           - Usar 'muy' en una estructura comparativa con 'que'.\n"
+        "\n"
+        "   - ENFOQUE:\n"
+        "       * Comparativos de superioridad: más + adjetivo + que (más grande que...).\n"
+        "       * Comparativos de inferioridad: menos + adjetivo + que.\n"
+        "       * Cantidad con números: más de / menos de + número (más de tres, menos de diez...).\n"
+        "       * Igualdad: tan + adjetivo + como (tan alto como), y algunos con\n"
+        "         tanto/a/os/as + sustantivo + como si aparecen en el corpus.\n"
+        "       * Superlativos: el/la/los/las + más/menos + adjetivo + de\n"
+        "         (el más alto de la clase, la menos cara del grupo).\n"
+        "\n"
+        "   - NUNCA generes:\n"
+        "       * \"correct\": \"cadena_sola\" (siempre lista),\n"
+        "       * Frases donde dos opciones sean igual de naturales y sólo una aparezca en \"correct\".\n"
+        "         En esos casos, incluye todas las formas naturales en \"correct\".\n"
+        "\n"
+
         "GLOBAL RULES:\n"
         "- You can and should create additional sentences that were NOT in the corpus, "
         "  as long as you mainly use verbs, prepositions, and vocabulary that appear in the "
@@ -345,6 +392,7 @@ def parse_master_json(raw: str) -> dict:
         "preposition_contrast",
         "context_vocab",
         "pronouns",
+        "comparisons",
     ]
 
     for key in required_keys:
@@ -365,32 +413,54 @@ def save_json(path: Path, items: list):
 
 
 def main():
+    # Which datasets to update, based on CLI args
+    # Usage:
+    #   python build_all.py           -> update all
+    #   python build_all.py future    -> only future.json
+    #   python build_all.py vocab future comparisons -> only those
+    argv = sys.argv[1:]
+    available = {
+        "vocab": ("vocab", VOCAB_PATH),
+        "prepositions": ("prepositions", PREP_PATH),
+        "verbs": ("verbs", VERBS_PATH),
+        "future": ("future", FUTURE_PATH),
+        "reflexive": ("reflexive", REFLEXIVE_PATH),
+        "preposition_contrast": ("preposition_contrast", PREP_CONTRAST_PATH),
+        "context_vocab": ("context_vocab", CONTEXT_PATH),
+        "comparisons": ("comparisons", PRONOUNS_PATH),
+        "comparisons": ("comparisons", COMPARISONS_PATH),
+    }
+
+    if not argv or "all" in argv:
+        selected_keys = list(available.keys())
+    else:
+        selected_keys = []
+        for name in argv:
+            if name not in available:
+                print(f"[WARN] Unknown dataset name '{name}', skipping.")
+            else:
+                selected_keys.append(name)
+        if not selected_keys:
+            print("[INFO] No valid dataset names provided. Nothing to do.")
+            return
+
+    print(f"[INFO] Will update: {', '.join(selected_keys)}")
+
     corpus = load_corpus()
     raw = call_openai(corpus)
     master = parse_master_json(raw)
 
     ensure_data_dir()
-    save_json(VOCAB_PATH, master["vocab"])
-    save_json(PREP_PATH, master["prepositions"])
-    save_json(VERBS_PATH, master["verbs"])
-    save_json(FUTURE_PATH, master["future"])
-    save_json(REFLEXIVE_PATH, master["reflexive"])
-    save_json(PREP_CONTRAST_PATH, master["preposition_contrast"])
-    save_json(CONTEXT_PATH, master["context_vocab"])
-    save_json(PRONOUNS_PATH, master["pronouns"])
 
-    print(
-        "Done. Now your app can load:\n"
-        "  data/vocab.json\n"
-        "  data/prepositions.json\n"
-        "  data/verbs.json\n"
-        "  data/pronouns.json\n"
-        "  data/future.json\n"
-        "  data/reflexive.json\n"
-        "  data/preposition_contrast.json\n"
-        "  data/context_vocab.json\n"
-    )
+    for cli_name in selected_keys:
+        json_key, path = available[cli_name]
+        items = master.get(json_key, [])
+        save_json(path, items)
 
+    print("\nDone. Updated datasets:")
+    for cli_name in selected_keys:
+        _, path = available[cli_name]
+        print(f"  {path}")
 
 if __name__ == "__main__":
     main()
