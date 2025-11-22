@@ -8,29 +8,40 @@
       "por",
       "de"
     ],
-    "explanation": "Se usa 'a' para indicar destino o dirección."
+    "explanation": "Usamos 'a' para indicar dirección o destino."
   },
   {
     "sentence_with_blank": "Trabajo ____ la escuela ____ dos horas.",
-    "correct": [
-      "para",
-      "por"
-    ],
+    "correct": "para",
     "options": [
-      [
-        "para",
-        "por",
-        "con",
-        "sin"
-      ],
-      [
-        "por",
-        "para",
-        "en",
-        "sin"
-      ]
+      "para",
+      "por",
+      "con",
+      "sin"
     ],
-    "explanation": "'Para' indica finalidad (trabajo para la escuela), 'por' indica duración (por dos horas)."
+    "explanation": "'Para' indica finalidad o destinatario."
+  },
+  {
+    "sentence_with_blank": "Trabajo para la escuela ____ dos horas.",
+    "correct": "por",
+    "options": [
+      "por",
+      "para",
+      "en",
+      "sin"
+    ],
+    "explanation": "'Por' indica duración de tiempo."
+  },
+  {
+    "sentence_with_blank": "Vivo ____ un apartamento pequeño.",
+    "correct": "en",
+    "options": [
+      "en",
+      "a",
+      "por",
+      "de"
+    ],
+    "explanation": "'En' indica ubicación o lugar."
   },
   {
     "sentence_with_blank": "Salgo ____ mis amigos los fines de semana.",
@@ -44,24 +55,13 @@
     "explanation": "'Con' indica compañía."
   },
   {
-    "sentence_with_blank": "Prefiero viajar ____ autobús.",
-    "correct": "en",
-    "options": [
-      "en",
-      "a",
-      "por",
-      "con"
-    ],
-    "explanation": "'En' se usa para medio de transporte."
-  },
-  {
     "sentence_with_blank": "Estudio español ____ dos horas cada día.",
     "correct": "por",
     "options": [
       "por",
       "para",
-      "con",
-      "sin"
+      "en",
+      "a"
     ],
     "explanation": "'Por' indica duración de tiempo."
   },
@@ -77,15 +77,37 @@
     "explanation": "'Para' indica destinatario."
   },
   {
-    "sentence_with_blank": "La camisa es ____ algodón.",
-    "correct": "de",
+    "sentence_with_blank": "El libro está ____ la mesa.",
+    "correct": "en",
     "options": [
+      "en",
+      "a",
       "de",
+      "por"
+    ],
+    "explanation": "'En' indica ubicación."
+  },
+  {
+    "sentence_with_blank": "No puedo salir ____ la lluvia.",
+    "correct": "por",
+    "options": [
       "por",
       "para",
-      "con"
+      "con",
+      "sin"
     ],
-    "explanation": "'De' indica material."
+    "explanation": "'Por' indica causa o motivo."
+  },
+  {
+    "sentence_with_blank": "Prefiero viajar ____ pie cuando está cerca.",
+    "correct": "a",
+    "options": [
+      "a",
+      "en",
+      "por",
+      "de"
+    ],
+    "explanation": "'A pie' es la expresión correcta para indicar modo de transporte a pie."
   },
   {
     "sentence_with_blank": "Tomo café ____ azúcar.",
@@ -96,7 +118,7 @@
       "por",
       "para"
     ],
-    "explanation": "'Sin' indica ausencia."
+    "explanation": "'Sin' indica ausencia de algo."
   },
   {
     "sentence_with_blank": "Hablamos ____ política durante la cena.",
@@ -107,18 +129,62 @@
       "por",
       "para"
     ],
-    "explanation": "'De' se usa para indicar tema."
+    "explanation": "'De' indica tema o contenido."
   },
   {
-    "sentence_with_blank": "Hablamos ____ su trabajo con entusiasmo.",
-    "correct": "sobre",
+    "sentence_with_blank": "Ella habla ____ entusiasmo sobre su trabajo.",
+    "correct": "con",
     "options": [
-      "sobre",
-      "de",
+      "con",
+      "sin",
       "por",
       "para"
     ],
-    "explanation": "'Sobre' indica tema o asunto."
+    "explanation": "'Con' indica modo o manera."
+  },
+  {
+    "sentence_with_blank": "Voy ____ trabajar mañana.",
+    "correct": "a",
+    "options": [
+      "a",
+      "en",
+      "por",
+      "de"
+    ],
+    "explanation": "'Ir a + infinitivo' indica futuro o intención."
+  },
+  {
+    "sentence_with_blank": "La reunión empieza ____ las tres.",
+    "correct": "a",
+    "options": [
+      "a",
+      "en",
+      "por",
+      "de"
+    ],
+    "explanation": "'A' se usa para indicar hora exacta."
+  },
+  {
+    "sentence_with_blank": "El gato duerme ____ la cama.",
+    "correct": "en",
+    "options": [
+      "en",
+      "a",
+      "de",
+      "por"
+    ],
+    "explanation": "'En' indica ubicación."
+  },
+  {
+    "sentence_with_blank": "Trabajo ____ la noche.",
+    "correct": "por",
+    "options": [
+      "por",
+      "para",
+      "en",
+      "a"
+    ],
+    "explanation": "'Por' indica tiempo aproximado."
   },
   {
     "sentence_with_blank": "Voy ____ la escuela mañana.",
@@ -132,70 +198,15 @@
     "explanation": "'A' indica destino o dirección."
   },
   {
-    "sentence_with_blank": "Vivo ____ un apartamento pequeño.",
-    "correct": "en",
+    "sentence_with_blank": "La camisa es ____ algodón.",
+    "correct": "de",
     "options": [
-      "en",
-      "a",
-      "por",
-      "para"
-    ],
-    "explanation": "'En' indica lugar o ubicación."
-  },
-  {
-    "sentence_with_blank": "No puedo salir ____ la lluvia.",
-    "correct": "por",
-    "options": [
+      "de",
       "por",
       "para",
-      "con",
-      "sin"
-    ],
-    "explanation": "'Por' indica causa."
-  },
-  {
-    "sentence_with_blank": "Llegamos ____ las ocho de la noche.",
-    "correct": "a",
-    "options": [
-      "a",
-      "en",
-      "por",
-      "de"
-    ],
-    "explanation": "'A' se usa para horas específicas."
-  },
-  {
-    "sentence_with_blank": "Voy a trabajar ____ la tarde.",
-    "correct": "por",
-    "options": [
-      "por",
-      "en",
-      "para",
-      "a"
-    ],
-    "explanation": "'Por' indica un periodo del día."
-  },
-  {
-    "sentence_with_blank": "Voy ____ pie cuando está cerca.",
-    "correct": "a",
-    "options": [
-      "a",
-      "en",
-      "por",
       "con"
     ],
-    "explanation": "'A pie' es la expresión correcta para indicar modo de transporte a pie."
-  },
-  {
-    "sentence_with_blank": "Corto el pan ____ un cuchillo.",
-    "correct": "con",
-    "options": [
-      "con",
-      "sin",
-      "por",
-      "para"
-    ],
-    "explanation": "'Con' indica instrumento."
+    "explanation": "'De' indica material."
   },
   {
     "sentence_with_blank": "Salgo ____ paraguas y me mojo.",
@@ -209,39 +220,6 @@
     "explanation": "'Sin' indica ausencia."
   },
   {
-    "sentence_with_blank": "El libro está ____ la mesa.",
-    "correct": "en",
-    "options": [
-      "en",
-      "a",
-      "por",
-      "de"
-    ],
-    "explanation": "'En' indica ubicación."
-  },
-  {
-    "sentence_with_blank": "Trabajo ____ la escuela ____ dos horas.",
-    "correct": [
-      "para",
-      "por"
-    ],
-    "options": [
-      [
-        "para",
-        "por",
-        "con",
-        "sin"
-      ],
-      [
-        "por",
-        "para",
-        "en",
-        "sin"
-      ]
-    ],
-    "explanation": "'Para' indica finalidad, 'por' indica duración."
-  },
-  {
     "sentence_with_blank": "Hablo ____ mis padres cada día.",
     "correct": "con",
     "options": [
@@ -253,47 +231,47 @@
     "explanation": "'Con' indica compañía o interlocutor."
   },
   {
-    "sentence_with_blank": "Viajo ____ avión cada verano.",
-    "correct": "en",
-    "options": [
-      "en",
-      "a",
-      "por",
-      "con"
-    ],
-    "explanation": "'En' indica medio de transporte."
-  },
-  {
-    "sentence_with_blank": "Este regalo es ____ ti.",
+    "sentence_with_blank": "Estudio ____ aprobar el examen.",
     "correct": "para",
     "options": [
       "para",
       "por",
-      "de",
+      "en",
       "a"
     ],
-    "explanation": "'Para' indica destinatario."
+    "explanation": "'Para' indica finalidad."
   },
   {
-    "sentence_with_blank": "Hablo ____ español.",
+    "sentence_with_blank": "Voy ____ autobús a la escuela.",
     "correct": "en",
     "options": [
       "en",
       "a",
       "por",
-      "para"
+      "de"
     ],
-    "explanation": "'En' se usa para indicar idioma."
+    "explanation": "'En' indica medio de transporte."
   },
   {
-    "sentence_with_blank": "Trabajo ____ la noche.",
+    "sentence_with_blank": "Trabajo ____ cinco horas.",
     "correct": "por",
     "options": [
       "por",
-      "en",
       "para",
+      "en",
       "a"
     ],
-    "explanation": "'Por' indica periodo del día."
+    "explanation": "'Por' indica duración de tiempo."
+  },
+  {
+    "sentence_with_blank": "El libro es ____ María.",
+    "correct": "de",
+    "options": [
+      "de",
+      "para",
+      "por",
+      "en"
+    ],
+    "explanation": "'De' indica posesión."
   }
 ]

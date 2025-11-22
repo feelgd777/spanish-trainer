@@ -11,21 +11,21 @@
       "es",
       "estoy"
     ],
-    "explanation": "'Ser' es irregular, 'yo' forma es 'soy'."
+    "explanation": "'Ser' es irregular; 'yo' forma es 'soy'."
   },
   {
     "infinitive": "estar",
     "tense": "presente",
-    "person": "yo",
-    "question": "Conjuga 'estar' para 'yo' en presente.",
-    "correct": "estoy",
+    "person": "tú",
+    "question": "Conjuga 'estar' para 'tú' en presente.",
+    "correct": "estás",
     "options": [
-      "estoy",
       "estás",
+      "estoy",
       "está",
-      "soy"
+      "estamos"
     ],
-    "explanation": "'Estar' es irregular, 'yo' forma es 'estoy'."
+    "explanation": "'Estar' cambia en 'tú' a 'estás' con tilde."
   },
   {
     "infinitive": "tener",
@@ -39,7 +39,7 @@
       "tiene",
       "tenemos"
     ],
-    "explanation": "Irregular en 'yo' con terminación -go."
+    "explanation": "'Tener' es irregular en 'yo': 'tengo'."
   },
   {
     "infinitive": "hacer",
@@ -53,7 +53,7 @@
       "hace",
       "hacemos"
     ],
-    "explanation": "Irregular en 'yo' con terminación -go."
+    "explanation": "'Hacer' termina en -go en 'yo': hago."
   },
   {
     "infinitive": "salir",
@@ -67,7 +67,7 @@
       "sale",
       "salimos"
     ],
-    "explanation": "Irregular en 'yo' con terminación -go."
+    "explanation": "'Salir' termina en -go en 'yo': salgo."
   },
   {
     "infinitive": "poner",
@@ -81,7 +81,7 @@
       "pone",
       "ponemos"
     ],
-    "explanation": "Irregular en 'yo' con terminación -go."
+    "explanation": "'Poner' termina en -go en 'yo': pongo."
   },
   {
     "infinitive": "venir",
@@ -95,7 +95,7 @@
       "viene",
       "venimos"
     ],
-    "explanation": "Irregular en 'yo' con terminación -go."
+    "explanation": "'Venir' termina en -go en 'yo': vengo."
   },
   {
     "infinitive": "decir",
@@ -109,7 +109,7 @@
       "dice",
       "decimos"
     ],
-    "explanation": "Irregular en 'yo' con terminación -go."
+    "explanation": "'Decir' termina en -go en 'yo': digo."
   },
   {
     "infinitive": "oír",
@@ -123,7 +123,7 @@
       "oye",
       "oímos"
     ],
-    "explanation": "Irregular en 'yo' con terminación -go."
+    "explanation": "'Oír' termina en -go en 'yo': oigo."
   },
   {
     "infinitive": "conocer",
@@ -137,7 +137,7 @@
       "conoce",
       "conocemos"
     ],
-    "explanation": "Terminación -zco en 'yo'."
+    "explanation": "'Conocer' termina en -zco en 'yo': conozco."
   },
   {
     "infinitive": "traducir",
@@ -151,7 +151,7 @@
       "traduce",
       "traducimos"
     ],
-    "explanation": "Terminación -zco en 'yo'."
+    "explanation": "'Traducir' termina en -zco en 'yo': traduzco."
   },
   {
     "infinitive": "parecer",
@@ -165,21 +165,7 @@
       "parece",
       "parecemos"
     ],
-    "explanation": "Terminación -zco en 'yo'."
-  },
-  {
-    "infinitive": "producir",
-    "tense": "presente",
-    "person": "yo",
-    "question": "Conjuga 'producir' para 'yo' en presente.",
-    "correct": "produzco",
-    "options": [
-      "produzco",
-      "produces",
-      "produce",
-      "producimos"
-    ],
-    "explanation": "Terminación -zco en 'yo'."
+    "explanation": "'Parecer' termina en -zco en 'yo': parezco."
   },
   {
     "infinitive": "escoger",
@@ -193,7 +179,7 @@
       "escoge",
       "escogemos"
     ],
-    "explanation": "Terminación -jo en 'yo'."
+    "explanation": "'Escoger' termina en -jo en 'yo': escojo."
   },
   {
     "infinitive": "dirigir",
@@ -207,35 +193,7 @@
       "dirige",
       "dirigimos"
     ],
-    "explanation": "Terminación -jo en 'yo'."
-  },
-  {
-    "infinitive": "recoger",
-    "tense": "presente",
-    "person": "yo",
-    "question": "Conjuga 'recoger' para 'yo' en presente.",
-    "correct": "recojo",
-    "options": [
-      "recojo",
-      "recoges",
-      "recoge",
-      "recogemos"
-    ],
-    "explanation": "Terminación -jo en 'yo'."
-  },
-  {
-    "infinitive": "proteger",
-    "tense": "presente",
-    "person": "yo",
-    "question": "Conjuga 'proteger' para 'yo' en presente.",
-    "correct": "protejo",
-    "options": [
-      "protejo",
-      "proteges",
-      "protege",
-      "protegemos"
-    ],
-    "explanation": "Terminación -jo en 'yo'."
+    "explanation": "'Dirigir' termina en -jo en 'yo': dirijo."
   },
   {
     "infinitive": "saber",
@@ -249,7 +207,7 @@
       "sabe",
       "sabemos"
     ],
-    "explanation": "Irregular en 'yo' con tilde."
+    "explanation": "'Saber' es irregular en 'yo': sé."
   },
   {
     "infinitive": "caber",
@@ -263,7 +221,7 @@
       "cabe",
       "cabemos"
     ],
-    "explanation": "Irregular en 'yo'."
+    "explanation": "'Caber' es irregular en 'yo': quepo."
   },
   {
     "infinitive": "ver",
@@ -277,7 +235,7 @@
       "ve",
       "vemos"
     ],
-    "explanation": "Irregular en 'yo'."
+    "explanation": "'Ver' es irregular en 'yo': veo."
   },
   {
     "infinitive": "dar",
@@ -291,7 +249,7 @@
       "da",
       "damos"
     ],
-    "explanation": "Irregular en 'yo'."
+    "explanation": "'Dar' es irregular en 'yo': doy."
   },
   {
     "infinitive": "pensar",
@@ -302,10 +260,24 @@
     "options": [
       "pienso",
       "piensas",
+      "pensamos",
+      "pensé"
+    ],
+    "explanation": "Cambio de raíz e→ie en 'pensar'."
+  },
+  {
+    "infinitive": "pensar",
+    "tense": "presente",
+    "person": "tú",
+    "question": "Conjuga 'pensar' para 'tú' en presente.",
+    "correct": "piensas",
+    "options": [
+      "piensas",
+      "pienso",
       "piensa",
       "pensamos"
     ],
-    "explanation": "Cambio de raíz e→ie."
+    "explanation": "Cambio de raíz e→ie en 'pensar'."
   },
   {
     "infinitive": "dormir",
@@ -319,7 +291,21 @@
       "duermes",
       "dormimos"
     ],
-    "explanation": "Cambio de raíz o→ue."
+    "explanation": "Cambio de raíz o→ue en 'dormir'."
+  },
+  {
+    "infinitive": "poder",
+    "tense": "presente",
+    "person": "tú",
+    "question": "Conjuga 'poder' para 'tú' en presente.",
+    "correct": "puedes",
+    "options": [
+      "puedes",
+      "puedo",
+      "puede",
+      "podemos"
+    ],
+    "explanation": "Cambio de raíz o→ue en 'poder'."
   },
   {
     "infinitive": "pedir",
@@ -333,7 +319,7 @@
       "pides",
       "piden"
     ],
-    "explanation": "Verbo e→i, pero nosotros no cambia."
+    "explanation": "'Pedir' es e→i, pero nosotros no cambia la raíz."
   },
   {
     "infinitive": "servir",
@@ -343,80 +329,80 @@
     "correct": "sirven",
     "options": [
       "sirven",
-      "sirve",
-      "servimos",
-      "sirvo"
+      "sirvo",
+      "sirves",
+      "sirve"
     ],
-    "explanation": "Cambio de raíz e→i."
+    "explanation": "Cambio de raíz e→i en 'servir'."
   },
   {
-    "infinitive": "querer",
+    "infinitive": "decir",
+    "tense": "presente",
+    "person": "ellos",
+    "question": "Conjuga 'decir' para 'ellos' en presente.",
+    "correct": "dicen",
+    "options": [
+      "dicen",
+      "digo",
+      "dice",
+      "decimos"
+    ],
+    "explanation": "Cambio de raíz e→i en 'decir'."
+  },
+  {
+    "infinitive": "venir",
+    "tense": "presente",
+    "person": "nosotros",
+    "question": "Conjuga 'venir' para 'nosotros' en presente.",
+    "correct": "venimos",
+    "options": [
+      "venimos",
+      "vengo",
+      "vienes",
+      "vienen"
+    ],
+    "explanation": "'Venir' es irregular en 'yo', pero nosotros es regular."
+  },
+  {
+    "infinitive": "hacer",
     "tense": "presente",
     "person": "tú",
-    "question": "Conjuga 'querer' para 'tú' en presente.",
-    "correct": "quieres",
+    "question": "Conjuga 'hacer' para 'tú' en presente.",
+    "correct": "haces",
     "options": [
-      "quieres",
-      "quiero",
-      "quiere",
-      "queremos"
+      "haces",
+      "hago",
+      "hace",
+      "hacemos"
     ],
-    "explanation": "Cambio de raíz e→ie."
+    "explanation": "'Hacer' cambia en 'yo' y 'tú' es regular."
   },
   {
-    "infinitive": "reír",
+    "infinitive": "ser",
     "tense": "presente",
-    "person": "yo",
-    "question": "Conjuga 'reír' para 'yo' en presente.",
-    "correct": "río",
+    "person": "nosotros",
+    "question": "Conjuga 'ser' para 'nosotros' en presente.",
+    "correct": "somos",
     "options": [
-      "río",
-      "ríes",
-      "ríe",
-      "reímos"
+      "somos",
+      "soy",
+      "eres",
+      "son"
     ],
-    "explanation": "Verbo irregular con tilde en 'yo'."
+    "explanation": "'Ser' es irregular; 'nosotros' forma es 'somos'."
   },
   {
-    "infinitive": "seguir",
+    "infinitive": "estar",
     "tense": "presente",
-    "person": "tú",
-    "question": "Conjuga 'seguir' para 'tú' en presente.",
-    "correct": "sigues",
+    "person": "nosotros",
+    "question": "Conjuga 'estar' para 'nosotros' en presente.",
+    "correct": "estamos",
     "options": [
-      "sigues",
-      "sigue",
-      "seguimos",
-      "sigo"
+      "estamos",
+      "estoy",
+      "estás",
+      "están"
     ],
-    "explanation": "Cambio de raíz e→i."
-  },
-  {
-    "infinitive": "cerrar",
-    "tense": "presente",
-    "person": "él",
-    "question": "Conjuga 'cerrar' para 'él' en presente.",
-    "correct": "cierra",
-    "options": [
-      "cierra",
-      "cierro",
-      "cierras",
-      "cerramos"
-    ],
-    "explanation": "Cambio de raíz e→ie."
-  },
-  {
-    "infinitive": "mentir",
-    "tense": "presente",
-    "person": "yo",
-    "question": "Conjuga 'mentir' para 'yo' en presente.",
-    "correct": "miento",
-    "options": [
-      "miento",
-      "mientes",
-      "miente",
-      "mentimos"
-    ],
-    "explanation": "Cambio de raíz e→ie."
+    "explanation": "'Estar' es irregular; 'nosotros' forma es 'estamos'."
   }
 ]

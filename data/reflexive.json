@@ -8,208 +8,10 @@
       "despierta",
       "despertar"
     ],
-    "explanation": "'Yo' con pronombre 'me' y verbo en primera persona singular."
+    "explanation": "'Yo me despierto' es la forma correcta; persona y pronombre coinciden."
   },
   {
-    "sentence_with_blank": "Tú te ____ tarde los fines de semana.",
-    "correct": "despiertas",
-    "options": [
-      "despiertas",
-      "despierto",
-      "despierta",
-      "despertar"
-    ],
-    "explanation": "'Tú' con pronombre 'te' y verbo en segunda persona singular."
-  },
-  {
-    "sentence_with_blank": "Ella se ____ temprano para ir al trabajo.",
-    "correct": "despierta",
-    "options": [
-      "despierta",
-      "despierto",
-      "despiertas",
-      "despertar"
-    ],
-    "explanation": "'Ella' con pronombre 'se' y verbo en tercera persona singular."
-  },
-  {
-    "sentence_with_blank": "Nosotros nos ____ a las siete cada mañana.",
-    "correct": "despertamos",
-    "options": [
-      "despertamos",
-      "despiertan",
-      "despiertan",
-      "despertar"
-    ],
-    "explanation": "'Nosotros' con pronombre 'nos' y verbo en primera persona plural."
-  },
-  {
-    "sentence_with_blank": "Ellos se ____ después de la fiesta.",
-    "correct": "duchan",
-    "options": [
-      "duchan",
-      "duchas",
-      "ducha",
-      "duchar"
-    ],
-    "explanation": "'Ellos' con pronombre 'se' y verbo en tercera persona plural."
-  },
-  {
-    "sentence_with_blank": "Yo me ____ con agua fría.",
-    "correct": "ducho",
-    "options": [
-      "ducho",
-      "duchas",
-      "ducha",
-      "duchar"
-    ],
-    "explanation": "'Yo' con pronombre 'me' y verbo en primera persona singular."
-  },
-  {
-    "sentence_with_blank": "Tú te ____ fácilmente cuando estás cansado.",
-    "correct": "enojas",
-    "options": [
-      "enojas",
-      "enojo",
-      "enoja",
-      "enojar"
-    ],
-    "explanation": "'Tú' con pronombre 'te' y verbo en segunda persona singular."
-  },
-  {
-    "sentence_with_blank": "Ella se ____ con su mamá a veces.",
-    "correct": "enoja",
-    "options": [
-      "enoja",
-      "enojo",
-      "enojas",
-      "enojar"
-    ],
-    "explanation": "'Ella' con pronombre 'se' y verbo en tercera persona singular."
-  },
-  {
-    "sentence_with_blank": "Nosotros nos ____ después del trabajo.",
-    "correct": "relajamos",
-    "options": [
-      "relajamos",
-      "relajan",
-      "relaja",
-      "relajar"
-    ],
-    "explanation": "'Nosotros' con pronombre 'nos' y verbo en primera persona plural."
-  },
-  {
-    "sentence_with_blank": "Yo me ____ la cara antes de dormir.",
-    "correct": "lavo",
-    "options": [
-      "lavo",
-      "lavas",
-      "lava",
-      "lavar"
-    ],
-    "explanation": "'Yo' con pronombre 'me' y verbo en primera persona singular."
-  },
-  {
-    "sentence_with_blank": "Ella se ____ la mesa para la cena.",
-    "correct": "pone",
-    "options": [
-      "pone",
-      "pongo",
-      "pones",
-      "poner"
-    ],
-    "explanation": "'Ella' con pronombre 'se' y verbo en tercera persona singular."
-  },
-  {
-    "sentence_with_blank": "Nosotros nos ____ para salir temprano.",
-    "correct": "arreglamos",
-    "options": [
-      "arreglamos",
-      "arreglan",
-      "arregla",
-      "arreglar"
-    ],
-    "explanation": "'Nosotros' con pronombre 'nos' y verbo en primera persona plural."
-  },
-  {
-    "sentence_with_blank": "Yo me ____ los dientes después de comer.",
-    "correct": "cepillo",
-    "options": [
-      "cepillo",
-      "cepillas",
-      "cepilla",
-      "cepillar"
-    ],
-    "explanation": "'Yo' con pronombre 'me' y verbo en primera persona singular."
-  },
-  {
-    "sentence_with_blank": "Ellos se ____ temprano para ir a la escuela.",
-    "correct": "levantan",
-    "options": [
-      "levantan",
-      "levanto",
-      "levantas",
-      "levantar"
-    ],
-    "explanation": "'Ellos' con pronombre 'se' y verbo en tercera persona plural."
-  },
-  {
-    "sentence_with_blank": "Tú te ____ antes de salir de casa.",
-    "correct": "pones",
-    "options": [
-      "pones",
-      "pongo",
-      "pone",
-      "poner"
-    ],
-    "explanation": "'Tú' con pronombre 'te' y verbo en segunda persona singular."
-  },
-  {
-    "sentence_with_blank": "Ella se ____ en la cama a las diez.",
-    "correct": "acuesta",
-    "options": [
-      "acuesta",
-      "acuesta",
-      "acuestas",
-      "acostar"
-    ],
-    "explanation": "'Ella' con pronombre 'se' y verbo en tercera persona singular."
-  },
-  {
-    "sentence_with_blank": "Nosotros nos ____ después de un día largo.",
-    "correct": "relajamos",
-    "options": [
-      "relajamos",
-      "relajan",
-      "relaja",
-      "relajar"
-    ],
-    "explanation": "'Nosotros' con pronombre 'nos' y verbo en primera persona plural."
-  },
-  {
-    "sentence_with_blank": "Yo me ____ temprano para ir a trabajar.",
-    "correct": "levanto",
-    "options": [
-      "levanto",
-      "levantas",
-      "levanta",
-      "levantar"
-    ],
-    "explanation": "'Yo' con pronombre 'me' y verbo en primera persona singular."
-  },
-  {
-    "sentence_with_blank": "Ella se ____ tarde los fines de semana.",
-    "correct": "duerme",
-    "options": [
-      "duerme",
-      "duermo",
-      "duermes",
-      "dormir"
-    ],
-    "explanation": "'Ella' con pronombre 'se' y verbo en tercera persona singular."
-  },
-  {
-    "sentence_with_blank": "Tú te ____ con agua caliente o fría?",
+    "sentence_with_blank": "Tú te ____ con agua fría.",
     "correct": "duchas",
     "options": [
       "duchas",
@@ -217,6 +19,226 @@
       "ducha",
       "duchar"
     ],
-    "explanation": "'Tú' con pronombre 'te' y verbo en segunda persona singular."
+    "explanation": "'Tú te duchas' es correcto; 'tú' y pronombre 'te' coinciden."
+  },
+  {
+    "sentence_with_blank": "Ella se ____ tarde los fines de semana.",
+    "correct": "despierta",
+    "options": [
+      "despierta",
+      "despierto",
+      "despiertas",
+      "despertar"
+    ],
+    "explanation": "'Ella se despierta' es correcto; tercera persona singular."
+  },
+  {
+    "sentence_with_blank": "Nosotros nos ____ todos los días.",
+    "correct": "duchamos",
+    "options": [
+      "duchamos",
+      "duchas",
+      "duchan",
+      "duchar"
+    ],
+    "explanation": "'Nosotros nos duchamos' es correcto; primera persona plural."
+  },
+  {
+    "sentence_with_blank": "Ellos se ____ fácilmente.",
+    "correct": "enojan",
+    "options": [
+      "enojan",
+      "enojo",
+      "enojas",
+      "enojar"
+    ],
+    "explanation": "'Ellos se enojan' es correcto; tercera persona plural."
+  },
+  {
+    "sentence_with_blank": "Yo me ____ la cara después de levantarme.",
+    "correct": "lavo",
+    "options": [
+      "lavo",
+      "lavas",
+      "lava",
+      "lavar"
+    ],
+    "explanation": "'Yo me lavo' es correcto; primera persona singular."
+  },
+  {
+    "sentence_with_blank": "Ella se ____ crema hidratante.",
+    "correct": "pone",
+    "options": [
+      "pone",
+      "pongo",
+      "pones",
+      "poner"
+    ],
+    "explanation": "'Ella se pone' es correcto; tercera persona singular."
+  },
+  {
+    "sentence_with_blank": "Nosotros nos ____ para salir.",
+    "correct": "arreglamos",
+    "options": [
+      "arreglamos",
+      "arreglas",
+      "arreglan",
+      "arreglar"
+    ],
+    "explanation": "'Nosotros nos arreglamos' es correcto; primera persona plural."
+  },
+  {
+    "sentence_with_blank": "Yo me ____ los dientes antes de dormir.",
+    "correct": "cepillo",
+    "options": [
+      "cepillo",
+      "cepillas",
+      "cepilla",
+      "cepillar"
+    ],
+    "explanation": "'Yo me cepillo' es correcto; primera persona singular."
+  },
+  {
+    "sentence_with_blank": "Ella se ____ temprano todos los días.",
+    "correct": "levanta",
+    "options": [
+      "levanta",
+      "levanto",
+      "levantas",
+      "levantar"
+    ],
+    "explanation": "'Ella se levanta' es correcto; tercera persona singular."
+  },
+  {
+    "sentence_with_blank": "Nosotros nos ____ un poco después del trabajo.",
+    "correct": "relajamos",
+    "options": [
+      "relajamos",
+      "relajas",
+      "relajan",
+      "relajar"
+    ],
+    "explanation": "'Nosotros nos relajamos' es correcto; primera persona plural."
+  },
+  {
+    "sentence_with_blank": "Tú te ____ fácilmente cuando estás cansado.",
+    "correct": "duermes",
+    "options": [
+      "duermes",
+      "duermo",
+      "duerme",
+      "dormir"
+    ],
+    "explanation": "'Tú te duermes' es correcto; segunda persona singular."
+  },
+  {
+    "sentence_with_blank": "Ellos se ____ en la cama después de trabajar.",
+    "correct": "quedan",
+    "options": [
+      "quedan",
+      "quedo",
+      "quedas",
+      "quedar"
+    ],
+    "explanation": "'Ellos se quedan' es correcto; tercera persona plural."
+  },
+  {
+    "sentence_with_blank": "Yo me ____ a las diez de la noche.",
+    "correct": "acuesto",
+    "options": [
+      "acuesto",
+      "acuestas",
+      "acuesta",
+      "acostar"
+    ],
+    "explanation": "'Yo me acuesto' es correcto; primera persona singular."
+  },
+  {
+    "sentence_with_blank": "Ella se ____ con agua caliente.",
+    "correct": "ducha",
+    "options": [
+      "ducha",
+      "duchas",
+      "ducho",
+      "duchar"
+    ],
+    "explanation": "'Ella se ducha' es correcto; tercera persona singular."
+  },
+  {
+    "sentence_with_blank": "Nosotros nos ____ temprano para la escuela.",
+    "correct": "levantamos",
+    "options": [
+      "levantamos",
+      "levantas",
+      "levantan",
+      "levantar"
+    ],
+    "explanation": "'Nosotros nos levantamos' es correcto; primera persona plural."
+  },
+  {
+    "sentence_with_blank": "Tú te ____ la ropa antes de salir.",
+    "correct": "pones",
+    "options": [
+      "pones",
+      "pongo",
+      "pone",
+      "poner"
+    ],
+    "explanation": "'Tú te pones' es correcto; segunda persona singular."
+  },
+  {
+    "sentence_with_blank": "Ellos se ____ rápido cuando están enojados.",
+    "correct": "enojan",
+    "options": [
+      "enojan",
+      "enojo",
+      "enojas",
+      "enojar"
+    ],
+    "explanation": "'Ellos se enojan' es correcto; tercera persona plural."
+  },
+  {
+    "sentence_with_blank": "Yo me ____ un poco antes de dormir.",
+    "correct": "relajo",
+    "options": [
+      "relajo",
+      "relajas",
+      "relaja",
+      "relajar"
+    ],
+    "explanation": "'Yo me relajo' es correcto; primera persona singular."
+  },
+  {
+    "sentence_with_blank": "Ella se ____ el pelo después de ducharse.",
+    "correct": "cepilla",
+    "options": [
+      "cepilla",
+      "cepillo",
+      "cepillas",
+      "cepillar"
+    ],
+    "explanation": "'Ella se cepilla' es correcto; tercera persona singular."
+  },
+  {
+    "sentence_with_blank": "Nosotros nos ____ temprano los fines de semana.",
+    "correct": "despertamos",
+    "options": [
+      "despertamos",
+      "despierto",
+      "despiertas",
+      "despierta"
+    ],
+    "explanation": "'Nosotros nos despertamos' es correcto; primera persona plural."
+  },
+  {
+    "sentence_with_blank": "Tú te ____ con cuidado para no hacer ruido.",
+    "correct": "arreglas",
+    "options": [
+      "arreglas",
+      "arreglo",
+      "arregla",
+      "arreglar"
+    ],
+    "explanation": "'Tú te arreglas' es correcto; segunda persona singular."
   }
 ]

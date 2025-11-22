@@ -32,7 +32,7 @@ def load_json(name):
 vocab_items = load_json("vocab.json")
 prep_items = load_json("prepositions.json")
 verbs_items = load_json("verbs.json")
-gustar_items = load_json("gustar.json")
+pronouns_items = load_json("pronouns.json")
 future_items = load_json("future.json")
 reflexive_items = load_json("reflexive.json")
 prep_contrast_items = load_json("preposition_contrast.json")
@@ -46,7 +46,7 @@ def make_simple_mc_question(items, field_sentence="sentence_with_blank"):
     For standard MC questions with:
       - sentence_with_blank
       - options
-      - correct
+      - correct  (string OR list of strings)
       - explanation (optional)
     """
     usable = [
@@ -63,16 +63,51 @@ def make_simple_mc_question(items, field_sentence="sentence_with_blank"):
     options = raw["options"]
     correct = raw.get("correct")
 
-    if correct in options:
-        correct_index = options.index(correct)
-    else:
-        # Fallback: assume first option is correct if 'correct' missing or not found
-        correct_index = 0
+    correct_indices = []
+
+    # Case 1: correct is a list of option-texts
+    if isinstance(correct, list):
+        for c in correct:
+            if c in options:
+                idx = options.index(c)
+                if idx not in correct_indices:
+                    correct_indices.append(idx)
+
+    # Case 2: correct is a single option-text
+    elif isinstance(correct, str) and correct in options:
+        correct_indices.append(options.index(correct))
+
+    # Case 3: fall back to numeric correct_index if provided
+    if not correct_indices and "correct_index" in raw:
+        ci = raw["correct_index"]
+        if isinstance(ci, list):
+            for v in ci:
+                try:
+                    i = int(v)
+                    if 0 <= i < len(options) and i not in correct_indices:
+                        correct_indices.append(i)
+                except (TypeError, ValueError):
+                    pass
+        else:
+            try:
+                i = int(ci)
+                if 0 <= i < len(options):
+                    correct_indices.append(i)
+            except (TypeError, ValueError):
+                pass
+
+    # Case 4: ultimate fallback – first option
+    if not correct_indices:
+        correct_indices = [0]
+
+    # For backward compatibility keep a single correct_index too
+    primary_correct_index = correct_indices[0]
 
     return {
         "question": raw[field_sentence],
         "options": options,
-        "correct_index": correct_index,
+        "correct_index": primary_correct_index,
+        "correct_indices": correct_indices,
         "explanation": raw.get("explanation", ""),
     }
 
@@ -188,10 +223,6 @@ def make_verbs_question():
     }
 
 
-# ---------- MODE: GUSTAR ----------
-
-def make_gustar_question():
-    return make_simple_mc_question(gustar_items, field_sentence="sentence_with_blank")
 
 
 # ---------- MODE: FUTURE ----------
@@ -205,6 +236,10 @@ def make_future_question():
 def make_reflexive_question():
     return make_simple_mc_question(reflexive_items, field_sentence="sentence_with_blank")
 
+# ---------- MODE: PRONOUNS (me/te/le, mi/mis, tu/tus, su/sus, nuestros) ----------
+
+def make_pronouns_question():
+    return make_simple_mc_question(pronouns_items, field_sentence="sentence_with_blank")
 
 # ---------- MODE: PREPOSITIONS (BASIC) ----------
 
@@ -339,14 +374,14 @@ def api_question():
             q = make_preposition_contrast_question()
         elif mode == "verbs":
             q = make_verbs_question()
-        elif mode == "gustar":
-            q = make_gustar_question()
         elif mode == "future":
             q = make_future_question()
         elif mode == "reflexive":
             q = make_reflexive_question()
         elif mode == "context_vocab":
             q = make_context_vocab_question()
+        elif mode == "pronouns":
+            q = make_pronouns_question()
         else:
             return jsonify({"error": f"Unknown mode {mode}"}), 400
 

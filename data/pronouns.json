@@ -1,0 +1,266 @@
+[
+  {
+    "sentence_with_blank": "____ gusta la música.",
+    "correct": "Me",
+    "options": [
+      "Me",
+      "Mi",
+      "Yo",
+      "Nos"
+    ],
+    "explanation": "'Me' es pronombre de objeto indirecto para 'yo'; indica a quién le gusta."
+  },
+  {
+    "sentence_with_blank": "¿____ gusta bailar en las fiestas?",
+    "correct": "Te",
+    "options": [
+      "Te",
+      "Tu",
+      "Tú",
+      "Le"
+    ],
+    "explanation": "'Te' es pronombre de objeto indirecto para 'tú'; indica a quién le gusta."
+  },
+  {
+    "sentence_with_blank": "A ella ____ encanta viajar.",
+    "correct": "le",
+    "options": [
+      "le",
+      "se",
+      "la",
+      "lo"
+    ],
+    "explanation": "'Le' es pronombre de objeto indirecto para él/ella/usted."
+  },
+  {
+    "sentence_with_blank": "____ gustan los animales.",
+    "correct": "Nos",
+    "options": [
+      "Nos",
+      "Nuestros",
+      "Nosotros",
+      "Me"
+    ],
+    "explanation": "'Nos' es pronombre de objeto indirecto para 'nosotros'."
+  },
+  {
+    "sentence_with_blank": "A ellos ____ interesa aprender español.",
+    "correct": "les",
+    "options": [
+      "les",
+      "se",
+      "los",
+      "las"
+    ],
+    "explanation": "'Les' es pronombre de objeto indirecto para ellos/ustedes."
+  },
+  {
+    "sentence_with_blank": "Este es ____ libro.",
+    "correct": "mi",
+    "options": [
+      "mi",
+      "me",
+      "mí",
+      "mis"
+    ],
+    "explanation": "'Mi' es adjetivo posesivo para 'yo' singular."
+  },
+  {
+    "sentence_with_blank": "Es ____ casa.",
+    "correct": "tu",
+    "options": [
+      "tu",
+      "te",
+      "tú",
+      "tus"
+    ],
+    "explanation": "'Tu' es adjetivo posesivo para 'tú' singular."
+  },
+  {
+    "sentence_with_blank": "Ellos cuidan ____ perros.",
+    "correct": "sus",
+    "options": [
+      "sus",
+      "se",
+      "les",
+      "los"
+    ],
+    "explanation": "'Sus' es adjetivo posesivo para ellos/ellas plural."
+  },
+  {
+    "sentence_with_blank": "Nosotros amamos ____ país.",
+    "correct": "nuestro",
+    "options": [
+      "nuestro",
+      "nos",
+      "nosotros",
+      "nuestra"
+    ],
+    "explanation": "'Nuestro' es adjetivo posesivo masculino singular para 'nosotros'."
+  },
+  {
+    "sentence_with_blank": "Ella siempre cuida ____ salud.",
+    "correct": "su",
+    "options": [
+      "su",
+      "se",
+      "sus",
+      "le"
+    ],
+    "explanation": "'Su' es adjetivo posesivo para él/ella/usted."
+  },
+  {
+    "sentence_with_blank": "¿____ gusta la película?",
+    "correct": "Te",
+    "options": [
+      "Te",
+      "Tu",
+      "Tú",
+      "Le"
+    ],
+    "explanation": "'Te' es pronombre de objeto indirecto para 'tú'."
+  },
+  {
+    "sentence_with_blank": "____ encanta nadar.",
+    "correct": "Nos",
+    "options": [
+      "Nos",
+      "Nuestro",
+      "Nosotros",
+      "Me"
+    ],
+    "explanation": "'Nos' es pronombre de objeto indirecto para 'nosotros'."
+  },
+  {
+    "sentence_with_blank": "¿Dónde está ____ mochila?",
+    "correct": "tu",
+    "options": [
+      "tu",
+      "te",
+      "tú",
+      "tus"
+    ],
+    "explanation": "'Tu' es adjetivo posesivo para 'tú' singular."
+  },
+  {
+    "sentence_with_blank": "A Juan ____ gusta la música.",
+    "correct": "le",
+    "options": [
+      "le",
+      "se",
+      "lo",
+      "la"
+    ],
+    "explanation": "'Le' es pronombre de objeto indirecto para él."
+  },
+  {
+    "sentence_with_blank": "____ gusta el helado.",
+    "correct": "Me",
+    "options": [
+      "Me",
+      "Mi",
+      "Yo",
+      "Nos"
+    ],
+    "explanation": "'Me' es pronombre de objeto indirecto para 'yo'."
+  },
+  {
+    "sentence_with_blank": "Ellos cuidan ____ jardín.",
+    "correct": "su",
+    "options": [
+      "su",
+      "se",
+      "sus",
+      "les"
+    ],
+    "explanation": "'Su' es adjetivo posesivo para ellos/ellas singular."
+  },
+  {
+    "sentence_with_blank": "Nosotros limpiamos ____ casa.",
+    "correct": "nuestra",
+    "options": [
+      "nuestra",
+      "nuestro",
+      "nos",
+      "nosotros"
+    ],
+    "explanation": "'Nuestra' es adjetivo posesivo femenino singular para 'nosotros'."
+  },
+  {
+    "sentence_with_blank": "¿____ gusta la comida?",
+    "correct": "Te",
+    "options": [
+      "Te",
+      "Tu",
+      "Tú",
+      "Le"
+    ],
+    "explanation": "'Te' es pronombre de objeto indirecto para 'tú'."
+  },
+  {
+    "sentence_with_blank": "Ella cuida ____ gato.",
+    "correct": "su",
+    "options": [
+      "su",
+      "se",
+      "sus",
+      "le"
+    ],
+    "explanation": "'Su' es adjetivo posesivo para ella."
+  },
+  {
+    "sentence_with_blank": "¿Dónde están ____ libros?",
+    "correct": "mis",
+    "options": [
+      "mis",
+      "me",
+      "mi",
+      "nos"
+    ],
+    "explanation": "'Mis' es adjetivo posesivo plural para 'yo'."
+  },
+  {
+    "sentence_with_blank": "A nosotros ____ interesa la historia.",
+    "correct": "nos",
+    "options": [
+      "nos",
+      "nuestro",
+      "nosotros",
+      "me"
+    ],
+    "explanation": "'Nos' es pronombre de objeto indirecto para 'nosotros'."
+  },
+  {
+    "sentence_with_blank": "¿____ gusta bailar?",
+    "correct": "Me",
+    "options": [
+      "Me",
+      "Mi",
+      "Yo",
+      "Nos"
+    ],
+    "explanation": "'Me' es pronombre de objeto indirecto para 'yo'."
+  },
+  {
+    "sentence_with_blank": "Ellos visitan ____ abuelos.",
+    "correct": "sus",
+    "options": [
+      "sus",
+      "se",
+      "les",
+      "los"
+    ],
+    "explanation": "'Sus' es adjetivo posesivo plural para ellos."
+  },
+  {
+    "sentence_with_blank": "Nosotros amamos ____ familia.",
+    "correct": "nuestra",
+    "options": [
+      "nuestra",
+      "nuestro",
+      "nos",
+      "nosotros"
+    ],
+    "explanation": "'Nuestra' es adjetivo posesivo femenino singular para 'nosotros'."
+  }
+]

@@ -36,7 +36,7 @@
   },
   {
     "es": "empezar",
-    "en": "to start",
+    "en": "to begin",
     "ru": "начинать"
   },
   {
@@ -71,7 +71,7 @@
   },
   {
     "es": "poder",
-    "en": "to be able to/can",
+    "en": "to be able to",
     "ru": "мочь"
   },
   {
@@ -117,7 +117,7 @@
   {
     "es": "servir",
     "en": "to serve",
-    "ru": "служить"
+    "ru": "служить/подавать"
   },
   {
     "es": "repetir",
@@ -126,13 +126,13 @@
   },
   {
     "es": "seguir",
-    "en": "to follow",
+    "en": "to follow/continue",
     "ru": "следовать"
   },
   {
     "es": "decir",
     "en": "to say/tell",
-    "ru": "говорить/сказать"
+    "ru": "сказать"
   },
   {
     "es": "reír",
@@ -152,7 +152,7 @@
   {
     "es": "salir",
     "en": "to go out/leave",
-    "ru": "выходить/уходить"
+    "ru": "выходить"
   },
   {
     "es": "poner",
@@ -181,8 +181,8 @@
   },
   {
     "es": "conocer",
-    "en": "to know/be familiar with",
-    "ru": "знать/быть знакомым"
+    "en": "to know (people/places)",
+    "ru": "знать (людей/места)"
   },
   {
     "es": "conducir",
@@ -196,7 +196,7 @@
   },
   {
     "es": "parecer",
-    "en": "to seem/appear",
+    "en": "to seem",
     "ru": "казаться"
   },
   {
@@ -206,7 +206,7 @@
   },
   {
     "es": "escoger",
-    "en": "to choose/pick",
+    "en": "to choose",
     "ru": "выбирать"
   },
   {
@@ -227,7 +227,7 @@
   {
     "es": "saber",
     "en": "to know (facts/info)",
-    "ru": "знать (факты)"
+    "ru": "знать (факты/информацию)"
   },
   {
     "es": "caber",
@@ -276,7 +276,7 @@
   },
   {
     "es": "quedarse",
-    "en": "to stay/remain",
+    "en": "to stay",
     "ru": "оставаться"
   },
   {
@@ -320,69 +320,94 @@
     "ru": "казаться"
   },
   {
-    "es": "aburrir",
-    "en": "to bore",
-    "ru": "скучать"
+    "es": "viajar",
+    "en": "to travel",
+    "ru": "путешествовать"
   },
   {
-    "es": "molestar",
-    "en": "to bother",
-    "ru": "беспокоить"
+    "es": "conocer",
+    "en": "to know (people/places)",
+    "ru": "знать"
   },
   {
-    "es": "fascinar",
-    "en": "to fascinate",
-    "ru": "очаровывать"
+    "es": "jugar",
+    "en": "to play",
+    "ru": "играть"
   },
   {
-    "es": "importar",
-    "en": "to matter/care about",
-    "ru": "иметь значение"
+    "es": "bailar",
+    "en": "to dance",
+    "ru": "танцевать"
   },
   {
-    "es": "ir",
-    "en": "to go",
-    "ru": "идти"
+    "es": "escuchar",
+    "en": "to listen",
+    "ru": "слушать"
   },
   {
-    "es": "pensar",
-    "en": "to think",
-    "ru": "думать"
+    "es": "trabajar",
+    "en": "to work",
+    "ru": "работать"
   },
   {
-    "es": "tener planes de",
-    "en": "to have plans to",
-    "ru": "иметь планы"
+    "es": "comer",
+    "en": "to eat",
+    "ru": "есть"
   },
   {
-    "es": "mañana",
-    "en": "tomorrow",
-    "ru": "завтра"
+    "es": "cocinar",
+    "en": "to cook",
+    "ru": "готовить"
   },
   {
-    "es": "pasado mañana",
-    "en": "day after tomorrow",
-    "ru": "послезавтра"
+    "es": "mirar",
+    "en": "to watch/look at",
+    "ru": "смотреть"
   },
   {
-    "es": "la próxima semana",
-    "en": "next week",
-    "ru": "на следующей неделе"
+    "es": "leer",
+    "en": "to read",
+    "ru": "читать"
   },
   {
-    "es": "el próximo año",
-    "en": "next year",
-    "ru": "в следующем году"
+    "es": "agradecer",
+    "en": "to thank/appreciate",
+    "ru": "благодарить"
   },
   {
-    "es": "más tarde",
-    "en": "later",
-    "ru": "позже"
+    "es": "tocar",
+    "en": "to play (an instrument)",
+    "ru": "играть (на инструменте)"
   },
   {
-    "es": "hoy",
-    "en": "today",
-    "ru": "сегодня"
+    "es": "abrigo",
+    "en": "coat",
+    "ru": "пальто"
+  },
+  {
+    "es": "gorro",
+    "en": "hat",
+    "ru": "шапка"
+  },
+  {
+    "es": "zapatos",
+    "en": "shoes",
+    "ru": "обувь"
+  },
+  {
+    "es": "pantalones",
+    "en": "pants",
+    "ru": "штаны"
+  },
+  {
+    "es": "suéter",
+    "en": "sweater",
+    "ru": "свитер"
+  },
+  {
+    "es": "bolso",
+    "en": "bag",
+    "ru": "сумка"
   },
   {
     "es": "invierno",
@@ -393,26 +418,6 @@
     "es": "primavera",
     "en": "spring",
     "ru": "весна"
-  },
-  {
-    "es": "gorro",
-    "en": "hat",
-    "ru": "шапка"
-  },
-  {
-    "es": "lentes de sol",
-    "en": "sunglasses",
-    "ru": "солнечные очки"
-  },
-  {
-    "es": "zapatos",
-    "en": "shoes",
-    "ru": "обувь"
-  },
-  {
-    "es": "abrigo",
-    "en": "coat",
-    "ru": "пальто"
   },
   {
     "es": "lluvia",
@@ -433,11 +438,6 @@
     "es": "cabeza",
     "en": "head",
     "ru": "голова"
-  },
-  {
-    "es": "bandera",
-    "en": "flag",
-    "ru": "флаг"
   },
   {
     "es": "arroz",
@@ -535,6 +535,11 @@
     "ru": "фиолетовый"
   },
   {
+    "es": "hoy",
+    "en": "today",
+    "ru": "сегодня"
+  },
+  {
     "es": "arcoíris",
     "en": "rainbow",
     "ru": "радуга"
@@ -545,19 +550,44 @@
     "ru": "страна"
   },
   {
+    "es": "correr",
+    "en": "to run",
+    "ru": "бегать"
+  },
+  {
     "es": "jugar",
     "en": "to play",
     "ru": "играть"
   },
   {
-    "es": "tocar",
-    "en": "to play (instrument)",
-    "ru": "играть (на инструменте)"
+    "es": "mentir",
+    "en": "to lie",
+    "ru": "лгать"
   },
   {
-    "es": "helado",
-    "en": "ice cream",
-    "ru": "мороженое"
+    "es": "medir",
+    "en": "to measure",
+    "ru": "измерять"
+  },
+  {
+    "es": "impedir",
+    "en": "to stop/prevent",
+    "ru": "препятствовать"
+  },
+  {
+    "es": "sobre",
+    "en": "about/on",
+    "ru": "о/на"
+  },
+  {
+    "es": "intentar",
+    "en": "to try",
+    "ru": "пытаться"
+  },
+  {
+    "es": "conocer",
+    "en": "to know (people/places)",
+    "ru": "знать"
   },
   {
     "es": "agradecer",
@@ -631,7 +661,7 @@
   },
   {
     "es": "agitado",
-    "en": "rough (sea)",
+    "en": "rough",
     "ru": "бурный"
   },
   {
@@ -686,13 +716,13 @@
   },
   {
     "es": "sobre",
-    "en": "about/on",
-    "ru": "о/на"
+    "en": "about",
+    "ru": "о"
   },
   {
-    "es": "los fines de semana",
-    "en": "on weekends",
-    "ru": "по выходным"
+    "es": "fines de semana",
+    "en": "weekends",
+    "ru": "выходные"
   },
   {
     "es": "antes",
@@ -700,28 +730,13 @@
     "ru": "до"
   },
   {
+    "es": "pasado mañana",
+    "en": "day after tomorrow",
+    "ru": "послезавтра"
+  },
+  {
     "es": "aprender",
     "en": "to learn",
     "ru": "учить"
-  },
-  {
-    "es": "cine",
-    "en": "movie theater",
-    "ru": "кинотеатр"
-  },
-  {
-    "es": "película",
-    "en": "movie",
-    "ru": "фильм"
-  },
-  {
-    "es": "intentar",
-    "en": "to try",
-    "ru": "пытаться"
-  },
-  {
-    "es": "conocer",
-    "en": "to know (people/places)",
-    "ru": "знать (людей/места)"
   }
 ]

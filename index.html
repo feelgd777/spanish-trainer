@@ -158,12 +158,12 @@
       <div>
         <label for="modeSelect">Modo:</label><br />
         <select id="modeSelect">
-          <option value="vocab">Vocabulario (ES ⇄ EN / RU)</option>
+          <option value="vocab">Vocabulario</option>
           <option value="prepositions">Preposiciones básicas</option>
           <option value="preposition_contrast">Preposiciones (contrastes)</option>
+          <option value="pronouns">Pronombres</option>
           <option value="verbs">Conjugaciones (presente)</option>
-          <option value="gustar">Gustar / encantar / interesar</option>
-          <option value="future">Planes futuros (ir a / pensar / tener planes de)</option>
+          <option value="future">Planes futuros</option>
           <option value="reflexive">Rutina diaria (verbos reflexivos)</option>
           <option value="context_vocab">Vocabulario en contexto</option>
         </select>
@@ -295,26 +295,32 @@
       if (lockedSingle || !currentQuestion) return;
       lockedSingle = true;
 
-      const correctIndex = currentQuestion.correct_index ?? 0;
       const optionsEls = document.querySelectorAll(".answer-btn");
       const resultEl = document.getElementById("result");
       const explEl = document.getElementById("explanation");
 
+      // Support single or multiple correct answers
+      let correctIndices = currentQuestion.correct_indices;
+      if (!Array.isArray(correctIndices) || correctIndices.length === 0) {
+        const fallback = currentQuestion.correct_index ?? 0;
+        correctIndices = [fallback];
+      }
+
       optionsEls.forEach((btn, i) => {
         btn.disabled = true;
-        if (i === correctIndex) {
+        if (correctIndices.includes(i)) {
           btn.classList.add("correct");
         }
-        if (i === index && i !== correctIndex) {
+        if (i === index && !correctIndices.includes(i)) {
           btn.classList.add("wrong");
         }
       });
 
-      if (index === correctIndex) {
+      if (correctIndices.includes(index)) {
         resultEl.textContent = "✅ Correcto";
       } else {
-        const correctText = currentQuestion.options[correctIndex];
-        resultEl.textContent = `❌ Incorrecto. Correcto: ${correctText}`;
+        const correctTexts = correctIndices.map(i => currentQuestion.options[i]);
+        resultEl.textContent = `❌ Aceptable: ${correctTexts.join(" / ")}`;
       }
 
       if (currentQuestion.explanation) {
@@ -323,6 +329,7 @@
         explEl.textContent = "";
       }
     }
+
 
     function handleAnswerMulti(blankIndex, optionIndex) {
       if (!currentQuestion || !Array.isArray(currentQuestion.blanks)) return;

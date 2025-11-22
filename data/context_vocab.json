@@ -13,30 +13,17 @@
     "explanation": "'Salir' es la acción natural para ir con amigos."
   },
   {
-    "sentence_with_blank": "Yo me ____ a las seis todos los días.",
-    "correct": "despierto",
+    "sentence_with_blank": "Ella ____ temprano todos los días.",
+    "correct": "se despierta",
     "options": [
-      "despierto",
-      "duermo",
-      "levanto",
-      "ducho"
+      "se despierta",
+      "se duerme",
+      "se levanta",
+      "se ducha"
     ],
-    "translation_en": "I wake up at six every day.",
-    "translation_ru": "Я просыпаюсь в шесть каждый день.",
-    "explanation": "'Despierto' es el verbo correcto para despertarse."
-  },
-  {
-    "sentence_with_blank": "Ella ____ la mesa para la cena.",
-    "correct": "pone",
-    "options": [
-      "pone",
-      "hace",
-      "trae",
-      "sale"
-    ],
-    "translation_en": "She sets the table for dinner.",
-    "translation_ru": "Она накрывает на стол к ужину.",
-    "explanation": "'Poner' es el verbo correcto para colocar la mesa."
+    "translation_en": "She wakes up early every day.",
+    "translation_ru": "Она просыпается рано каждый день.",
+    "explanation": "'Se despierta' es correcto para indicar despertar."
   },
   {
     "sentence_with_blank": "Nosotros ____ español en la escuela.",
@@ -49,36 +36,140 @@
     ],
     "translation_en": "We study Spanish at school.",
     "translation_ru": "Мы учим испанский в школе.",
-    "explanation": "'Estudiar' es el verbo correcto para aprender."
+    "explanation": "'Estudiamos' es el verbo correcto para aprender."
   },
   {
-    "sentence_with_blank": "Ellos ____ pizza los viernes.",
-    "correct": "comen",
+    "sentence_with_blank": "Yo ____ un regalo para mi hermana.",
+    "correct": "compro",
     "options": [
+      "compro",
+      "vendo",
+      "pido",
+      "traigo"
+    ],
+    "translation_en": "I buy a gift for my sister.",
+    "translation_ru": "Я покупаю подарок для моей сестры.",
+    "explanation": "'Compro' es el verbo correcto para comprar."
+  },
+  {
+    "sentence_with_blank": "Ellos ____ en el parque por la tarde.",
+    "correct": "corren",
+    "options": [
+      "corren",
+      "juegan",
       "comen",
-      "hablan",
-      "viven",
-      "juegan"
+      "duermen"
     ],
-    "translation_en": "They eat pizza on Fridays.",
-    "translation_ru": "Они едят пиццу по пятницам.",
-    "explanation": "'Comer' es el verbo correcto para comer comida."
+    "translation_en": "They run in the park in the afternoon.",
+    "translation_ru": "Они бегают в парке днем.",
+    "explanation": "'Corren' es el verbo correcto para correr."
   },
   {
-    "sentence_with_blank": "Yo ____ música todos los días.",
-    "correct": "escucho",
+    "sentence_with_blank": "Tú ____ la mesa para la cena.",
+    "correct": "pones",
     "options": [
-      "escucho",
-      "hablo",
-      "leo",
-      "escribo"
+      "pones",
+      "haces",
+      "comes",
+      "vas"
     ],
-    "translation_en": "I listen to music every day.",
-    "translation_ru": "Я слушаю музыку каждый день.",
-    "explanation": "'Escuchar' es el verbo correcto para oír música."
+    "translation_en": "You set the table for dinner.",
+    "translation_ru": "Ты накрываешь на стол к ужину.",
+    "explanation": "'Pones' es el verbo correcto para poner la mesa."
   },
   {
-    "sentence_with_blank": "Mañana ____ al cine con mis amigos.",
+    "sentence_with_blank": "Nosotros ____ música en la fiesta.",
+    "correct": "escuchamos",
+    "options": [
+      "escuchamos",
+      "hablamos",
+      "comemos",
+      "bailamos"
+    ],
+    "translation_en": "We listen to music at the party.",
+    "translation_ru": "Мы слушаем музыку на вечеринке.",
+    "explanation": "'Escuchamos' es el verbo correcto para escuchar."
+  },
+  {
+    "sentence_with_blank": "Ella ____ un helado en el verano.",
+    "correct": "come",
+    "options": [
+      "come",
+      "bebe",
+      "juega",
+      "duerme"
+    ],
+    "translation_en": "She eats an ice cream in the summer.",
+    "translation_ru": "Она ест мороженое летом.",
+    "explanation": "'Come' es el verbo correcto para comer."
+  },
+  {
+    "sentence_with_blank": "Yo ____ temprano para ir a trabajar.",
+    "correct": "me levanto",
+    "options": [
+      "me levanto",
+      "me acuesto",
+      "me ducho",
+      "me duermo"
+    ],
+    "translation_en": "I get up early to go to work.",
+    "translation_ru": "Я встаю рано, чтобы идти на работу.",
+    "explanation": "'Me levanto' es correcto para levantarse."
+  },
+  {
+    "sentence_with_blank": "Ellos ____ la comida rápidamente.",
+    "correct": "sirven",
+    "options": [
+      "sirven",
+      "piden",
+      "comen",
+      "hacen"
+    ],
+    "translation_en": "They serve the food quickly.",
+    "translation_ru": "Они быстро подают еду.",
+    "explanation": "'Sirven' es el verbo correcto para servir."
+  },
+  {
+    "sentence_with_blank": "Tú ____ la verdad siempre.",
+    "correct": "dices",
+    "options": [
+      "dices",
+      "haces",
+      "vienes",
+      "vas"
+    ],
+    "translation_en": "You always tell the truth.",
+    "translation_ru": "Ты всегда говоришь правду.",
+    "explanation": "'Dices' es el verbo correcto para decir."
+  },
+  {
+    "sentence_with_blank": "Nosotros ____ la tarea juntos.",
+    "correct": "hacemos",
+    "options": [
+      "hacemos",
+      "decimos",
+      "venimos",
+      "salimos"
+    ],
+    "translation_en": "We do the homework together.",
+    "translation_ru": "Мы делаем домашнее задание вместе.",
+    "explanation": "'Hacemos' es el verbo correcto para hacer."
+  },
+  {
+    "sentence_with_blank": "Ella ____ con su familia los fines de semana.",
+    "correct": "come",
+    "options": [
+      "come",
+      "baila",
+      "juega",
+      "duerme"
+    ],
+    "translation_en": "She eats with her family on weekends.",
+    "translation_ru": "Она ест с семьей по выходным.",
+    "explanation": "'Come' es el verbo correcto para comer."
+  },
+  {
+    "sentence_with_blank": "Yo ____ a la escuela en autobús.",
     "correct": "voy",
     "options": [
       "voy",
@@ -86,47 +177,73 @@
       "salgo",
       "llego"
     ],
-    "translation_en": "Tomorrow I go to the cinema with my friends.",
-    "translation_ru": "Завтра я иду в кино с друзьями.",
-    "explanation": "'Ir' es el verbo correcto para ir a un lugar."
+    "translation_en": "I go to school by bus.",
+    "translation_ru": "Я еду в школу на автобусе.",
+    "explanation": "'Voy' es el verbo correcto para ir."
   },
   {
-    "sentence_with_blank": "Ella ____ temprano para el trabajo.",
-    "correct": "se levanta",
+    "sentence_with_blank": "Ellos ____ a la fiesta esta noche.",
+    "correct": "van",
     "options": [
-      "se levanta",
-      "se acuesta",
+      "van",
+      "vienen",
+      "ponen",
+      "hacen"
+    ],
+    "translation_en": "They go to the party tonight.",
+    "translation_ru": "Они идут на вечеринку сегодня вечером.",
+    "explanation": "'Van' es el verbo correcto para ir."
+  },
+  {
+    "sentence_with_blank": "Nosotros ____ películas los fines de semana.",
+    "correct": "vemos",
+    "options": [
+      "vemos",
+      "hacemos",
+      "decimos",
+      "salimos"
+    ],
+    "translation_en": "We watch movies on weekends.",
+    "translation_ru": "Мы смотрим фильмы по выходным.",
+    "explanation": "'Vemos' es el verbo correcto para ver."
+  },
+  {
+    "sentence_with_blank": "Ella ____ con su mamá cuando está enojada.",
+    "correct": "se enoja",
+    "options": [
+      "se enoja",
+      "se ríe",
       "se ducha",
-      "se duerme"
+      "se levanta"
     ],
-    "translation_en": "She gets up early for work.",
-    "translation_ru": "Она встает рано на работу.",
-    "explanation": "'Levantarse' es el verbo correcto para levantarse."
+    "translation_en": "She gets angry with her mom.",
+    "translation_ru": "Она злится на маму.",
+    "explanation": "'Se enoja' es la forma correcta para enojarse."
   },
   {
-    "sentence_with_blank": "Nosotros ____ pasta la próxima semana.",
-    "correct": "vamos a comer",
+    "sentence_with_blank": "Yo ____ la mesa para la cena.",
+    "correct": "pongo",
     "options": [
-      "vamos a comer",
-      "pensamos comer",
-      "tenemos planes de comer",
-      "comemos"
+      "pongo",
+      "hago",
+      "doy",
+      "traigo"
     ],
-    "translation_en": "We are going to eat pasta next week.",
-    "translation_ru": "Мы собираемся есть пасту на следующей неделе.",
-    "explanation": "'Ir a + infinitivo' expresa plan futuro."
+    "translation_en": "I set the table for dinner.",
+    "translation_ru": "Я накрываю на стол к ужину.",
+    "explanation": "'Pongo' es la forma correcta para poner en 'yo'."
   },
   {
-    "sentence_with_blank": "Tú ____ estudiar con tu amigo mañana.",
-    "correct": "piensas",
+    "sentence_with_blank": "Tú ____ un regalo a tu hermana.",
+    "correct": "das",
     "options": [
-      "piensas",
-      "vas a",
-      "tienes planes de",
-      "pienso"
+      "das",
+      "doy",
+      "da",
+      "damos"
     ],
-    "translation_en": "You plan to study with your friend tomorrow.",
-    "translation_ru": "Ты планируешь учиться с другом завтра.",
-    "explanation": "'Pensar' + infinitivo expresa intención futura."
+    "translation_en": "You give a gift to your sister.",
+    "translation_ru": "Ты даришь подарок сестре.",
+    "explanation": "'Das' es la forma correcta para dar en 'tú'."
   }
 ]
