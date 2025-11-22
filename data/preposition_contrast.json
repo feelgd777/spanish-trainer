@@ -1,222 +1,72 @@
 [
   {
-    "sentence_with_blank": "Trabajo ____ la escuela por dos horas.",
-    "correct": [
-      "para",
-      "por"
+    "sentence_with_blank": "Mañana trabajo ____ la escuela ____ dos horas más.",
+    "blanks": [
+      {
+        "options": ["para", "por", "en", "a"],
+        "correct": "para"
+      },
+      {
+        "options": ["por", "para", "en", "durante"],
+        "correct": "por"
+      }
     ],
-    "options": [
-      [
-        "para",
-        "por",
-        "con",
-        "sin"
-      ],
-      [
-        "por",
-        "para",
-        "en",
-        "sin"
-      ]
-    ],
-    "explanation": "'Para' indica finalidad, 'por' indica duración."
+    "explanation": "'Para la escuela' indica finalidad/destinatario; 'por dos horas' indica duración."
   },
   {
-    "sentence_with_blank": "Voy ____ Madrid por la mañana.",
-    "correct": [
-      "a",
-      "por"
+    "sentence_with_blank": "Voy ____ la biblioteca ____ estudiar esta noche.",
+    "blanks": [
+      {
+        "options": ["a", "en", "por", "para"],
+        "correct": "a"
+      },
+      {
+        "options": ["para", "por", "en", "sobre"],
+        "correct": "para"
+      }
     ],
-    "options": [
-      [
-        "a",
-        "en",
-        "por",
-        "de"
-      ],
-      [
-        "por",
-        "para",
-        "en",
-        "a"
-      ]
-    ],
-    "explanation": "'A' indica dirección, 'por' indica parte del día."
+    "explanation": "'Ir a un lugar' usa 'a' para dirección; 'para estudiar' indica propósito."
   },
   {
-    "sentence_with_blank": "Estudio ____ aprobar el examen por dos horas.",
-    "correct": [
-      "para",
-      "por"
+    "sentence_with_blank": "Camino ____ el parque ____ llegar más rápido a casa.",
+    "blanks": [
+      {
+        "options": ["por", "para", "en", "a"],
+        "correct": "por"
+      },
+      {
+        "options": ["para", "por", "a", "hasta"],
+        "correct": "para"
+      }
     ],
-    "options": [
-      [
-        "para",
-        "por",
-        "con",
-        "sin"
-      ],
-      [
-        "por",
-        "para",
-        "en",
-        "sin"
-      ]
-    ],
-    "explanation": "'Para' indica finalidad, 'por' indica duración."
+    "explanation": "'Caminar por el parque' indica trayecto; 'para llegar' expresa finalidad."
   },
   {
-    "sentence_with_blank": "Salgo ____ mis amigos sin paraguas.",
-    "correct": [
-      "con",
-      "sin"
+    "sentence_with_blank": "Este regalo es ____ ti ____ tu cumpleaños.",
+    "blanks": [
+      {
+        "options": ["para", "por", "de", "a"],
+        "correct": "para"
+      },
+      {
+        "options": ["por", "para", "en", "de"],
+        "correct": "por"
+      }
     ],
-    "options": [
-      [
-        "con",
-        "sin",
-        "por",
-        "para"
-      ],
-      [
-        "sin",
-        "con",
-        "por",
-        "para"
-      ]
-    ],
-    "explanation": "'Con' indica compañía, 'sin' indica ausencia."
+    "explanation": "'Es para ti' indica destinatario; 'por tu cumpleaños' indica causa/motivo."
   },
   {
-    "sentence_with_blank": "El libro es ____ María y sobre historia.",
-    "correct": [
-      "de",
-      "sobre"
+    "sentence_with_blank": "Estoy ____ la oficina ____ una reunión importante.",
+    "blanks": [
+      {
+        "options": ["en", "a", "por", "para"],
+        "correct": "en"
+      },
+      {
+        "options": ["por", "para", "sobre", "de"],
+        "correct": "para"
+      }
     ],
-    "options": [
-      [
-        "de",
-        "sobre",
-        "para",
-        "por"
-      ],
-      [
-        "sobre",
-        "de",
-        "para",
-        "por"
-      ]
-    ],
-    "explanation": "'De' indica posesión, 'sobre' indica tema."
-  },
-  {
-    "sentence_with_blank": "Vamos ____ la playa en autobús.",
-    "correct": [
-      "a",
-      "en"
-    ],
-    "options": [
-      [
-        "a",
-        "en",
-        "por",
-        "con"
-      ],
-      [
-        "en",
-        "a",
-        "por",
-        "con"
-      ]
-    ],
-    "explanation": "'A' indica destino, 'en' indica medio de transporte."
-  },
-  {
-    "sentence_with_blank": "Trabajo ____ la mañana con mi computadora.",
-    "correct": [
-      "por",
-      "con"
-    ],
-    "options": [
-      [
-        "por",
-        "para",
-        "en",
-        "a"
-      ],
-      [
-        "con",
-        "sin",
-        "por",
-        "para"
-      ]
-    ],
-    "explanation": "'Por' indica periodo del día, 'con' indica instrumento."
-  },
-  {
-    "sentence_with_blank": "Salgo ____ casa con amigos.",
-    "correct": [
-      "de",
-      "con"
-    ],
-    "options": [
-      [
-        "de",
-        "a",
-        "en",
-        "por"
-      ],
-      [
-        "con",
-        "sin",
-        "por",
-        "para"
-      ]
-    ],
-    "explanation": "'De' indica origen, 'con' indica compañía."
-  },
-  {
-    "sentence_with_blank": "Estudio ____ aprender sobre español.",
-    "correct": [
-      "para",
-      "sobre"
-    ],
-    "options": [
-      [
-        "para",
-        "por",
-        "con",
-        "sin"
-      ],
-      [
-        "sobre",
-        "de",
-        "para",
-        "por"
-      ]
-    ],
-    "explanation": "'Para' indica finalidad, 'sobre' indica tema."
-  },
-  {
-    "sentence_with_blank": "Caminamos ____ el parque por la tarde.",
-    "correct": [
-      "por",
-      "por"
-    ],
-    "options": [
-      [
-        "por",
-        "para",
-        "en",
-        "a"
-      ],
-      [
-        "por",
-        "para",
-        "en",
-        "a"
-      ]
-    ],
-    "explanation": "'Por' indica movimiento a través y duración."
+    "explanation": "'Estar en la oficina' indica ubicación; 'para una reunión' expresa finalidad."
   }
 ]

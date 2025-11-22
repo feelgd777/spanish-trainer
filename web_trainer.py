@@ -2,337 +2,362 @@ import json
 import random
 from pathlib import Path
 
-from flask import Flask, jsonify, request, send_from_directory
+from flask import Flask, jsonify, request
+
+BASE_DIR = Path(__file__).parent
+DATA_DIR = BASE_DIR / "data"
 
 app = Flask(__name__, static_folder=".", static_url_path="")
 
-DATA_DIR = Path("data")
+# ---------- HELPERS TO LOAD DATA ----------
 
-
-def load_json(name: str):
-    path = DATA_DIR / f"{name}.json"
-    if not path.exists():
+def load_json(name):
+    path = DATA_DIR / name
+    try:
+        with path.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+        if not isinstance(data, list):
+            print(f"[WARN] {name} is not a list, ignoring")
+            return []
+        print(f"[INFO] Loaded {len(data)} items from {name}")
+        return data
+    except FileNotFoundError:
+        print(f"[WARN] {name} not found in data/")
         return []
-    with path.open(encoding="utf-8") as f:
-        return json.load(f)
+    except Exception as e:
+        print(f"[ERROR] Failed to load {name}: {e}")
+        return []
 
 
-DATA = {
-    "vocab": load_json("vocab"),
-    "prepositions": load_json("prepositions"),
-    "verbs": load_json("verbs"),
-    "gustar": load_json("gustar"),
-    "future": load_json("future"),
-    "reflexive": load_json("reflexive"),
-    "preposition_contrast": load_json("preposition_contrast"),
-    "context_vocab": load_json("context_vocab"),
-}
+vocab_items = load_json("vocab.json")
+prep_items = load_json("prepositions.json")
+verbs_items = load_json("verbs.json")
+gustar_items = load_json("gustar.json")
+future_items = load_json("future.json")
+reflexive_items = load_json("reflexive.json")
+prep_contrast_items = load_json("preposition_contrast.json")
+context_vocab_items = load_json("context_vocab.json")
 
 
-@app.route("/")
-def index():
-    # Serve your index.html
-    return send_from_directory(".", "index.html")
+# ---------- GENERIC MC-QUESTION HELPERS ----------
 
+def make_simple_mc_question(items, field_sentence="sentence_with_blank"):
+    """
+    For standard MC questions with:
+      - sentence_with_blank
+      - options
+      - correct
+      - explanation (optional)
+    """
+    usable = [
+        it for it in items
+        if isinstance(it, dict)
+        and it.get(field_sentence)
+        and isinstance(it.get("options"), list)
+        and it.get("options")
+    ]
+    if not usable:
+        raise ValueError("No usable items for this mode.")
 
-# ---------- QUESTION BUILDERS ----------
+    raw = random.choice(usable)
+    options = raw["options"]
+    correct = raw.get("correct")
 
-def make_vocab_question(direction: str):
-    items = DATA.get("vocab", [])
-    if not items:
-        return {"question": "No hay vocabulario.", "options": ["—"], "correct_index": 0}
-
-    item = random.choice(items)
-    es = item.get("es", "")
-    en = item.get("en", "")
-    ru = item.get("ru", "")
-
-    # Directions:
-    # es_en: show ES, options with EN
-    # en_es: show EN, options with ES
-    # es_ru: show ES, options with RU
-    # ru_es: show RU, options with ES
-
-    # Build pool for distractors from all items at same language side
-    pool = [x for x in items if x is not item]
-
-    if direction == "en_es":
-        prompt = f"{en} → español"
-        correct = es
-        candidates = [x.get("es", "") for x in pool if x.get("es")]
-    elif direction == "es_en":
-        prompt = f"{es} → inglés"
-        correct = en
-        candidates = [x.get("en", "") for x in pool if x.get("en")]
-    elif direction == "es_ru":
-        prompt = f"{es} → ruso"
-        correct = ru
-        candidates = [x.get("ru", "") for x in pool if x.get("ru")]
-    elif direction == "ru_es":
-        prompt = f"{ru} → español"
-        correct = es
-        candidates = [x.get("es", "") for x in pool if x.get("es")]
+    if correct in options:
+        correct_index = options.index(correct)
     else:
-        prompt = f"{es} → inglés"
-        correct = en
-        candidates = [x.get("en", "") for x in pool if x.get("en")]
-
-    # Fallback if something missing
-    if not correct:
-        correct = en or es
-    if not candidates:
-        candidates = [correct]
-
-    distractors = random.sample(candidates, k=min(3, len(candidates)))
-    options = [correct] + distractors
-    random.shuffle(options)
-    correct_index = options.index(correct)
+        # Fallback: assume first option is correct if 'correct' missing or not found
+        correct_index = 0
 
     return {
-        "question": prompt,
+        "question": raw[field_sentence],
+        "options": options,
+        "correct_index": correct_index,
+        "explanation": raw.get("explanation", ""),
+    }
+
+
+# ---------- MODE: VOCAB ----------
+
+def make_vocab_question(direction):
+    """
+    direction: es_en, en_es, es_ru, ru_es
+    Uses vocab_items: {es, en, ru}
+    """
+    usable = [
+        it for it in vocab_items
+        if isinstance(it, dict)
+        and it.get("es")
+        and (it.get("en") or it.get("ru"))
+    ]
+    if not usable:
+        raise ValueError("No vocab items available.")
+
+    item = random.choice(usable)
+
+    # Decide source and target language fields
+    if direction == "es_en":
+        prompt_lang = "ES"
+        prompt_value = item["es"]
+        target_lang = "EN"
+        correct_answer = item.get("en", "")
+        distract_pool = [i.get("en") for i in usable if i is not item and i.get("en")]
+    elif direction == "en_es":
+        prompt_lang = "EN"
+        prompt_value = item["en"]
+        target_lang = "ES"
+        correct_answer = item.get("es", "")
+        distract_pool = [i.get("es") for i in usable if i is not item and i.get("es")]
+    elif direction == "es_ru":
+        prompt_lang = "ES"
+        prompt_value = item["es"]
+        target_lang = "RU"
+        correct_answer = item.get("ru", "")
+        distract_pool = [i.get("ru") for i in usable if i is not item and i.get("ru")]
+    elif direction == "ru_es":
+        prompt_lang = "RU"
+        prompt_value = item["ru"]
+        target_lang = "ES"
+        correct_answer = item.get("es", "")
+        distract_pool = [i.get("es") for i in usable if i is not item and i.get("es")]
+    else:
+        # Default
+        prompt_lang = "ES"
+        prompt_value = item["es"]
+        target_lang = "EN"
+        correct_answer = item.get("en", "")
+        distract_pool = [i.get("en") for i in usable if i is not item and i.get("en")]
+
+    if not prompt_value or not correct_answer:
+        # If something missing, just retry
+        return make_vocab_question("es_en")
+
+    # Build options
+    distract_pool = list({d for d in distract_pool if d and d != correct_answer})
+    random.shuffle(distract_pool)
+    distractors = distract_pool[:3]  # up to 3 distractors
+    options = [correct_answer] + distractors
+    random.shuffle(options)
+    correct_index = options.index(correct_answer)
+
+    question_text = f"Traduce ({prompt_lang} → {target_lang}): {prompt_value}"
+
+    return {
+        "question": question_text,
         "options": options,
         "correct_index": correct_index,
         "explanation": "",
     }
 
 
-def make_simple_cloze_question(mode: str):
-    """
-    For modes where JSON items look like:
-    { "sentence_with_blank": "...____...", "correct": "...", "options": [...], "explanation": "..." }
-    and only ONE blank.
-    """
-    items = DATA.get(mode, [])
-    if not items:
-        return {"question": f"No hay datos para {mode}.", "options": ["—"], "correct_index": 0}
-
-    item = random.choice(items)
-    sent = item.get("sentence_with_blank") or item.get("sentence") or ""
-    correct = item.get("correct")
-    options = item.get("options") or []
-    explanation = item.get("explanation") or ""
-
-    if not options and isinstance(correct, str):
-        options = [correct]
-
-    # Ensure correct in options
-    if isinstance(correct, str) and correct not in options:
-        options = [correct] + [o for o in options if o != correct]
-
-    # Remove duplicates
-    options = list(dict.fromkeys(options))
-    if not options:
-        options = [correct or ""]
-
-    correct_index = 0
-    if isinstance(correct, str) and correct in options:
-        correct_index = options.index(correct)
-
-    return {
-        "question": sent or "Pregunta sin texto.",
-        "options": options,
-        "correct_index": correct_index,
-        "explanation": explanation,
-    }
-
+# ---------- MODE: VERBS (conjugations) ----------
 
 def make_verbs_question():
-    items = DATA.get("verbs", [])
-    if not items:
-        return {"question": "No hay datos de verbos.", "options": ["—"], "correct_index": 0}
+    usable = [
+        it for it in verbs_items
+        if isinstance(it, dict)
+        and (it.get("question") or it.get("infinitive"))
+        and isinstance(it.get("options"), list)
+        and it.get("options")
+    ]
+    if not usable:
+        raise ValueError("No verbs items available.")
 
-    item = random.choice(items)
-    question = item.get("question") or "Conjuga el verbo."
-    correct = item.get("correct")
-    options = item.get("options") or []
-    explanation = item.get("explanation") or ""
+    raw = random.choice(usable)
+    options = raw["options"]
+    correct = raw.get("correct")
 
-    if isinstance(correct, str) and correct not in options:
-        options = [correct] + [o for o in options if o != correct]
+    if raw.get("question"):
+        question_text = raw["question"]
+    else:
+        infinitive = raw.get("infinitive", "???")
+        tense = raw.get("tense", "presente")
+        person = raw.get("person", "")
+        question_text = f"Conjuga '{infinitive}' para '{person}' en {tense}."
 
-    options = list(dict.fromkeys(options))
-    if not options:
-        options = [correct or ""]
-
-    correct_index = 0
-    if isinstance(correct, str) and correct in options:
+    if correct in options:
         correct_index = options.index(correct)
+    else:
+        correct_index = 0
 
     return {
-        "question": question,
+        "question": question_text,
         "options": options,
         "correct_index": correct_index,
-        "explanation": explanation,
+        "explanation": raw.get("explanation", ""),
     }
 
+
+# ---------- MODE: GUSTAR ----------
+
+def make_gustar_question():
+    return make_simple_mc_question(gustar_items, field_sentence="sentence_with_blank")
+
+
+# ---------- MODE: FUTURE ----------
+
+def make_future_question():
+    return make_simple_mc_question(future_items, field_sentence="sentence_with_blank")
+
+
+# ---------- MODE: REFLEXIVE ----------
+
+def make_reflexive_question():
+    return make_simple_mc_question(reflexive_items, field_sentence="sentence_with_blank")
+
+
+# ---------- MODE: PREPOSITIONS (BASIC) ----------
+
+def make_prepositions_question():
+    return make_simple_mc_question(prep_items, field_sentence="sentence_with_blank")
+
+
+# ---------- MODE: PREPOSITION CONTRAST (multi-blank support) ----------
 
 def make_preposition_contrast_question():
     """
-    Returns either:
-    - single-blank format:
-        {
-          "question": <str>,
-          "options": [..],
-          "correct_index": int,
-          "explanation": <str>
-        }
-    - or multi-blank format (only if JSON is well-formed):
-        {
-          "question": <str>,
-          "blanks": [
-            {"options": [..], "correct_index": int},
-            {"options": [..], "correct_index": int}
-          ],
-          "explanation": <str>
-        }
+    Supports two shapes:
+      1) Simple (legacy):
+         { sentence_with_blank, options, correct, explanation }
 
-    If an item has multiple '____' but 'correct' is NOT a list
-    with the same length, we SKIP it and pick another item.
+      2) Multi-blank:
+         {
+           "sentence_with_blank": "Trabajo ____ la escuela ____ dos horas.",
+           "blanks": [
+              {"options": [...], "correct": "para"},
+              {"options": [...], "correct": "por"}
+           ],
+           "explanation": "..."
+         }
+
+    If 'blanks' exists and is non-empty, we return 'blanks' for the frontend
+    to handle per-blank buttons (your JS already knows how to handle q.blanks).
+    Otherwise, we fall back to simple MC question.
     """
-    import random
+    usable = [it for it in prep_contrast_items if isinstance(it, dict)]
+    if not usable:
+        raise ValueError("No preposition_contrast items available.")
 
-    # safety loop so we can skip bad items without crashing
-    for _ in range(50):
-        item = random.choice(PREP_CONTRAST)
-        sent = item.get("sentence_with_blank", "")
-        options = item.get("options", [])
-        correct = item.get("correct")
+    raw = random.choice(usable)
 
-        # sanitize options
-        options = [o for o in options if isinstance(o, str)]
-        if not options:
-            options = ["a", "en", "por", "para"]
-
-        blanks_count = sent.count("____")
-
-        # --- MULTI-BLANK PATH ---
-        if blanks_count > 1:
-            # we only accept it if 'correct' is a list with one entry per blank
-            if isinstance(correct, list) and len(correct) == blanks_count:
-                blanks = []
-                for c in correct:
-                    # find or insert each correct option
-                    if c not in options:
-                        options = [c] + [o for o in options if o != c]
-                    idx = options.index(c)
-                    blanks.append(
-                        {
-                            "options": options,
-                            "correct_index": idx,
-                        }
-                    )
-
-                return {
-                    "question": sent,
-                    "blanks": blanks,
-                    "explanation": item.get("explanation", ""),
+    # Multi-blank path
+    if isinstance(raw.get("blanks"), list) and raw["blanks"]:
+        blanks_payload = []
+        for b in raw["blanks"]:
+            if not isinstance(b, dict):
+                continue
+            opts = b.get("options") or raw.get("options") or []
+            if not opts:
+                continue
+            correct = b.get("correct")
+            if "correct_index" in b and isinstance(b["correct_index"], int):
+                ci = b["correct_index"]
+                if not 0 <= ci < len(opts):
+                    ci = 0
+            else:
+                if correct in opts:
+                    ci = opts.index(correct)
+                else:
+                    ci = 0
+            blanks_payload.append(
+                {
+                    "options": opts,
+                    "correct_index": ci,
                 }
+            )
 
-            # malformed multi-blank item → skip and try another
-            continue
-
-        # --- SINGLE-BLANK PATH ---
-        if isinstance(correct, str):
-            if correct not in options:
-                options = [correct] + [o for o in options if o != correct]
-            correct_index = options.index(correct)
+        if blanks_payload:
             return {
-                "question": sent,
-                "options": options,
-                "correct_index": correct_index,
-                "explanation": item.get("explanation", ""),
+                "question": raw.get("sentence_with_blank", ""),
+                "blanks": blanks_payload,
+                "explanation": raw.get("explanation", ""),
             }
 
-        # malformed single-blank → skip
-        continue
+    # Fallback: treat as simple MC
+    return make_simple_mc_question(prep_contrast_items, field_sentence="sentence_with_blank")
 
-    # fallback if everything is garbage
-    return {
-        "question": "Voy ____ Madrid mañana.",
-        "options": ["a", "en", "por", "para"],
-        "correct_index": 0,
-        "explanation": "Ejemplo de emergencia: 'a' indica dirección.",
-    }
 
+# ---------- MODE: CONTEXT VOCAB ----------
 
 def make_context_vocab_question():
-    items = DATA.get("context_vocab", [])
-    if not items:
-        return {
-            "question": "No hay datos para vocabulario en contexto.",
-            "options": ["—"],
-            "correct_index": 0,
-            "explanation": "",
-        }
+    usable = [
+        it for it in context_vocab_items
+        if isinstance(it, dict)
+        and it.get("sentence_with_blank")
+        and isinstance(it.get("options"), list)
+        and it.get("options")
+    ]
+    if not usable:
+        raise ValueError("No context_vocab items available.")
 
-    item = random.choice(items)
-    sent = item.get("sentence_with_blank") or ""
-    correct = item.get("correct")
-    options = item.get("options") or []
-    explanation = item.get("explanation") or ""
-    tr_en = item.get("translation_en") or ""
-    tr_ru = item.get("translation_ru") or ""
+    raw = random.choice(usable)
+    options = raw["options"]
+    correct = raw.get("correct")
 
-    if isinstance(correct, str) and correct not in options:
-        options = [correct] + [o for o in options if o != correct]
-    options = list(dict.fromkeys(options))
-    if not options:
-        options = [correct or ""]
-
-    correct_index = 0
-    if isinstance(correct, str) and correct in options:
+    if correct in options:
         correct_index = options.index(correct)
+    else:
+        correct_index = 0
 
-    full_expl = explanation
-    if tr_en or tr_ru:
-        extra = []
-        if tr_en:
-            extra.append(f"EN: {tr_en}")
-        if tr_ru:
-            extra.append(f"RU: {tr_ru}")
-        if full_expl:
-            full_expl = full_expl + "\n\n" + "\n".join(extra)
-        else:
-            full_expl = "\n".join(extra)
+    explanation_parts = []
+    if raw.get("explanation"):
+        explanation_parts.append(raw["explanation"])
+    if raw.get("translation_en"):
+        explanation_parts.append(f"EN: {raw['translation_en']}")
+    if raw.get("translation_ru"):
+        explanation_parts.append(f"RU: {raw['translation_ru']}")
+
+    explanation = "\n\n".join(explanation_parts).strip()
 
     return {
-        "question": sent or "Pregunta sin texto.",
+        "question": raw["sentence_with_blank"],
         "options": options,
         "correct_index": correct_index,
-        "explanation": full_expl,
+        "explanation": explanation,
     }
 
 
-# ---------- API ----------
+# ---------- ROUTES ----------
+
+@app.route("/")
+def index():
+    # Serve index.html from the project root (your current file)
+    return app.send_static_file("index.html")
+
 
 @app.route("/api/question")
 def api_question():
     mode = request.args.get("mode", "vocab")
     direction = request.args.get("direction", "es_en")
 
-    if mode == "vocab":
-        q = make_vocab_question(direction=direction)
-    elif mode == "prepositions":
-        q = make_prepositions_question()
-    elif mode == "preposition_contrast":
-        q = make_preposition_contrast_question()
-    elif mode == "verbs":
-        q = make_verbs_question()
-    elif mode == "gustar":
-        q = make_gustar_question()
-    elif mode == "future":
-        q = make_future_question()
-    elif mode == "reflexive":
-        q = make_reflexive_question()
-    elif mode == "context_vocab":
-        q = make_context_vocab_question()
-    else:
-        q = {"question": "Modo desconocido", "options": [], "correct_index": 0}
+    try:
+        if mode == "vocab":
+            q = make_vocab_question(direction)
+        elif mode == "prepositions":
+            q = make_prepositions_question()
+        elif mode == "preposition_contrast":
+            q = make_preposition_contrast_question()
+        elif mode == "verbs":
+            q = make_verbs_question()
+        elif mode == "gustar":
+            q = make_gustar_question()
+        elif mode == "future":
+            q = make_future_question()
+        elif mode == "reflexive":
+            q = make_reflexive_question()
+        elif mode == "context_vocab":
+            q = make_context_vocab_question()
+        else:
+            return jsonify({"error": f"Unknown mode {mode}"}), 400
 
-    return jsonify(q)
+        return jsonify(q)
 
+    except Exception as e:
+        # Very important: we don't crash silently; you see the error in logs.
+        print(f"[ERROR] /api/question failed for mode={mode}: {e}")
+        return jsonify({"error": "internal server error"}), 500
 
 
 if __name__ == "__main__":
-    # For local testing. On Render you'll use gunicorn web_trainer:app
-    app.run(host="0.0.0.0", port=8000, debug=True)
+    # For local development
+    app.run(host="0.0.0.0", port=5000, debug=True)
