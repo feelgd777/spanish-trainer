@@ -1,0 +1,1722 @@
+[
+  {
+    "es": "ser",
+    "en": "to be (permanent)",
+    "ru": "быть (постоянно)"
+  },
+  {
+    "es": "estar",
+    "en": "to be (not permanent)",
+    "ru": "быть (временно)"
+  },
+  {
+    "es": "pronombre",
+    "en": "pronoun",
+    "ru": "местоимение"
+  },
+  {
+    "es": "hablar",
+    "en": "to speak",
+    "ru": "говорить"
+  },
+  {
+    "es": "comer",
+    "en": "to eat",
+    "ru": "есть"
+  },
+  {
+    "es": "vivir",
+    "en": "to live",
+    "ru": "жить"
+  },
+  {
+    "es": "preferir",
+    "en": "to prefer",
+    "ru": "предпочитать"
+  },
+  {
+    "es": "pensar",
+    "en": "to think",
+    "ru": "думать"
+  },
+  {
+    "es": "empezar",
+    "en": "to begin",
+    "ru": "начинать"
+  },
+  {
+    "es": "cerrar",
+    "en": "to close",
+    "ru": "закрывать"
+  },
+  {
+    "es": "entender",
+    "en": "to understand",
+    "ru": "понимать"
+  },
+  {
+    "es": "querer",
+    "en": "to want",
+    "ru": "хотеть"
+  },
+  {
+    "es": "perder",
+    "en": "to lose",
+    "ru": "терять"
+  },
+  {
+    "es": "sentir",
+    "en": "to feel",
+    "ru": "чувствовать"
+  },
+  {
+    "es": "dormir",
+    "en": "to sleep",
+    "ru": "спать"
+  },
+  {
+    "es": "poder",
+    "en": "to be able to/can",
+    "ru": "мочь"
+  },
+  {
+    "es": "volver",
+    "en": "to return",
+    "ru": "возвращаться"
+  },
+  {
+    "es": "encontrar",
+    "en": "to find",
+    "ru": "находить"
+  },
+  {
+    "es": "recordar",
+    "en": "to remember",
+    "ru": "помнить"
+  },
+  {
+    "es": "contar",
+    "en": "to tell/count",
+    "ru": "рассказывать/считать"
+  },
+  {
+    "es": "costar",
+    "en": "to cost",
+    "ru": "стоить"
+  },
+  {
+    "es": "almorzar",
+    "en": "to have lunch",
+    "ru": "обедать"
+  },
+  {
+    "es": "pedir",
+    "en": "to ask/order",
+    "ru": "просить/заказывать"
+  },
+  {
+    "es": "vestir",
+    "en": "to wear/dress",
+    "ru": "одевать(ся)"
+  },
+  {
+    "es": "servir",
+    "en": "to serve",
+    "ru": "служить/обслуживать"
+  },
+  {
+    "es": "repetir",
+    "en": "to repeat",
+    "ru": "повторять"
+  },
+  {
+    "es": "seguir",
+    "en": "to follow/continue",
+    "ru": "следовать/продолжать"
+  },
+  {
+    "es": "decir",
+    "en": "to say/tell",
+    "ru": "говорить/сказать"
+  },
+  {
+    "es": "reír",
+    "en": "to laugh",
+    "ru": "смеяться"
+  },
+  {
+    "es": "sonreír",
+    "en": "to smile",
+    "ru": "улыбаться"
+  },
+  {
+    "es": "hacer",
+    "en": "to do/make",
+    "ru": "делать/создавать"
+  },
+  {
+    "es": "salir",
+    "en": "to go out/leave",
+    "ru": "выходить/уходить"
+  },
+  {
+    "es": "poner",
+    "en": "to put/place",
+    "ru": "класть/ставить"
+  },
+  {
+    "es": "tener",
+    "en": "to have",
+    "ru": "иметь"
+  },
+  {
+    "es": "venir",
+    "en": "to come",
+    "ru": "приходить"
+  },
+  {
+    "es": "traer",
+    "en": "to bring",
+    "ru": "приносить"
+  },
+  {
+    "es": "oír",
+    "en": "to hear",
+    "ru": "слышать"
+  },
+  {
+    "es": "conocer",
+    "en": "to know/be familiar with",
+    "ru": "знать/быть знакомым"
+  },
+  {
+    "es": "conducir",
+    "en": "to drive",
+    "ru": "водить"
+  },
+  {
+    "es": "traducir",
+    "en": "to translate",
+    "ru": "переводить"
+  },
+  {
+    "es": "parecer",
+    "en": "to seem/appear",
+    "ru": "казаться"
+  },
+  {
+    "es": "producir",
+    "en": "to produce",
+    "ru": "производить"
+  },
+  {
+    "es": "escoger",
+    "en": "to choose/pick",
+    "ru": "выбирать"
+  },
+  {
+    "es": "dirigir",
+    "en": "to direct/manage",
+    "ru": "управлять/руководить"
+  },
+  {
+    "es": "recoger",
+    "en": "to pick up/gather",
+    "ru": "собирать"
+  },
+  {
+    "es": "proteger",
+    "en": "to protect",
+    "ru": "защищать"
+  },
+  {
+    "es": "saber",
+    "en": "to know (facts/info/skills)",
+    "ru": "знать (факты/информацию)"
+  },
+  {
+    "es": "caber",
+    "en": "to fit",
+    "ru": "вмещаться"
+  },
+  {
+    "es": "ver",
+    "en": "to see",
+    "ru": "видеть"
+  },
+  {
+    "es": "dar",
+    "en": "to give",
+    "ru": "давать"
+  },
+  {
+    "es": "despertarse",
+    "en": "to wake up",
+    "ru": "просыпаться"
+  },
+  {
+    "es": "ducharse",
+    "en": "to shower",
+    "ru": "принимать душ"
+  },
+  {
+    "es": "enojarse",
+    "en": "to get angry",
+    "ru": "злиться"
+  },
+  {
+    "es": "quedarse",
+    "en": "to stay/remain",
+    "ru": "оставаться"
+  },
+  {
+    "es": "levantarse",
+    "en": "to get up",
+    "ru": "вставать"
+  },
+  {
+    "es": "preparar",
+    "en": "to prepare",
+    "ru": "готовить"
+  },
+  {
+    "es": "leer",
+    "en": "to read",
+    "ru": "читать"
+  },
+  {
+    "es": "tomar",
+    "en": "to take/drink",
+    "ru": "брать/пить"
+  },
+  {
+    "es": "sentirse",
+    "en": "to feel (oneself)",
+    "ru": "чувствовать себя"
+  },
+  {
+    "es": "lavarse",
+    "en": "to wash (oneself)",
+    "ru": "мыть(ся)"
+  },
+  {
+    "es": "ponerse",
+    "en": "to put on (oneself)",
+    "ru": "надевать на себя"
+  },
+  {
+    "es": "escuchar",
+    "en": "to listen",
+    "ru": "слушать"
+  },
+  {
+    "es": "arreglarse",
+    "en": "to get ready",
+    "ru": "собираться"
+  },
+  {
+    "es": "trabajar",
+    "en": "to work",
+    "ru": "работать"
+  },
+  {
+    "es": "responder",
+    "en": "to answer/respond",
+    "ru": "отвечать"
+  },
+  {
+    "es": "organizar",
+    "en": "to organize",
+    "ru": "организовывать"
+  },
+  {
+    "es": "reírse",
+    "en": "to laugh (reflexive)",
+    "ru": "смеяться"
+  },
+  {
+    "es": "regresar",
+    "en": "to return",
+    "ru": "возвращаться"
+  },
+  {
+    "es": "relajarse",
+    "en": "to relax",
+    "ru": "расслабляться"
+  },
+  {
+    "es": "cocinar",
+    "en": "to cook",
+    "ru": "готовить"
+  },
+  {
+    "es": "mirar",
+    "en": "to watch/look at",
+    "ru": "смотреть"
+  },
+  {
+    "es": "cepillarse",
+    "en": "to brush (oneself)",
+    "ru": "чистить (зубы)"
+  },
+  {
+    "es": "agradecer",
+    "en": "to thank/appreciate",
+    "ru": "благодарить"
+  },
+  {
+    "es": "gustar",
+    "en": "to like",
+    "ru": "нравиться"
+  },
+  {
+    "es": "encantar",
+    "en": "to love/delight",
+    "ru": "очень нравиться"
+  },
+  {
+    "es": "interesar",
+    "en": "to interest",
+    "ru": "интересовать"
+  },
+  {
+    "es": "aprender",
+    "en": "to learn",
+    "ru": "учить"
+  },
+  {
+    "es": "practicar",
+    "en": "to practice",
+    "ru": "практиковать"
+  },
+  {
+    "es": "parecer",
+    "en": "to seem",
+    "ru": "казаться"
+  },
+  {
+    "es": "viajar",
+    "en": "to travel",
+    "ru": "путешествовать"
+  },
+  {
+    "es": "conocer",
+    "en": "to know (people/places)",
+    "ru": "знать (людей/места)"
+  },
+  {
+    "es": "tocar",
+    "en": "to play (an instrument)",
+    "ru": "играть (на инструменте)"
+  },
+  {
+    "es": "molestar",
+    "en": "to bother",
+    "ru": "беспокоить"
+  },
+  {
+    "es": "fascinar",
+    "en": "to fascinate",
+    "ru": "очаровывать"
+  },
+  {
+    "es": "importar",
+    "en": "to matter/care about",
+    "ru": "иметь значение, заботиться"
+  },
+  {
+    "es": "ir",
+    "en": "to go",
+    "ru": "идти"
+  },
+  {
+    "es": "pensar",
+    "en": "to think",
+    "ru": "думать"
+  },
+  {
+    "es": "tener planes de",
+    "en": "to have plans to",
+    "ru": "иметь планы"
+  },
+  {
+    "es": "mañana",
+    "en": "tomorrow",
+    "ru": "завтра"
+  },
+  {
+    "es": "pasado mañana",
+    "en": "the day after tomorrow",
+    "ru": "послезавтра"
+  },
+  {
+    "es": "la próxima semana",
+    "en": "next week",
+    "ru": "на следующей неделе"
+  },
+  {
+    "es": "el próximo mes",
+    "en": "next month",
+    "ru": "в следующем месяце"
+  },
+  {
+    "es": "el próximo año",
+    "en": "next year",
+    "ru": "в следующем году"
+  },
+  {
+    "es": "dentro de",
+    "en": "within/in (time)",
+    "ru": "через (время)"
+  },
+  {
+    "es": "más tarde",
+    "en": "later",
+    "ru": "позже"
+  },
+  {
+    "es": "esta noche",
+    "en": "tonight",
+    "ru": "сегодня вечером"
+  },
+  {
+    "es": "pronto",
+    "en": "soon",
+    "ru": "скоро"
+  },
+  {
+    "es": "en el futuro",
+    "en": "in the future",
+    "ru": "в будущем"
+  },
+  {
+    "es": "luego",
+    "en": "then/later",
+    "ru": "потом"
+  },
+  {
+    "es": "el fin de semana que viene",
+    "en": "next weekend",
+    "ru": "на следующих выходных"
+  },
+  {
+    "es": "en unos minutos",
+    "en": "in some minutes",
+    "ru": "через несколько минут"
+  },
+  {
+    "es": "dentro de poco",
+    "en": "in a little while",
+    "ru": "через короткое время"
+  },
+  {
+    "es": "algún día",
+    "en": "some day",
+    "ru": "когда-нибудь"
+  },
+  {
+    "es": "visitar",
+    "en": "to visit",
+    "ru": "посещать"
+  },
+  {
+    "es": "mudarse",
+    "en": "to move (residence)",
+    "ru": "переезжать"
+  },
+  {
+    "es": "trabajar",
+    "en": "to work",
+    "ru": "работать"
+  },
+  {
+    "es": "celebrar",
+    "en": "to celebrate",
+    "ru": "праздновать"
+  },
+  {
+    "es": "aprender",
+    "en": "to learn",
+    "ru": "учить"
+  },
+  {
+    "es": "estudiar",
+    "en": "to study",
+    "ru": "учиться"
+  },
+  {
+    "es": "cocinar",
+    "en": "to cook",
+    "ru": "готовить"
+  },
+  {
+    "es": "arreglar",
+    "en": "to fix/arrange",
+    "ru": "чинить/приводить в порядок"
+  },
+  {
+    "es": "terminar",
+    "en": "to finish",
+    "ru": "заканчивать"
+  },
+  {
+    "es": "comenzar",
+    "en": "to begin/start",
+    "ru": "начинать"
+  },
+  {
+    "es": "asistir",
+    "en": "to attend",
+    "ru": "посещать"
+  },
+  {
+    "es": "abrir",
+    "en": "to open",
+    "ru": "открывать"
+  },
+  {
+    "es": "ver",
+    "en": "to watch/see",
+    "ru": "смотреть/видеть"
+  },
+  {
+    "es": "llamar",
+    "en": "to call",
+    "ru": "звонить"
+  },
+  {
+    "es": "hacer ejercicio",
+    "en": "to exercise",
+    "ru": "заниматься спортом"
+  },
+  {
+    "es": "relajarse",
+    "en": "to relax",
+    "ru": "расслабляться"
+  },
+  {
+    "es": "organizar",
+    "en": "to organize",
+    "ru": "организовывать"
+  },
+  {
+    "es": "comprar",
+    "en": "to buy",
+    "ru": "покупать"
+  },
+  {
+    "es": "estudiar",
+    "en": "to study",
+    "ru": "учиться"
+  },
+  {
+    "es": "visitar",
+    "en": "to visit",
+    "ru": "посещать"
+  },
+  {
+    "es": "caminar",
+    "en": "to walk",
+    "ru": "ходить пешком"
+  },
+  {
+    "es": "beber",
+    "en": "to drink",
+    "ru": "пить"
+  },
+  {
+    "es": "tomar",
+    "en": "to take/drink",
+    "ru": "брать/пить"
+  },
+  {
+    "es": "sacar fotos",
+    "en": "to take photos",
+    "ru": "фотографировать"
+  },
+  {
+    "es": "pasear",
+    "en": "to stroll/walk",
+    "ru": "гулять"
+  },
+  {
+    "es": "comprar",
+    "en": "to buy",
+    "ru": "покупать"
+  },
+  {
+    "es": "volver",
+    "en": "to return",
+    "ru": "возвращаться"
+  },
+  {
+    "es": "viajar",
+    "en": "to travel",
+    "ru": "путешествовать"
+  },
+  {
+    "es": "a",
+    "en": "to/at",
+    "ru": "к/в"
+  },
+  {
+    "es": "en",
+    "en": "in/on/at/by",
+    "ru": "в/на/у/по"
+  },
+  {
+    "es": "con",
+    "en": "with",
+    "ru": "с"
+  },
+  {
+    "es": "por",
+    "en": "because of/through/by/for",
+    "ru": "из-за/через/по/за"
+  },
+  {
+    "es": "para",
+    "en": "for/to/in order to",
+    "ru": "для/к/чтобы"
+  },
+  {
+    "es": "de",
+    "en": "of/from/about",
+    "ru": "из/от/о"
+  },
+  {
+    "es": "sin",
+    "en": "without",
+    "ru": "без"
+  },
+  {
+    "es": "sobre",
+    "en": "about/over/on",
+    "ru": "о/над/на"
+  },
+  {
+    "es": "tiempo libre",
+    "en": "free time",
+    "ru": "свободное время"
+  },
+  {
+    "es": "fines de semana",
+    "en": "weekends",
+    "ru": "выходные"
+  },
+  {
+    "es": "mañana",
+    "en": "morning/tomorrow",
+    "ru": "утро/завтра"
+  },
+  {
+    "es": "noche",
+    "en": "night",
+    "ru": "ночь"
+  },
+  {
+    "es": "tarde",
+    "en": "afternoon/late",
+    "ru": "вечер/поздно"
+  },
+  {
+    "es": "hoy",
+    "en": "today",
+    "ru": "сегодня"
+  },
+  {
+    "es": "ayer",
+    "en": "yesterday",
+    "ru": "вчера"
+  },
+  {
+    "es": "pronto",
+    "en": "soon",
+    "ru": "скоро"
+  },
+  {
+    "es": "luego",
+    "en": "later/then",
+    "ru": "потом"
+  },
+  {
+    "es": "siempre",
+    "en": "always",
+    "ru": "всегда"
+  },
+  {
+    "es": "a veces",
+    "en": "sometimes",
+    "ru": "иногда"
+  },
+  {
+    "es": "muchas veces",
+    "en": "many times",
+    "ru": "много раз"
+  },
+  {
+    "es": "juntos",
+    "en": "together",
+    "ru": "вместе"
+  },
+  {
+    "es": "además",
+    "en": "besides/in addition",
+    "ru": "кроме того"
+  },
+  {
+    "es": "también",
+    "en": "also",
+    "ru": "также"
+  },
+  {
+    "es": "pero",
+    "en": "but",
+    "ru": "но"
+  },
+  {
+    "es": "porque",
+    "en": "because",
+    "ru": "потому что"
+  },
+  {
+    "es": "aunque",
+    "en": "although/even though",
+    "ru": "хотя"
+  },
+  {
+    "es": "antes",
+    "en": "before",
+    "ru": "до"
+  },
+  {
+    "es": "después",
+    "en": "after",
+    "ru": "после"
+  },
+  {
+    "es": "sobre",
+    "en": "about",
+    "ru": "о"
+  },
+  {
+    "es": "y",
+    "en": "and",
+    "ru": "и"
+  },
+  {
+    "es": "o",
+    "en": "or",
+    "ru": "или"
+  },
+  {
+    "es": "pero",
+    "en": "but",
+    "ru": "но"
+  },
+  {
+    "es": "porque",
+    "en": "because",
+    "ru": "потому что"
+  },
+  {
+    "es": "con",
+    "en": "with",
+    "ru": "с"
+  },
+  {
+    "es": "sin",
+    "en": "without",
+    "ru": "без"
+  },
+  {
+    "es": "para",
+    "en": "for/to/in order to",
+    "ru": "для/к/чтобы"
+  },
+  {
+    "es": "por",
+    "en": "because of/through/by/for",
+    "ru": "из-за/через/по/за"
+  },
+  {
+    "es": "de",
+    "en": "of/from/about",
+    "ru": "из/от/о"
+  },
+  {
+    "es": "a",
+    "en": "to/at",
+    "ru": "к/в"
+  },
+  {
+    "es": "en",
+    "en": "in/on/at/by",
+    "ru": "в/на/у/по"
+  },
+  {
+    "es": "gato",
+    "en": "cat",
+    "ru": "кот"
+  },
+  {
+    "es": "agua fría",
+    "en": "cold water",
+    "ru": "холодная вода"
+  },
+  {
+    "es": "agua caliente",
+    "en": "hot water",
+    "ru": "горячая вода"
+  },
+  {
+    "es": "café",
+    "en": "coffee",
+    "ru": "кофе"
+  },
+  {
+    "es": "huevo",
+    "en": "egg",
+    "ru": "яйцо"
+  },
+  {
+    "es": "fiesta",
+    "en": "party",
+    "ru": "вечеринка"
+  },
+  {
+    "es": "hermano",
+    "en": "brother",
+    "ru": "брат"
+  },
+  {
+    "es": "amigo",
+    "en": "friend",
+    "ru": "друг"
+  },
+  {
+    "es": "película",
+    "en": "movie",
+    "ru": "фильм"
+  },
+  {
+    "es": "cine",
+    "en": "movie theater",
+    "ru": "кинотеатр"
+  },
+  {
+    "es": "idioma",
+    "en": "language",
+    "ru": "язык"
+  },
+  {
+    "es": "inglés",
+    "en": "English",
+    "ru": "английский"
+  },
+  {
+    "es": "francés",
+    "en": "French",
+    "ru": "французский"
+  },
+  {
+    "es": "zoológico",
+    "en": "zoo",
+    "ru": "зоопарк"
+  },
+  {
+    "es": "refugio",
+    "en": "shelter",
+    "ru": "приют"
+  },
+  {
+    "es": "familia",
+    "en": "family",
+    "ru": "семья"
+  },
+  {
+    "es": "ciudad",
+    "en": "city",
+    "ru": "город"
+  },
+  {
+    "es": "verano",
+    "en": "summer",
+    "ru": "лето"
+  },
+  {
+    "es": "regalo",
+    "en": "gift",
+    "ru": "подарок"
+  },
+  {
+    "es": "historia",
+    "en": "history/story",
+    "ru": "история"
+  },
+  {
+    "es": "chocolate",
+    "en": "chocolate",
+    "ru": "шоколад"
+  },
+  {
+    "es": "película",
+    "en": "movie",
+    "ru": "фильм"
+  },
+  {
+    "es": "música",
+    "en": "music",
+    "ru": "музыка"
+  },
+  {
+    "es": "restaurante",
+    "en": "restaurant",
+    "ru": "ресторан"
+  },
+  {
+    "es": "tiempo libre",
+    "en": "free time",
+    "ru": "свободное время"
+  },
+  {
+    "es": "empanada",
+    "en": "empanada (stuffed pastry)",
+    "ru": "эмпанада"
+  },
+  {
+    "es": "carne",
+    "en": "meat",
+    "ru": "мясо"
+  },
+  {
+    "es": "helado",
+    "en": "ice cream",
+    "ru": "мороженое"
+  },
+  {
+    "es": "idioma",
+    "en": "language",
+    "ru": "язык"
+  },
+  {
+    "es": "divertido",
+    "en": "fun",
+    "ru": "веселый"
+  },
+  {
+    "es": "idea",
+    "en": "idea",
+    "ru": "идея"
+  },
+  {
+    "es": "película",
+    "en": "movie",
+    "ru": "фильм"
+  },
+  {
+    "es": "animales",
+    "en": "animals",
+    "ru": "животные"
+  },
+  {
+    "es": "gato",
+    "en": "cat",
+    "ru": "кот"
+  },
+  {
+    "es": "nadar",
+    "en": "to swim",
+    "ru": "плавать"
+  },
+  {
+    "es": "historia",
+    "en": "history",
+    "ru": "история"
+  },
+  {
+    "es": "chocolate",
+    "en": "chocolate",
+    "ru": "шоколад"
+  },
+  {
+    "es": "película",
+    "en": "movie",
+    "ru": "фильм"
+  },
+  {
+    "es": "escuchar",
+    "en": "to listen",
+    "ru": "слушать"
+  },
+  {
+    "es": "aburrir",
+    "en": "to bore",
+    "ru": "скучать"
+  },
+  {
+    "es": "molestar",
+    "en": "to bother",
+    "ru": "беспокоить"
+  },
+  {
+    "es": "fascinar",
+    "en": "to fascinate",
+    "ru": "очаровывать"
+  },
+  {
+    "es": "importar",
+    "en": "to matter",
+    "ru": "иметь значение"
+  },
+  {
+    "es": "ir a",
+    "en": "going to (future)",
+    "ru": "собираться (будущее)"
+  },
+  {
+    "es": "pensar",
+    "en": "to think/plan",
+    "ru": "думать/планировать"
+  },
+  {
+    "es": "tener planes de",
+    "en": "to have plans to",
+    "ru": "иметь планы"
+  },
+  {
+    "es": "dirección",
+    "en": "direction",
+    "ru": "направление"
+  },
+  {
+    "es": "destino",
+    "en": "destination",
+    "ru": "пункт назначения"
+  },
+  {
+    "es": "lugar",
+    "en": "place",
+    "ru": "место"
+  },
+  {
+    "es": "tiempo",
+    "en": "time/weather",
+    "ru": "время/погода"
+  },
+  {
+    "es": "medio de transporte",
+    "en": "means of transport",
+    "ru": "транспорт"
+  },
+  {
+    "es": "compañía",
+    "en": "company/companionship",
+    "ru": "компания"
+  },
+  {
+    "es": "instrumento",
+    "en": "instrument",
+    "ru": "инструмент"
+  },
+  {
+    "es": "modo",
+    "en": "manner/mode",
+    "ru": "способ"
+  },
+  {
+    "es": "causa",
+    "en": "cause",
+    "ru": "причина"
+  },
+  {
+    "es": "lugar aproximado",
+    "en": "approximate place",
+    "ru": "примерное место"
+  },
+  {
+    "es": "duración de tiempo",
+    "en": "duration of time",
+    "ru": "продолжительность времени"
+  },
+  {
+    "es": "cambio",
+    "en": "exchange/change",
+    "ru": "обмен/изменение"
+  },
+  {
+    "es": "finalidad",
+    "en": "purpose",
+    "ru": "цель"
+  },
+  {
+    "es": "destinatario",
+    "en": "recipient",
+    "ru": "получатель"
+  },
+  {
+    "es": "tiempo límite",
+    "en": "deadline",
+    "ru": "крайний срок"
+  },
+  {
+    "es": "origen",
+    "en": "origin",
+    "ru": "происхождение"
+  },
+  {
+    "es": "posesión",
+    "en": "possession",
+    "ru": "владение"
+  },
+  {
+    "es": "material",
+    "en": "material",
+    "ru": "материал"
+  },
+  {
+    "es": "tema",
+    "en": "topic/subject",
+    "ru": "тема"
+  },
+  {
+    "es": "sin",
+    "en": "without",
+    "ru": "без"
+  },
+  {
+    "es": "agua",
+    "en": "water",
+    "ru": "вода"
+  },
+  {
+    "es": "cuchillo",
+    "en": "knife",
+    "ru": "нож"
+  },
+  {
+    "es": "pan",
+    "en": "bread",
+    "ru": "хлеб"
+  },
+  {
+    "es": "paraguas",
+    "en": "umbrella",
+    "ru": "зонт"
+  },
+  {
+    "es": "gato",
+    "en": "cat",
+    "ru": "кот"
+  },
+  {
+    "es": "cama",
+    "en": "bed",
+    "ru": "кровать"
+  },
+  {
+    "es": "hotel",
+    "en": "hotel",
+    "ru": "отель"
+  },
+  {
+    "es": "comida típica",
+    "en": "typical food",
+    "ru": "традиционная еда"
+  },
+  {
+    "es": "jugo",
+    "en": "juice",
+    "ru": "сок"
+  },
+  {
+    "es": "té de coca",
+    "en": "coca tea",
+    "ru": "чай из коки"
+  },
+  {
+    "es": "frío",
+    "en": "cold",
+    "ru": "холод"
+  },
+  {
+    "es": "montaña",
+    "en": "mountain",
+    "ru": "гора"
+  },
+  {
+    "es": "ruinas antiguas",
+    "en": "ancient ruins",
+    "ru": "древние руины"
+  },
+  {
+    "es": "foto",
+    "en": "photo",
+    "ru": "фотография"
+  },
+  {
+    "es": "guía",
+    "en": "guide",
+    "ru": "гид"
+  },
+  {
+    "es": "historia",
+    "en": "history",
+    "ru": "история"
+  },
+  {
+    "es": "calle",
+    "en": "street",
+    "ru": "улица"
+  },
+  {
+    "es": "gente",
+    "en": "people",
+    "ru": "люди"
+  },
+  {
+    "es": "artesanía",
+    "en": "handicraft",
+    "ru": "ремесло"
+  },
+  {
+    "es": "lana",
+    "en": "wool",
+    "ru": "шерсть"
+  },
+  {
+    "es": "alpaca",
+    "en": "alpaca",
+    "ru": "альпака"
+  },
+  {
+    "es": "ceviche",
+    "en": "ceviche (dish)",
+    "ru": "севиче"
+  },
+  {
+    "es": "recuerdo",
+    "en": "souvenir",
+    "ru": "сувенир"
+  },
+  {
+    "es": "regalo",
+    "en": "gift",
+    "ru": "подарок"
+  },
+  {
+    "es": "cansado",
+    "en": "tired",
+    "ru": "уставший"
+  },
+  {
+    "es": "feliz",
+    "en": "happy",
+    "ru": "счастливый"
+  },
+  {
+    "es": "lleno",
+    "en": "full",
+    "ru": "полный"
+  },
+  {
+    "es": "llevar",
+    "en": "to wear/carry",
+    "ru": "носить/нести"
+  },
+  {
+    "es": "pantalón",
+    "en": "pants",
+    "ru": "штаны"
+  },
+  {
+    "es": "suéter",
+    "en": "sweater",
+    "ru": "свитер"
+  },
+  {
+    "es": "bolso",
+    "en": "bag",
+    "ru": "сумка"
+  },
+  {
+    "es": "tacón",
+    "en": "heel (shoe)",
+    "ru": "каблук"
+  },
+  {
+    "es": "invierno",
+    "en": "winter",
+    "ru": "зима"
+  },
+  {
+    "es": "gorro",
+    "en": "hat",
+    "ru": "шапка"
+  },
+  {
+    "es": "lentes de sol",
+    "en": "sunglasses",
+    "ru": "солнечные очки"
+  },
+  {
+    "es": "audífonos",
+    "en": "headphones",
+    "ru": "наушники"
+  },
+  {
+    "es": "zapato",
+    "en": "shoe",
+    "ru": "туфля"
+  },
+  {
+    "es": "correr",
+    "en": "to run",
+    "ru": "бегать"
+  },
+  {
+    "es": "abrigo",
+    "en": "coat",
+    "ru": "пальто"
+  },
+  {
+    "es": "lluvia",
+    "en": "rain",
+    "ru": "дождь"
+  },
+  {
+    "es": "frío",
+    "en": "cold",
+    "ru": "холод"
+  },
+  {
+    "es": "pie",
+    "en": "foot",
+    "ru": "нога"
+  },
+  {
+    "es": "cabeza",
+    "en": "head",
+    "ru": "голова"
+  },
+  {
+    "es": "primavera",
+    "en": "spring",
+    "ru": "весна"
+  },
+  {
+    "es": "bandera",
+    "en": "flag",
+    "ru": "флаг"
+  },
+  {
+    "es": "arroz",
+    "en": "rice",
+    "ru": "рис"
+  },
+  {
+    "es": "comida",
+    "en": "food",
+    "ru": "еда"
+  },
+  {
+    "es": "sal",
+    "en": "salt",
+    "ru": "соль"
+  },
+  {
+    "es": "verdura",
+    "en": "vegetable",
+    "ru": "овощ"
+  },
+  {
+    "es": "pera",
+    "en": "pear",
+    "ru": "груша"
+  },
+  {
+    "es": "pimiento",
+    "en": "bell pepper",
+    "ru": "перец"
+  },
+  {
+    "es": "ajo",
+    "en": "garlic",
+    "ru": "чеснок"
+  },
+  {
+    "es": "piña",
+    "en": "pineapple",
+    "ru": "ананас"
+  },
+  {
+    "es": "coliflor",
+    "en": "cauliflower",
+    "ru": "цветная капуста"
+  },
+  {
+    "es": "limón",
+    "en": "lemon",
+    "ru": "лимон"
+  },
+  {
+    "es": "zanahoria",
+    "en": "carrot",
+    "ru": "морковь"
+  },
+  {
+    "es": "calabaza",
+    "en": "pumpkin",
+    "ru": "тыква"
+  },
+  {
+    "es": "lechuga",
+    "en": "lettuce",
+    "ru": "салат"
+  },
+  {
+    "es": "gris",
+    "en": "grey",
+    "ru": "серый"
+  },
+  {
+    "es": "rosa",
+    "en": "pink",
+    "ru": "розовый"
+  },
+  {
+    "es": "naranja",
+    "en": "orange",
+    "ru": "оранжевый"
+  },
+  {
+    "es": "amarillo",
+    "en": "yellow",
+    "ru": "желтый"
+  },
+  {
+    "es": "azul",
+    "en": "blue",
+    "ru": "синий"
+  },
+  {
+    "es": "morado",
+    "en": "purple",
+    "ru": "фиолетовый"
+  },
+  {
+    "es": "arcoíris",
+    "en": "rainbow",
+    "ru": "радуга"
+  },
+  {
+    "es": "país",
+    "en": "country",
+    "ru": "страна"
+  },
+  {
+    "es": "caer",
+    "en": "to fall",
+    "ru": "падать"
+  },
+  {
+    "es": "valer",
+    "en": "to be worth",
+    "ru": "стоить"
+  },
+  {
+    "es": "nacer",
+    "en": "to be born",
+    "ru": "рождаться"
+  },
+  {
+    "es": "desnudarse",
+    "en": "to undress",
+    "ru": "раздеваться"
+  },
+  {
+    "es": "espejo",
+    "en": "mirror",
+    "ru": "зеркало"
+  },
+  {
+    "es": "naturaleza",
+    "en": "nature",
+    "ru": "природа"
+  },
+  {
+    "es": "sol",
+    "en": "sun",
+    "ru": "солнце"
+  },
+  {
+    "es": "brillante",
+    "en": "bright",
+    "ru": "яркий"
+  },
+  {
+    "es": "cielo",
+    "en": "sky",
+    "ru": "небо"
+  },
+  {
+    "es": "nube",
+    "en": "cloud",
+    "ru": "облако"
+  },
+  {
+    "es": "despejado",
+    "en": "clear (sky)",
+    "ru": "ясный"
+  },
+  {
+    "es": "arena",
+    "en": "sand",
+    "ru": "песок"
+  },
+  {
+    "es": "fino",
+    "en": "fine/thin",
+    "ru": "тонкий"
+  },
+  {
+    "es": "dorado",
+    "en": "golden",
+    "ru": "золотой"
+  },
+  {
+    "es": "mar",
+    "en": "sea",
+    "ru": "море"
+  },
+  {
+    "es": "agitado",
+    "en": "rough/agitated",
+    "ru": "бурный"
+  },
+  {
+    "es": "montaña",
+    "en": "mountain",
+    "ru": "гора"
+  },
+  {
+    "es": "árbol",
+    "en": "tree",
+    "ru": "дерево"
+  },
+  {
+    "es": "bosque",
+    "en": "forest",
+    "ru": "лес"
+  },
+  {
+    "es": "flor",
+    "en": "flower",
+    "ru": "цветок"
+  },
+  {
+    "es": "nieve",
+    "en": "snow",
+    "ru": "снег"
+  },
+  {
+    "es": "abundante",
+    "en": "abundant",
+    "ru": "обильный"
+  },
+  {
+    "es": "era",
+    "en": "was (imperfect ser)",
+    "ru": "был"
+  },
+  {
+    "es": "eras",
+    "en": "were (imperfect ser, tú)",
+    "ru": "был"
+  },
+  {
+    "es": "éramos",
+    "en": "were (imperfect ser, nosotros)",
+    "ru": "были"
+  },
+  {
+    "es": "eran",
+    "en": "were (imperfect ser, ellos)",
+    "ru": "были"
+  },
+  {
+    "es": "estaba",
+    "en": "was (imperfect estar)",
+    "ru": "был"
+  },
+  {
+    "es": "estabas",
+    "en": "were (imperfect estar, tú)",
+    "ru": "был"
+  },
+  {
+    "es": "estábamos",
+    "en": "were (imperfect estar, nosotros)",
+    "ru": "были"
+  },
+  {
+    "es": "estaban",
+    "en": "were (imperfect estar, ellos)",
+    "ru": "были"
+  },
+  {
+    "es": "cada",
+    "en": "each/every",
+    "ru": "каждый"
+  },
+  {
+    "es": "prisa",
+    "en": "hurry",
+    "ru": "спешка"
+  },
+  {
+    "es": "estudio",
+    "en": "study",
+    "ru": "учеба"
+  },
+  {
+    "es": "tarea",
+    "en": "homework/task",
+    "ru": "домашнее задание"
+  },
+  {
+    "es": "acostarse",
+    "en": "to go to bed",
+    "ru": "ложиться спать"
+  },
+  {
+    "es": "aunque",
+    "en": "although/even though",
+    "ru": "хотя"
+  },
+  {
+    "es": "sobre",
+    "en": "about/over",
+    "ru": "о/над"
+  },
+  {
+    "es": "los fines de semana",
+    "en": "on weekends",
+    "ru": "по выходным"
+  },
+  {
+    "es": "antes",
+    "en": "before",
+    "ru": "до"
+  },
+  {
+    "es": "pasado mañana",
+    "en": "day after tomorrow",
+    "ru": "послезавтра"
+  },
+  {
+    "es": "aprender",
+    "en": "to learn",
+    "ru": "учить"
+  }
+]

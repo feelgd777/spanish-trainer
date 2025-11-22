@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spanish Trainer</title>
+
+  <!-- Mobile & iPhone app-like behavior -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- PWA manifest + icons -->
+  <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+  <link rel="apple-touch-icon" href="{{ url_for('static', filename='icon-192.png') }}">
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+      margin: 0;
+      padding: 16px;
+      background: #f5f5f7;
+    }
+    .card {
+      background: #ffffff;
+      padding: 16px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 20px;
+      margin: 0 0 6px 0;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 0 0 4px 0;
+    }
+    h3 {
+      font-size: 22px;
+      margin: 8px 0 0 0;
+    }
+    .question-word {
+      font-weight: 600;
+      font-size: 24px;
+      margin-top: 8px;
+    }
+    .option-btn {
+      width: 100%;
+      padding: 14px;
+      margin: 6px 0;
+      border-radius: 10px;
+      border: none;
+      font-size: 18px;
+      text-align: left;
+      background: #e9e9ee;
+      transition: transform 0.05s ease, box-shadow 0.05s ease, background 0.1s ease;
+    }
+    .option-btn:active {
+      transform: scale(0.98);
+      box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    }
+    .option-btn.correct {
+      background: #c8f7c5;
+    }
+    .option-btn.wrong {
+      background: #f7c5c5;
+    }
+    .option-btn.disabled {
+      opacity: 0.7;
+    }
+    .next-btn {
+      width: 100%;
+      padding: 12px;
+      border-radius: 10px;
+      border: none;
+      font-size: 16px;
+      background: #007aff;
+      color: white;
+      margin-top: 6px;
+    }
+    .feedback {
+      font-size: 16px;
+      margin: 4px 0 0 0;
+    }
+    .feedback.correct {
+      color: #0a7b28;
+    }
+    .feedback.wrong {
+      color: #b00020;
+    }
+    .top-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .mode-select {
+      font-size: 14px;
+      padding: 4px 8px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    .score {
+      font-size: 14px;
+    }
+  </style>
+
+  <script>
+    // Register service worker for PWA
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('{{ url_for("static", filename="sw.js") }}')
+          .catch(err => console.log('SW registration failed:', err));
+      });
+    }
+
+    let hasAnswered = false;
+
+    function loadScore() {
+      let s = parseInt(localStorage.getItem('es_score') || '0', 10);
+      let t = parseInt(localStorage.getItem('es_total') || '0', 10);
+      document.getElementById('score-val').textContent = s;
+      document.getElementById('total-val').textContent = t;
+    }
+
+    function updateScore(correct) {
+      let s = parseInt(localStorage.getItem('es_score') || '0', 10);
+      let t = parseInt(localStorage.getItem('es_total') || '0', 10);
+      t += 1;
+      if (correct) s += 1;
+      localStorage.setItem('es_score', s);
+      localStorage.setItem('es_total', t);
+      document.getElementById('score-val').textContent = s;
+      document.getElementById('total-val').textContent = t;
+    }
+
+    function changeMode(sel) {
+      const mode = sel.value;
+      window.location.href = '?mode=' + encodeURIComponent(mode);
+    }
+
+    function answerClicked(idx) {
+      if (hasAnswered) return;
+      hasAnswered = true;
+
+      const correct = parseInt(document.getElementById('correct-index').dataset.correct, 10);
+      const buttons = document.querySelectorAll('.option-btn');
+      const feedback = document.getElementById('feedback');
+
+      buttons.forEach((btn, i) => {
+        btn.classList.add('disabled');
+        btn.disabled = true;
+        if (i === correct) {
+          btn.classList.add('correct');
+        }
+      });
+
+      if (idx === correct) {
+        buttons[idx].classList.add('correct');
+        feedback.textContent = 'Correct ✅';
+        feedback.className = 'feedback correct';
+        updateScore(true);
+      } else {
+        buttons[idx].classList.add('wrong');
+        const correctText = buttons[correct].innerText;
+        feedback.textContent = 'Wrong ❌  Correct: ' + correctText;
+        feedback.className = 'feedback wrong';
+        updateScore(false);
+      }
+    }
+
+    function nextQuestion(mode) {
+      window.location.href = '?mode=' + encodeURIComponent(mode);
+    }
+
+    document.addEventListener('DOMContentLoaded', loadScore);
+  </script>
+</head>
+<body>
+
+<div class="card">
+  <div class="top-row">
+    <div>
+      <strong>Mode:</strong>
+      <select class="mode-select" onchange="changeMode(this)">
+        <option value="mixed" {% if mode == 'mixed' %}selected{% endif %}>Mixed</option>
+        <option value="es-en" {% if mode == 'es-en' %}selected{% endif %}>ES → EN</option>
+        <option value="es-ru" {% if mode == 'es-ru' %}selected{% endif %}>ES → RU</option>
+        <option value="en-es" {% if mode == 'en-es' %}selected{% endif %}>EN → ES</option>
+        <option value="ru-es" {% if mode == 'ru-es' %}selected{% endif %}>RU → ES</option>
+      </select>
+    </div>
+    <div class="score">
+      Score: <span id="score-val">0</span> / <span id="total-val">0</span>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Translate from {{ src_name }} to {{ trg_name }}</h2>
+  <div class="question-word">“{{ question.source_word }}”</div>
+</div>
+
+<div class="card">
+  <div id="correct-index" data-correct="{{ question.correct_index }}"></div>
+
+  {% for opt in question.options %}
+    <button
+      class="option-btn"
+      onclick="answerClicked({{ loop.index0 }})">
+      {{ option_labels[loop.index0] }}. {{ opt }}
+    </button>
+  {% endfor %}
+
+  <div id="feedback" class="feedback"></div>
+
+  <button class="next-btn" onclick="nextQuestion('{{ mode }}')">
+    Next
+  </button>
+</div>
+
+</body>
+</html>
