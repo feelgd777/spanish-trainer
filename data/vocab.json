@@ -1,33 +1,178 @@
 [
   {
-    "es": "ser",
-    "en": "to be (permanent)",
-    "ru": "быть (постоянное)"
+    "es": "el gato",
+    "en": "cat",
+    "ru": "кот"
   },
   {
-    "es": "estar",
-    "en": "to be (temporary)",
-    "ru": "быть (временное)"
+    "es": "la casa",
+    "en": "house",
+    "ru": "дом"
   },
   {
-    "es": "hablar",
-    "en": "to speak",
-    "ru": "говорить"
+    "es": "la mesa",
+    "en": "table",
+    "ru": "стол"
   },
   {
-    "es": "comer",
-    "en": "to eat",
-    "ru": "есть"
+    "es": "el libro",
+    "en": "book",
+    "ru": "книга"
   },
   {
-    "es": "vivir",
-    "en": "to live",
-    "ru": "жить"
+    "es": "el perro",
+    "en": "dog",
+    "ru": "собака"
   },
   {
-    "es": "preferir",
-    "en": "to prefer",
-    "ru": "предпочитать"
+    "es": "la playa",
+    "en": "beach",
+    "ru": "пляж"
+  },
+  {
+    "es": "la montaña",
+    "en": "mountain",
+    "ru": "гора"
+  },
+  {
+    "es": "el mar",
+    "en": "sea",
+    "ru": "море"
+  },
+  {
+    "es": "el bosque",
+    "en": "forest",
+    "ru": "лес"
+  },
+  {
+    "es": "la flor",
+    "en": "flower",
+    "ru": "цветок"
+  },
+  {
+    "es": "la nube",
+    "en": "cloud",
+    "ru": "облако"
+  },
+  {
+    "es": "el sol",
+    "en": "sun",
+    "ru": "солнце"
+  },
+  {
+    "es": "la arena",
+    "en": "sand",
+    "ru": "песок"
+  },
+  {
+    "es": "la lluvia",
+    "en": "rain",
+    "ru": "дождь"
+  },
+  {
+    "es": "el frío",
+    "en": "cold",
+    "ru": "холод"
+  },
+  {
+    "es": "el abrigo",
+    "en": "coat",
+    "ru": "пальто"
+  },
+  {
+    "es": "los zapatos",
+    "en": "shoes",
+    "ru": "туфли"
+  },
+  {
+    "es": "el gorro",
+    "en": "hat",
+    "ru": "шапка"
+  },
+  {
+    "es": "los lentes de sol",
+    "en": "sunglasses",
+    "ru": "солнечные очки"
+  },
+  {
+    "es": "los audífonos",
+    "en": "headphones",
+    "ru": "наушники"
+  },
+  {
+    "es": "el arroz",
+    "en": "rice",
+    "ru": "рис"
+  },
+  {
+    "es": "la comida",
+    "en": "food",
+    "ru": "еда"
+  },
+  {
+    "es": "la sal",
+    "en": "salt",
+    "ru": "соль"
+  },
+  {
+    "es": "las verduras",
+    "en": "vegetables",
+    "ru": "овощи"
+  },
+  {
+    "es": "la pera",
+    "en": "pear",
+    "ru": "груша"
+  },
+  {
+    "es": "el pimiento",
+    "en": "bell pepper",
+    "ru": "болгарский перец"
+  },
+  {
+    "es": "el ajo",
+    "en": "garlic",
+    "ru": "чеснок"
+  },
+  {
+    "es": "la piña",
+    "en": "pineapple",
+    "ru": "ананас"
+  },
+  {
+    "es": "la coliflor",
+    "en": "cauliflower",
+    "ru": "цветная капуста"
+  },
+  {
+    "es": "el limón",
+    "en": "lemon",
+    "ru": "лимон"
+  },
+  {
+    "es": "las zanahorias",
+    "en": "carrots",
+    "ru": "морковь"
+  },
+  {
+    "es": "la calabaza",
+    "en": "pumpkin",
+    "ru": "тыква"
+  },
+  {
+    "es": "la lechuga",
+    "en": "lettuce",
+    "ru": "салат"
+  },
+  {
+    "es": "correr",
+    "en": "to run",
+    "ru": "бегать"
+  },
+  {
+    "es": "jugar",
+    "en": "to play",
+    "ru": "играть"
   },
   {
     "es": "pensar",
@@ -35,34 +180,14 @@
     "ru": "думать"
   },
   {
-    "es": "empezar",
-    "en": "to begin",
-    "ru": "начинать"
+    "es": "pedir",
+    "en": "to ask/order",
+    "ru": "просить/заказывать"
   },
   {
-    "es": "cerrar",
-    "en": "to close",
-    "ru": "закрывать"
-  },
-  {
-    "es": "entender",
-    "en": "to understand",
-    "ru": "понимать"
-  },
-  {
-    "es": "querer",
-    "en": "to want",
-    "ru": "хотеть"
-  },
-  {
-    "es": "perder",
-    "en": "to lose",
-    "ru": "терять"
-  },
-  {
-    "es": "sentir",
-    "en": "to feel",
-    "ru": "чувствовать"
+    "es": "servir",
+    "en": "to serve",
+    "ru": "служить, подавать"
   },
   {
     "es": "dormir",
@@ -70,84 +195,24 @@
     "ru": "спать"
   },
   {
-    "es": "poder",
-    "en": "to be able to",
-    "ru": "мочь"
-  },
-  {
-    "es": "volver",
-    "en": "to return",
-    "ru": "возвращаться"
-  },
-  {
-    "es": "encontrar",
-    "en": "to find",
-    "ru": "находить"
-  },
-  {
-    "es": "recordar",
-    "en": "to remember",
-    "ru": "помнить"
-  },
-  {
-    "es": "contar",
-    "en": "to tell/count",
-    "ru": "рассказывать/считать"
-  },
-  {
-    "es": "costar",
-    "en": "to cost",
-    "ru": "стоить"
-  },
-  {
-    "es": "almorzar",
-    "en": "to have lunch",
-    "ru": "обедать"
-  },
-  {
-    "es": "pedir",
-    "en": "to ask/order",
-    "ru": "просить/заказывать"
-  },
-  {
-    "es": "vestir",
-    "en": "to dress",
-    "ru": "одевать"
-  },
-  {
-    "es": "servir",
-    "en": "to serve",
-    "ru": "служить/подавать"
-  },
-  {
-    "es": "repetir",
-    "en": "to repeat",
-    "ru": "повторять"
-  },
-  {
-    "es": "seguir",
-    "en": "to follow/continue",
-    "ru": "следовать"
-  },
-  {
     "es": "decir",
     "en": "to say/tell",
-    "ru": "сказать"
+    "ru": "говорить"
   },
   {
-    "es": "reír",
-    "en": "to laugh",
-    "ru": "смеяться"
-  },
-  {
-    "es": "sonreír",
-    "en": "to smile",
-    "ru": "улыбаться"
+    "es": "venir",
+    "en": "to come",
+    "ru": "приходить"
   },
   {
     "es": "hacer",
     "en": "to do/make",
     "ru": "делать"
+  },
+  {
+    "es": "tener",
+    "en": "to have",
+    "ru": "иметь"
   },
   {
     "es": "salir",
@@ -157,17 +222,7 @@
   {
     "es": "poner",
     "en": "to put/place",
-    "ru": "класть/ставить"
-  },
-  {
-    "es": "tener",
-    "en": "to have",
-    "ru": "иметь"
-  },
-  {
-    "es": "venir",
-    "en": "to come",
-    "ru": "приходить"
+    "ru": "класть"
   },
   {
     "es": "traer",
@@ -181,8 +236,8 @@
   },
   {
     "es": "conocer",
-    "en": "to know (people/places)",
-    "ru": "знать (людей/места)"
+    "en": "to know/be familiar with",
+    "ru": "знать"
   },
   {
     "es": "conducir",
@@ -196,7 +251,7 @@
   },
   {
     "es": "parecer",
-    "en": "to seem",
+    "en": "to seem/appear",
     "ru": "казаться"
   },
   {
@@ -206,13 +261,13 @@
   },
   {
     "es": "escoger",
-    "en": "to choose",
+    "en": "to choose/pick",
     "ru": "выбирать"
   },
   {
     "es": "dirigir",
     "en": "to direct/manage",
-    "ru": "руководить"
+    "ru": "управлять"
   },
   {
     "es": "recoger",
@@ -227,7 +282,7 @@
   {
     "es": "saber",
     "en": "to know (facts/info)",
-    "ru": "знать (факты/информацию)"
+    "ru": "знать"
   },
   {
     "es": "caber",
@@ -265,18 +320,8 @@
     "ru": "вставать"
   },
   {
-    "es": "lavarse",
-    "en": "to wash oneself",
-    "ru": "мыться"
-  },
-  {
-    "es": "ponerse",
-    "en": "to put on (clothes)",
-    "ru": "надевать"
-  },
-  {
     "es": "quedarse",
-    "en": "to stay",
+    "en": "to stay/remain",
     "ru": "оставаться"
   },
   {
@@ -296,8 +341,83 @@
   },
   {
     "es": "cepillarse",
-    "en": "to brush (teeth/hair)",
-    "ru": "чистить (зубы/волосы)"
+    "en": "to brush",
+    "ru": "чистить"
+  },
+  {
+    "es": "ponerse",
+    "en": "to put on",
+    "ru": "надевать"
+  },
+  {
+    "es": "agradecer",
+    "en": "to thank/appreciate",
+    "ru": "благодарить"
+  },
+  {
+    "es": "viajar",
+    "en": "to travel",
+    "ru": "путешествовать"
+  },
+  {
+    "es": "conocer",
+    "en": "to know (people/places)",
+    "ru": "знать"
+  },
+  {
+    "es": "intentar",
+    "en": "to try",
+    "ru": "пытаться"
+  },
+  {
+    "es": "bailar",
+    "en": "to dance",
+    "ru": "танцевать"
+  },
+  {
+    "es": "escuchar",
+    "en": "to listen",
+    "ru": "слушать"
+  },
+  {
+    "es": "cocinar",
+    "en": "to cook",
+    "ru": "готовить"
+  },
+  {
+    "es": "mirar",
+    "en": "to watch/look at",
+    "ru": "смотреть"
+  },
+  {
+    "es": "leer",
+    "en": "to read",
+    "ru": "читать"
+  },
+  {
+    "es": "responder",
+    "en": "to answer",
+    "ru": "отвечать"
+  },
+  {
+    "es": "organizar",
+    "en": "to organize",
+    "ru": "организовывать"
+  },
+  {
+    "es": "reírse",
+    "en": "to laugh",
+    "ru": "смеяться"
+  },
+  {
+    "es": "trabajar",
+    "en": "to work",
+    "ru": "работать"
+  },
+  {
+    "es": "jugar",
+    "en": "to play",
+    "ru": "играть"
   },
   {
     "es": "gustar",
@@ -320,59 +440,24 @@
     "ru": "казаться"
   },
   {
-    "es": "viajar",
-    "en": "to travel",
-    "ru": "путешествовать"
+    "es": "aburrir",
+    "en": "to bore",
+    "ru": "скучать"
   },
   {
-    "es": "conocer",
-    "en": "to know (people/places)",
-    "ru": "знать"
+    "es": "molestar",
+    "en": "to bother",
+    "ru": "беспокоить"
   },
   {
-    "es": "jugar",
-    "en": "to play",
-    "ru": "играть"
+    "es": "fascinar",
+    "en": "to fascinate",
+    "ru": "очаровывать"
   },
   {
-    "es": "bailar",
-    "en": "to dance",
-    "ru": "танцевать"
-  },
-  {
-    "es": "escuchar",
-    "en": "to listen",
-    "ru": "слушать"
-  },
-  {
-    "es": "trabajar",
-    "en": "to work",
-    "ru": "работать"
-  },
-  {
-    "es": "comer",
-    "en": "to eat",
-    "ru": "есть"
-  },
-  {
-    "es": "cocinar",
-    "en": "to cook",
-    "ru": "готовить"
-  },
-  {
-    "es": "mirar",
-    "en": "to watch/look at",
-    "ru": "смотреть"
-  },
-  {
-    "es": "leer",
-    "en": "to read",
-    "ru": "читать"
-  },
-  {
-    "es": "agradecer",
-    "en": "to thank/appreciate",
-    "ru": "благодарить"
+    "es": "importar",
+    "en": "to matter",
+    "ru": "иметь значение"
   },
   {
     "es": "tocar",
@@ -380,34 +465,179 @@
     "ru": "играть (на инструменте)"
   },
   {
-    "es": "abrigo",
-    "en": "coat",
-    "ru": "пальто"
+    "es": "ver",
+    "en": "to see",
+    "ru": "видеть"
   },
   {
-    "es": "gorro",
-    "en": "hat",
-    "ru": "шапка"
+    "es": "correr",
+    "en": "to run",
+    "ru": "бегать"
   },
   {
-    "es": "zapatos",
-    "en": "shoes",
-    "ru": "обувь"
+    "es": "hablar",
+    "en": "to speak",
+    "ru": "говорить"
   },
   {
-    "es": "pantalones",
-    "en": "pants",
-    "ru": "штаны"
+    "es": "comer",
+    "en": "to eat",
+    "ru": "есть"
   },
   {
-    "es": "suéter",
-    "en": "sweater",
-    "ru": "свитер"
+    "es": "vivir",
+    "en": "to live",
+    "ru": "жить"
   },
   {
-    "es": "bolso",
-    "en": "bag",
-    "ru": "сумка"
+    "es": "cerrar",
+    "en": "to close",
+    "ru": "закрывать"
+  },
+  {
+    "es": "empezar",
+    "en": "to start",
+    "ru": "начинать"
+  },
+  {
+    "es": "entender",
+    "en": "to understand",
+    "ru": "понимать"
+  },
+  {
+    "es": "querer",
+    "en": "to want",
+    "ru": "хотеть"
+  },
+  {
+    "es": "perder",
+    "en": "to lose",
+    "ru": "терять"
+  },
+  {
+    "es": "sentir",
+    "en": "to feel",
+    "ru": "чувствовать"
+  },
+  {
+    "es": "volver",
+    "en": "to return",
+    "ru": "возвращаться"
+  },
+  {
+    "es": "encontrar",
+    "en": "to find",
+    "ru": "находить"
+  },
+  {
+    "es": "recordar",
+    "en": "to remember",
+    "ru": "помнить"
+  },
+  {
+    "es": "almorzar",
+    "en": "to have lunch",
+    "ru": "обедать"
+  },
+  {
+    "es": "costar",
+    "en": "to cost",
+    "ru": "стоить"
+  },
+  {
+    "es": "contar",
+    "en": "to count/tell",
+    "ru": "считать/рассказывать"
+  },
+  {
+    "es": "repetir",
+    "en": "to repeat",
+    "ru": "повторять"
+  },
+  {
+    "es": "seguir",
+    "en": "to follow/continue",
+    "ru": "следовать"
+  },
+  {
+    "es": "sonreír",
+    "en": "to smile",
+    "ru": "улыбаться"
+  },
+  {
+    "es": "mentir",
+    "en": "to lie",
+    "ru": "лгать"
+  },
+  {
+    "es": "medir",
+    "en": "to measure",
+    "ru": "измерять"
+  },
+  {
+    "es": "impedir",
+    "en": "to prevent/stop",
+    "ru": "препятствовать"
+  },
+  {
+    "es": "desnudarse",
+    "en": "to undress",
+    "ru": "раздеваться"
+  },
+  {
+    "es": "espejo",
+    "en": "mirror",
+    "ru": "зеркало"
+  },
+  {
+    "es": "la naturaleza",
+    "en": "nature",
+    "ru": "природа"
+  },
+  {
+    "es": "brillante",
+    "en": "bright",
+    "ru": "яркий"
+  },
+  {
+    "es": "el cielo",
+    "en": "sky",
+    "ru": "небо"
+  },
+  {
+    "es": "despejado",
+    "en": "clear (sky)",
+    "ru": "ясный"
+  },
+  {
+    "es": "dorado",
+    "en": "golden",
+    "ru": "золотой"
+  },
+  {
+    "es": "agitado",
+    "en": "rough (sea)",
+    "ru": "бурный"
+  },
+  {
+    "es": "abundante",
+    "en": "abundant",
+    "ru": "обильный"
+  },
+  {
+    "es": "la bandera",
+    "en": "flag",
+    "ru": "флаг"
+  },
+  {
+    "es": "el país",
+    "en": "country",
+    "ru": "страна"
+  },
+  {
+    "es": "hoy",
+    "en": "today",
+    "ru": "сегодня"
   },
   {
     "es": "invierno",
@@ -420,89 +650,374 @@
     "ru": "весна"
   },
   {
-    "es": "lluvia",
-    "en": "rain",
-    "ru": "дождь"
+    "es": "la semana",
+    "en": "week",
+    "ru": "неделя"
   },
   {
-    "es": "frío",
+    "es": "el mes",
+    "en": "month",
+    "ru": "месяц"
+  },
+  {
+    "es": "el año",
+    "en": "year",
+    "ru": "год"
+  },
+  {
+    "es": "mañana",
+    "en": "tomorrow",
+    "ru": "завтра"
+  },
+  {
+    "es": "pasado mañana",
+    "en": "day after tomorrow",
+    "ru": "послезавтра"
+  },
+  {
+    "es": "la noche",
+    "en": "night",
+    "ru": "ночь"
+  },
+  {
+    "es": "la tarde",
+    "en": "afternoon",
+    "ru": "вечер"
+  },
+  {
+    "es": "el fin de semana",
+    "en": "weekend",
+    "ru": "выходные"
+  },
+  {
+    "es": "más tarde",
+    "en": "later",
+    "ru": "позже"
+  },
+  {
+    "es": "pronto",
+    "en": "soon",
+    "ru": "скоро"
+  },
+  {
+    "es": "en unos minutos",
+    "en": "in some minutes",
+    "ru": "через несколько минут"
+  },
+  {
+    "es": "algún día",
+    "en": "some day",
+    "ru": "когда-нибудь"
+  },
+  {
+    "es": "el cine",
+    "en": "movie theater",
+    "ru": "кинотеатр"
+  },
+  {
+    "es": "la película",
+    "en": "movie",
+    "ru": "фильм"
+  },
+  {
+    "es": "el violín",
+    "en": "violin",
+    "ru": "скрипка"
+  },
+  {
+    "es": "el helado",
+    "en": "ice cream",
+    "ru": "мороженое"
+  },
+  {
+    "es": "la empanada",
+    "en": "empanada",
+    "ru": "эмпанада"
+  },
+  {
+    "es": "el chocolate",
+    "en": "chocolate",
+    "ru": "шоколад"
+  },
+  {
+    "es": "la historia",
+    "en": "history/story",
+    "ru": "история"
+  },
+  {
+    "es": "la música",
+    "en": "music",
+    "ru": "музыка"
+  },
+  {
+    "es": "el amigo",
+    "en": "friend",
+    "ru": "друг"
+  },
+  {
+    "es": "la familia",
+    "en": "family",
+    "ru": "семья"
+  },
+  {
+    "es": "el regalo",
+    "en": "gift",
+    "ru": "подарок"
+  },
+  {
+    "es": "la oficina",
+    "en": "office",
+    "ru": "офис"
+  },
+  {
+    "es": "el proyecto",
+    "en": "project",
+    "ru": "проект"
+  },
+  {
+    "es": "la conferencia",
+    "en": "conference",
+    "ru": "конференция"
+  },
+  {
+    "es": "la reunión",
+    "en": "meeting",
+    "ru": "встреча"
+  },
+  {
+    "es": "la clase",
+    "en": "class",
+    "ru": "класс"
+  },
+  {
+    "es": "la universidad",
+    "en": "university",
+    "ru": "университет"
+  },
+  {
+    "es": "el carro",
+    "en": "car",
+    "ru": "машина"
+  },
+  {
+    "es": "el apartamento",
+    "en": "apartment",
+    "ru": "квартира"
+  },
+  {
+    "es": "el trabajo",
+    "en": "work/job",
+    "ru": "работа"
+  },
+  {
+    "es": "el examen",
+    "en": "exam",
+    "ru": "экзамен"
+  },
+  {
+    "es": "la cámara",
+    "en": "camera",
+    "ru": "камера"
+  },
+  {
+    "es": "la guitarra",
+    "en": "guitar",
+    "ru": "гитара"
+  },
+  {
+    "es": "la música suave",
+    "en": "soft music",
+    "ru": "мягкая музыка"
+  },
+  {
+    "es": "el teléfono",
+    "en": "phone",
+    "ru": "телефон"
+  },
+  {
+    "es": "la serie",
+    "en": "series",
+    "ru": "сериал"
+  },
+  {
+    "es": "el correo",
+    "en": "email",
+    "ru": "почта"
+  },
+  {
+    "es": "el zoológico",
+    "en": "zoo",
+    "ru": "зоопарк"
+  },
+  {
+    "es": "el refugio",
+    "en": "shelter",
+    "ru": "приют"
+  },
+  {
+    "es": "el animal",
+    "en": "animal",
+    "ru": "животное"
+  },
+  {
+    "es": "el amigo",
+    "en": "friend",
+    "ru": "друг"
+  },
+  {
+    "es": "la ciudad",
+    "en": "city",
+    "ru": "город"
+  },
+  {
+    "es": "el país",
+    "en": "country",
+    "ru": "страна"
+  },
+  {
+    "es": "la comida típica",
+    "en": "typical food",
+    "ru": "традиционная еда"
+  },
+  {
+    "es": "el jugo",
+    "en": "juice",
+    "ru": "сок"
+  },
+  {
+    "es": "el té",
+    "en": "tea",
+    "ru": "чай"
+  },
+  {
+    "es": "la casa nueva",
+    "en": "new house",
+    "ru": "новый дом"
+  },
+  {
+    "es": "el regalo",
+    "en": "present/gift",
+    "ru": "подарок"
+  },
+  {
+    "es": "la película divertida",
+    "en": "funny movie",
+    "ru": "смешной фильм"
+  },
+  {
+    "es": "la música",
+    "en": "music",
+    "ru": "музыка"
+  },
+  {
+    "es": "el baile",
+    "en": "dance",
+    "ru": "танец"
+  },
+  {
+    "es": "el tiempo libre",
+    "en": "free time",
+    "ru": "свободное время"
+  },
+  {
+    "es": "la tarea",
+    "en": "homework",
+    "ru": "домашняя работа"
+  },
+  {
+    "es": "la prisa",
+    "en": "hurry",
+    "ru": "спешка"
+  },
+  {
+    "es": "el espejo",
+    "en": "mirror",
+    "ru": "зеркало"
+  },
+  {
+    "es": "la naturaleza",
+    "en": "nature",
+    "ru": "природа"
+  },
+  {
+    "es": "el cielo",
+    "en": "sky",
+    "ru": "небо"
+  },
+  {
+    "es": "la nube",
+    "en": "cloud",
+    "ru": "облако"
+  },
+  {
+    "es": "el sol",
+    "en": "sun",
+    "ru": "солнце"
+  },
+  {
+    "es": "la arena",
+    "en": "sand",
+    "ru": "песок"
+  },
+  {
+    "es": "el mar",
+    "en": "sea",
+    "ru": "море"
+  },
+  {
+    "es": "la montaña",
+    "en": "mountain",
+    "ru": "гора"
+  },
+  {
+    "es": "el bosque",
+    "en": "forest",
+    "ru": "лес"
+  },
+  {
+    "es": "las flores",
+    "en": "flowers",
+    "ru": "цветы"
+  },
+  {
+    "es": "la nieve",
+    "en": "snow",
+    "ru": "снег"
+  },
+  {
+    "es": "el frío",
     "en": "cold",
     "ru": "холод"
   },
   {
-    "es": "pies",
-    "en": "feet",
-    "ru": "ноги"
+    "es": "el invierno",
+    "en": "winter",
+    "ru": "зима"
   },
   {
-    "es": "cabeza",
-    "en": "head",
-    "ru": "голова"
+    "es": "la primavera",
+    "en": "spring",
+    "ru": "весна"
   },
   {
-    "es": "arroz",
-    "en": "rice",
-    "ru": "рис"
+    "es": "el verano",
+    "en": "summer",
+    "ru": "лето"
   },
   {
-    "es": "comida",
-    "en": "food",
-    "ru": "еда"
+    "es": "el otoño",
+    "en": "autumn",
+    "ru": "осень"
   },
   {
-    "es": "sal",
-    "en": "salt",
-    "ru": "соль"
+    "es": "el arcoíris",
+    "en": "rainbow",
+    "ru": "радуга"
   },
   {
-    "es": "verduras",
-    "en": "vegetables",
-    "ru": "овощи"
-  },
-  {
-    "es": "pera",
-    "en": "pear",
-    "ru": "груша"
-  },
-  {
-    "es": "pimiento",
-    "en": "bell pepper",
-    "ru": "перец"
-  },
-  {
-    "es": "ajo",
-    "en": "garlic",
-    "ru": "чеснок"
-  },
-  {
-    "es": "piña",
-    "en": "pineapple",
-    "ru": "ананас"
-  },
-  {
-    "es": "coliflor",
-    "en": "cauliflower",
-    "ru": "цветная капуста"
-  },
-  {
-    "es": "limón",
-    "en": "lemon",
-    "ru": "лимон"
-  },
-  {
-    "es": "zanahorias",
-    "en": "carrots",
-    "ru": "морковь"
-  },
-  {
-    "es": "calabaza",
-    "en": "pumpkin",
-    "ru": "тыква"
-  },
-  {
-    "es": "lechuga",
-    "en": "lettuce",
-    "ru": "салат"
+    "es": "el color",
+    "en": "color",
+    "ru": "цвет"
   },
   {
     "es": "gris",
@@ -535,129 +1050,9 @@
     "ru": "фиолетовый"
   },
   {
-    "es": "hoy",
-    "en": "today",
-    "ru": "сегодня"
-  },
-  {
-    "es": "arcoíris",
-    "en": "rainbow",
-    "ru": "радуга"
-  },
-  {
-    "es": "país",
-    "en": "country",
-    "ru": "страна"
-  },
-  {
-    "es": "correr",
-    "en": "to run",
-    "ru": "бегать"
-  },
-  {
-    "es": "jugar",
-    "en": "to play",
-    "ru": "играть"
-  },
-  {
-    "es": "mentir",
-    "en": "to lie",
-    "ru": "лгать"
-  },
-  {
-    "es": "medir",
-    "en": "to measure",
-    "ru": "измерять"
-  },
-  {
-    "es": "impedir",
-    "en": "to stop/prevent",
-    "ru": "препятствовать"
-  },
-  {
-    "es": "sobre",
-    "en": "about/on",
-    "ru": "о/на"
-  },
-  {
-    "es": "intentar",
-    "en": "to try",
-    "ru": "пытаться"
-  },
-  {
-    "es": "conocer",
-    "en": "to know (people/places)",
-    "ru": "знать"
-  },
-  {
-    "es": "agradecer",
-    "en": "to thank/appreciate",
-    "ru": "благодарить"
-  },
-  {
-    "es": "nacer",
-    "en": "to be born",
-    "ru": "рождаться"
-  },
-  {
-    "es": "desnudarse",
-    "en": "to undress",
-    "ru": "раздеваться"
-  },
-  {
-    "es": "espejo",
-    "en": "mirror",
-    "ru": "зеркало"
-  },
-  {
-    "es": "naturaleza",
-    "en": "nature",
-    "ru": "природа"
-  },
-  {
-    "es": "sol",
-    "en": "sun",
-    "ru": "солнце"
-  },
-  {
-    "es": "brillante",
-    "en": "bright",
-    "ru": "яркий"
-  },
-  {
-    "es": "cielo",
-    "en": "sky",
-    "ru": "небо"
-  },
-  {
-    "es": "nube",
-    "en": "cloud",
-    "ru": "облако"
-  },
-  {
-    "es": "despejado",
-    "en": "clear (sky)",
-    "ru": "ясный"
-  },
-  {
-    "es": "arena",
-    "en": "sand",
-    "ru": "песок"
-  },
-  {
-    "es": "fino",
-    "en": "fine",
-    "ru": "тонкий"
-  },
-  {
     "es": "dorado",
     "en": "golden",
     "ru": "золотой"
-  },
-  {
-    "es": "mar",
-    "en": "sea",
-    "ru": "море"
   },
   {
     "es": "agitado",
@@ -665,78 +1060,353 @@
     "ru": "бурный"
   },
   {
-    "es": "montaña",
-    "en": "mountain",
-    "ru": "гора"
-  },
-  {
-    "es": "árbol",
-    "en": "tree",
-    "ru": "дерево"
-  },
-  {
-    "es": "bosque",
-    "en": "forest",
-    "ru": "лес"
-  },
-  {
-    "es": "flores",
-    "en": "flowers",
-    "ru": "цветы"
-  },
-  {
-    "es": "nieve",
-    "en": "snow",
-    "ru": "снег"
-  },
-  {
     "es": "abundante",
     "en": "abundant",
     "ru": "обильный"
   },
   {
-    "es": "cada",
-    "en": "each/every",
-    "ru": "каждый"
+    "es": "la bandera",
+    "en": "flag",
+    "ru": "флаг"
   },
   {
-    "es": "prisa",
+    "es": "el país",
+    "en": "country",
+    "ru": "страна"
+  },
+  {
+    "es": "la semana",
+    "en": "week",
+    "ru": "неделя"
+  },
+  {
+    "es": "el mes",
+    "en": "month",
+    "ru": "месяц"
+  },
+  {
+    "es": "el año",
+    "en": "year",
+    "ru": "год"
+  },
+  {
+    "es": "la tarea",
+    "en": "homework",
+    "ru": "домашнее задание"
+  },
+  {
+    "es": "el prisa",
     "en": "hurry",
     "ru": "спешка"
   },
   {
-    "es": "estudio",
-    "en": "study",
-    "ru": "учеба"
+    "es": "la comida",
+    "en": "food",
+    "ru": "еда"
   },
   {
-    "es": "tarea",
-    "en": "homework/task",
-    "ru": "задание"
+    "es": "el violín",
+    "en": "violin",
+    "ru": "скрипка"
   },
   {
-    "es": "sobre",
-    "en": "about",
-    "ru": "о"
+    "es": "la empanada",
+    "en": "empanada",
+    "ru": "эмпанада"
   },
   {
-    "es": "fines de semana",
-    "en": "weekends",
-    "ru": "выходные"
+    "es": "el helado",
+    "en": "ice cream",
+    "ru": "мороженое"
   },
   {
-    "es": "antes",
-    "en": "before",
-    "ru": "до"
+    "es": "el chocolate",
+    "en": "chocolate",
+    "ru": "шоколад"
   },
   {
-    "es": "pasado mañana",
-    "en": "day after tomorrow",
-    "ru": "послезавтра"
+    "es": "la historia",
+    "en": "history/story",
+    "ru": "история"
   },
   {
-    "es": "aprender",
-    "en": "to learn",
-    "ru": "учить"
+    "es": "el amigo",
+    "en": "friend",
+    "ru": "друг"
+  },
+  {
+    "es": "la familia",
+    "en": "family",
+    "ru": "семья"
+  },
+  {
+    "es": "el regalo",
+    "en": "gift",
+    "ru": "подарок"
+  },
+  {
+    "es": "la oficina",
+    "en": "office",
+    "ru": "офис"
+  },
+  {
+    "es": "el proyecto",
+    "en": "project",
+    "ru": "проект"
+  },
+  {
+    "es": "la conferencia",
+    "en": "conference",
+    "ru": "конференция"
+  },
+  {
+    "es": "la reunión",
+    "en": "meeting",
+    "ru": "встреча"
+  },
+  {
+    "es": "la clase",
+    "en": "class",
+    "ru": "класс"
+  },
+  {
+    "es": "la universidad",
+    "en": "university",
+    "ru": "университет"
+  },
+  {
+    "es": "el carro",
+    "en": "car",
+    "ru": "машина"
+  },
+  {
+    "es": "el apartamento",
+    "en": "apartment",
+    "ru": "квартира"
+  },
+  {
+    "es": "el trabajo",
+    "en": "work/job",
+    "ru": "работа"
+  },
+  {
+    "es": "el examen",
+    "en": "exam",
+    "ru": "экзамен"
+  },
+  {
+    "es": "la cámara",
+    "en": "camera",
+    "ru": "камера"
+  },
+  {
+    "es": "la guitarra",
+    "en": "guitar",
+    "ru": "гитара"
+  },
+  {
+    "es": "la música suave",
+    "en": "soft music",
+    "ru": "мягкая музыка"
+  },
+  {
+    "es": "el teléfono",
+    "en": "phone",
+    "ru": "телефон"
+  },
+  {
+    "es": "la serie",
+    "en": "series",
+    "ru": "сериал"
+  },
+  {
+    "es": "el correo",
+    "en": "email",
+    "ru": "почта"
+  },
+  {
+    "es": "el zoológico",
+    "en": "zoo",
+    "ru": "зоопарк"
+  },
+  {
+    "es": "el refugio",
+    "en": "shelter",
+    "ru": "приют"
+  },
+  {
+    "es": "el animal",
+    "en": "animal",
+    "ru": "животное"
+  },
+  {
+    "es": "la ciudad",
+    "en": "city",
+    "ru": "город"
+  },
+  {
+    "es": "la comida típica",
+    "en": "typical food",
+    "ru": "традиционная еда"
+  },
+  {
+    "es": "el jugo",
+    "en": "juice",
+    "ru": "сок"
+  },
+  {
+    "es": "el té",
+    "en": "tea",
+    "ru": "чай"
+  },
+  {
+    "es": "la casa nueva",
+    "en": "new house",
+    "ru": "новый дом"
+  },
+  {
+    "es": "la película divertida",
+    "en": "funny movie",
+    "ru": "смешной фильм"
+  },
+  {
+    "es": "el baile",
+    "en": "dance",
+    "ru": "танец"
+  },
+  {
+    "es": "el tiempo libre",
+    "en": "free time",
+    "ru": "свободное время"
+  },
+  {
+    "es": "la tarea",
+    "en": "homework",
+    "ru": "домашняя работа"
+  },
+  {
+    "es": "la prisa",
+    "en": "hurry",
+    "ru": "спешка"
+  },
+  {
+    "es": "el espejo",
+    "en": "mirror",
+    "ru": "зеркало"
+  },
+  {
+    "es": "la naturaleza",
+    "en": "nature",
+    "ru": "природа"
+  },
+  {
+    "es": "el cielo",
+    "en": "sky",
+    "ru": "небо"
+  },
+  {
+    "es": "la nube",
+    "en": "cloud",
+    "ru": "облако"
+  },
+  {
+    "es": "el sol",
+    "en": "sun",
+    "ru": "солнце"
+  },
+  {
+    "es": "la arena",
+    "en": "sand",
+    "ru": "песок"
+  },
+  {
+    "es": "el mar",
+    "en": "sea",
+    "ru": "море"
+  },
+  {
+    "es": "la montaña",
+    "en": "mountain",
+    "ru": "гора"
+  },
+  {
+    "es": "el bosque",
+    "en": "forest",
+    "ru": "лес"
+  },
+  {
+    "es": "las flores",
+    "en": "flowers",
+    "ru": "цветы"
+  },
+  {
+    "es": "la nieve",
+    "en": "snow",
+    "ru": "снег"
+  },
+  {
+    "es": "el frío",
+    "en": "cold",
+    "ru": "холод"
+  },
+  {
+    "es": "el invierno",
+    "en": "winter",
+    "ru": "зима"
+  },
+  {
+    "es": "la primavera",
+    "en": "spring",
+    "ru": "весна"
+  },
+  {
+    "es": "el verano",
+    "en": "summer",
+    "ru": "лето"
+  },
+  {
+    "es": "el otoño",
+    "en": "autumn",
+    "ru": "осень"
+  },
+  {
+    "es": "el arcoíris",
+    "en": "rainbow",
+    "ru": "радуга"
+  },
+  {
+    "es": "el color",
+    "en": "color",
+    "ru": "цвет"
+  },
+  {
+    "es": "gris",
+    "en": "grey",
+    "ru": "серый"
+  },
+  {
+    "es": "rosa",
+    "en": "pink",
+    "ru": "розовый"
+  },
+  {
+    "es": "naranja",
+    "en": "orange",
+    "ru": "оранжевый"
+  },
+  {
+    "es": "amarillo",
+    "en": "yellow",
+    "ru": "желтый"
+  },
+  {
+    "es": "azul",
+    "en": "blue",
+    "ru": "синий"
+  },
+  {
+    "es": "morado",
+    "en": "purple",
+    "ru": "фиолетовый"
   }
 ]
