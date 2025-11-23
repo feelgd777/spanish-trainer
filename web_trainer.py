@@ -105,12 +105,20 @@ def make_simple_mc_question(items, field_sentence="sentence_with_blank"):
     # For backward compatibility keep a single correct_index too
     primary_correct_index = correct_indices[0]
 
+    explanation_parts = []
+    if raw.get("explanation"):
+        explanation_parts.append(raw["explanation"])
+    if raw.get("translation_en"):
+        explanation_parts.append(f"EN: {raw['translation_en']}")
+
+    explanation = "\n\n".join(explanation_parts).strip()
+
     return {
         "question": raw[field_sentence],
         "options": options,
         "correct_index": primary_correct_index,
         "correct_indices": correct_indices,
-        "explanation": raw.get("explanation", ""),
+        "explanation": explanation,
     }
 
 
@@ -178,7 +186,7 @@ def make_vocab_question(direction):
     correct_index = options.index(correct_answer)
 
     question_text = f"Traduce ({prompt_lang} → {target_lang}): {prompt_value}"
-
+    
     return {
         "question": question_text,
         "options": options,
@@ -217,11 +225,19 @@ def make_verbs_question():
     else:
         correct_index = 0
 
+    explanation_parts = []
+    if raw.get("explanation"):
+        explanation_parts.append(raw["explanation"])
+    if raw.get("translation_en"):
+        explanation_parts.append(f"EN: {raw['translation_en']}")
+
+    explanation = "\n\n".join(explanation_parts).strip()
+    
     return {
         "question": question_text,
         "options": options,
         "correct_index": correct_index,
-        "explanation": raw.get("explanation", ""),
+        "explanation": explanation,
     }
 
 
@@ -296,6 +312,7 @@ def make_preposition_contrast_question():
                     ci = opts.index(correct)
                 else:
                     ci = 0
+
             blanks_payload.append(
                 {
                     "options": opts,
@@ -307,7 +324,7 @@ def make_preposition_contrast_question():
             return {
                 "question": raw.get("sentence_with_blank", ""),
                 "blanks": blanks_payload,
-                "explanation": raw.get("explanation", ""),
+                "explanation": raw.get("explanation"),
             }
 
     # Fallback: treat as simple MC
