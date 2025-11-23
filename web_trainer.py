@@ -185,7 +185,7 @@ def make_vocab_question(direction):
     random.shuffle(options)
     correct_index = options.index(correct_answer)
 
-    question_text = f"Traduce ({prompt_lang} → {target_lang}): {prompt_value}"
+    question_text = prompt_value
     
     return {
         "question": question_text,
